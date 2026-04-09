@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — dmlegal-firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">dm<span>legal</span>-firm</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" class="active" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <span class="section-label">GET IN TOUCH</span>
+  <div class="gold-divider"></div>
+  <h1 data-key="contact-title">Contact Us</h1>
+  <p style="margin-top:12px; color:var(--muted); font-size:0.95rem;" data-key="contact-msg">Send us your query anytime!</p>
+  <nav class="breadcrumb">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <span>›</span>
+    <span data-key="nav-contact">Contact</span>
+  </nav>
+</section>
+
+<!-- ══ CONTACT MAIN ══ -->
+<section class="section-padding" style="background:var(--white);">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Form -->
+      <div>
+        <h2 class="contact-form-head">Send a Message</h2>
+        <p class="contact-form-sub" data-key="contact-text">Blending innovative thinking with exceptional client care is the cornerstone of our practice.</p>
+        <form action="contact_process.php" method="post" id="contactForm" novalidate>
+          <div class="form-group">
+            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter Message" data-key="message"></textarea>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input class="form-control" name="name" id="name" type="text" placeholder="Your Name" data-key="name">
+            </div>
+            <div class="form-group">
+              <input class="form-control" name="email" id="email" type="email" placeholder="Email Address" data-key="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <input class="form-control" name="subject" id="subject" type="text" placeholder="Subject" data-key="subject">
+          </div>
+          <div class="form-group" style="margin-top:8px;">
+            <button type="submit" class="cta-btn cta-btn-fill" style="width:100%; text-align:center;" data-key="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div>
+        <div class="office-section" style="margin-bottom:32px;">
+          <h4>Dubai Office</h4>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-info-content">
+              <h3>Address</h3>
+              <p data-key="contact-local">Khalid Bin Waleed Road, Bank Street Building, 2nd Floor Office 215, Dubai. PO BOX 21602, United Arab Emirates</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-content">
+              <h3>Phone</h3>
+              <p data-key="footer-phone1">+971 4 355 0004</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-info-content">
+              <h3>Email</h3>
+              <p data-key="footer-email"><a href="mailto:contact@dmlegal-firm.com" style="color:var(--gold)">contact@dmlegal-firm.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="contact-divider">
+
+        <div class="office-section">
+          <h4>Paris Office</h4>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-info-content">
+              <h3>Address</h3>
+              <p data-key="footer-location2">39Bis, Boulevard Exelmans, 75016 Paris</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-content">
+              <h3>Phone</h3>
+              <p data-key="footer-phone2">(+33) 145531996</p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="contact-divider">
+
+        <p style="font-size:0.82rem; color:var(--muted); font-style:italic;">We typically respond within 24 business hours. All communications are confidential.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MAP STRIP ══ -->
+<div class="map-strip">
+  <div class="map-crosshair">
+    <div class="map-city">Dubai · <span>UAE</span></div>
+  </div>
+  <p style="margin-top:16px; font-size:0.85rem; color:var(--muted);">Khalid Bin Waleed Road, Bank Street Building · Dubai</p>
+</div>
+
+<!-- ══ FAQ TEASER ══ -->
+<section class="section-padding" style="background:var(--white);">
+  <div class="container" style="max-width:760px;">
+    <div class="text-center" style="margin-bottom:40px;">
+      <span class="section-label">FAQ</span>
+      <div class="gold-divider"></div>
+      <h2 data-key="faq-title">Common Questions</h2>
+    </div>
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4 data-key="faq-question1">What Is Your Success Rate?</h4>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer"><p data-key="faq-answer1">Each case is specific. Our global success rate is 96%.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h4 data-key="faq-question3">Can I Contact You At Anytime?</h4>
+          <span class="faq-arrow">▼</span>
+        </div>
+        <div class="faq-answer"><p data-key="faq-answer3">Definitely yes! Feel free to send an email or fill the form above. Our team will respond as soon as possible.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-text">dm<span style="color:var(--gold)">legal</span>-firm</div>
+        <p class="footer-tagline">An innovative and client-focused law firm based in Dubai, UAE.</p>
+        <ul class="footer-contacts">
+          <li data-key="footer-location1">📍 Khalid Bin Waleed Road, Bank Street Building, 2nd Floor, Dubai. PO BOX 21602, UAE</li>
+          <li data-key="footer-phone1">📞 (+971) 4 355 0004</li>
+          <li data-key="footer-email">✉️ <a href="mailto:contact@dmlegal-firm.com">contact@dmlegal-firm.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-links-title">Quick Links</h4>
+        <ul>
+          <li><a href="contact.html" data-key="footer-link1">Contact Us</a></li>
+          <li><a href="team.html" data-key="footer-link2">Meet the Team</a></li>
+          <li><a href="blog.html" data-key="footer-link3">Insights</a></li>
+          <li><a href="services.html" data-key="footer-link4">Our Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-news-title">Profiles</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jordana-dray-a1086329/" target="_blank"><i class="fab fa-linkedin"></i> Jordana Dray</a></li>
+          <li><a href="https://www.linkedin.com/in/denis-acker/" target="_blank"><i class="fab fa-linkedin"></i> Denis Acker</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2025 dmlegal-firm.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translate.js"></script>
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const isOpen = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      if (!isOpen) item.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>

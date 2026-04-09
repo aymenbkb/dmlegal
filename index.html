@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dmlegal-firm — UAE Law Firm</title>
+  <meta name="description" content="dmlegal-firm — An innovative and client-focused law firm based in Dubai, UAE.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt="dmlegal-firm" /></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ══ HERO ══ -->
+  <section class="hero-section">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/img/hero/video.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-eyebrow fade-in delay-1">UAE Based Firm</div>
+        <h1 class="hero-h1-line1 fade-in delay-1" data-key="hero-title">An Innovative &</h1>
+        <h1 class="hero-h1-line2 fade-in delay-2" data-key="hero-title1">Client-Focused Law Firm.</h1>
+        <div class="hero-btns fade-in delay-3">
+          <a href="services.html" class="cta-btn cta-btn-fill" data-key="service-title">Our Services</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-loc">
+      <div class="hero-loc-line"></div>
+      <span class="hero-loc-text">Dubai · UAE</span>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT / UAE SECTION ══ -->
+  <section class="about-section section-padding">
+    <div class="container">
+      <div class="two-col">
+        <div class="about-box">
+          <span class="section-label" data-key="uae-title">United Arab Emirates</span>
+          <div class="gold-divider"></div>
+          <h2 class="about-text-head">Trusted Legal<br>Excellence Since 1997</h2>
+          <p style="margin-top:16px;" data-key="uae-description">The UAE is a constitutional federation of seven emirates established on December 02nd, 1971. At the crossroad between West and East, the UAE is a politically and economically stable country. Recognized as a tolerant country, the UAE hosts more than 200 nationalities doing business, living, learning, and touring the UAE. At dmlegal-firm, we embrace these values and our team is eager to assist our clients based on those principles.</p>
+          <div style="margin-top:28px;">
+            <a href="team.html" class="cta-btn">About Our Team</a>
+          </div>
+        </div>
+        <div class="geo-pattern">
+          <div class="geo-box">
+            <img src="assets/img/gallery/about5.png" alt="Legal consultation" class="geo-box-img">
+          </div>
+          <div class="geo-box">
+            <img src="assets/img/gallery/about6.png" alt="Business setup" class="geo-box-img">
+          </div>
+          <div class="geo-box">
+            <img src="assets/img/gallery/about9.png" alt="Legal documents" class="geo-box-img">
+          </div>
+          <div class="geo-box">
+            <img src="assets/img/gallery/about4.png" alt="Court proceedings" class="geo-box-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SERVICES PREVIEW ══ -->
+  <section class="services-section section-padding">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:40px;">
+        <span class="section-label">WHAT WE DO</span>
+        <div class="gold-divider"></div>
+        <h2 data-key="service-title">Our Services</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-category="business">
+          <div class="service-icon"><i class="fas fa-building"></i></div>
+          <h3 data-key="service1">Business Setup in UAE Free Zones</h3>
+          <p data-key="service1-description">Comprehensive guidance for establishing your business in UAE free zones with expert legal support.</p>
+          <a href="services/business-setup.html" class="cta-btn">Learn More →</a>
+        </div>
+        <div class="service-card" data-category="specialized">
+          <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3 data-key="service2">Intellectual Property Law</h3>
+          <p data-key="service2-description">Protecting your innovations, brand identity, trademarks and creative works comprehensively.</p>
+          <a href="services/ip-law.html" class="cta-btn">Learn More →</a>
+        </div>
+        <div class="service-card" data-category="specialized">
+          <div class="service-icon"><i class="fas fa-balance-scale"></i></div>
+          <h3 data-key="service3">Criminal Law</h3>
+          <p data-key="service3-description">Strong defense representation in criminal proceedings with proven track record.</p>
+          <a href="services/criminal-law.html" class="cta-btn">Learn More →</a>
+        </div>
+        <div class="service-card" data-category="business">
+          <div class="service-icon"><i class="fas fa-plane"></i></div>
+          <h3 data-key="service4">Immigration Law</h3>
+          <p data-key="service4-description">Complete immigration solutions for individuals and businesses operating in the UAE.</p>
+          <a href="services/immigration.html" class="cta-btn">Learn More →</a>
+        </div>
+        <div class="service-card" data-category="civil">
+          <div class="service-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+          <h3 data-key="service5">Tax Law</h3>
+          <p data-key="service5-description">Strategic tax planning, VAT compliance, and corporate tax services for UAE businesses.</p>
+          <a href="services/tax-law.html" class="cta-btn">Learn More →</a>
+        </div>
+        <div class="service-card" data-category="property">
+          <div class="service-icon"><i class="fas fa-scroll"></i></div>
+          <h3 data-key="service6">Wills & Estate Planning</h3>
+          <p data-key="service6-description">DIFC and ADGM Wills providing secure asset distribution for non-Muslim expatriates.</p>
+          <a href="services/wills.html" class="cta-btn">Learn More →</a>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:40px;">
+        <a href="services.html" class="blog-link">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TEAM PREVIEW ══ -->
+  <section class="team-section section-padding">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:50px;">
+        <span class="section-label">THE TEAM</span>
+        <div class="gold-divider"></div>
+        <h2 data-key="team-title">Meet Our Experts</h2>
+      </div>
+      <div class="team-grid-2">
+        <div class="team-member-card">
+          <div class="photo-area">
+            <img src="assets/img/gallery/member1.png" alt="Denis Acker" class="team-member-photo">
+            <div class="corner-accent tl"></div>
+            <div class="corner-accent tr"></div>
+            <div class="corner-accent bl"></div>
+            <div class="corner-accent br"></div>
+          </div>
+          <div class="member-info-box">
+            <h3 data-key="team-name1">Denis Acker</h3>
+            <p class="member-role" data-key="team-job1">Advocate and Legal Consultant</p>
+            <p class="member-position" data-key="team-job1-pos">Founding Partner</p>
+          <a href="team/member1.html" class="cta-btn">View Profile →</a>
+          </div>
+        </div>
+        <div class="team-member-card">
+          <div class="photo-area">
+            <img src="assets/img/gallery/member2.png" alt="Jordana Dray" class="team-member-photo">
+            <div class="corner-accent tl"></div>
+            <div class="corner-accent tr"></div>
+            <div class="corner-accent bl"></div>
+            <div class="corner-accent br"></div>
+          </div>
+          <div class="member-info-box">
+            <h3 data-key="team-name2">Jordana Dray</h3>
+            <p class="member-role" data-key="team-job2">Advocate and Legal Consultant</p>
+            <p class="member-position" data-key="team-job2-pos">Partner</p>
+            <a href="team/member2.html" class="cta-btn">View Profile →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TESTIMONIAL ══ -->
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="testimonial-content">
+        <div class="quote-mark">"</div>
+        <p class="testimonial-text" data-key="team-qst">Their exceptional legal expertise and client-focused approach made our complex business setup in the UAE seamless and successful.</p>
+        <div class="testimonial-client">
+          <h4>Marcus Thompson</h4>
+          <p>CEO, International Ventures Ltd</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ NEWS PREVIEW ══ -->
+  <section class="news-section section-padding">
+    <div class="container">
+      <div class="news-section-header">
+        <div>
+          <span class="section-label">LEGAL INSIGHTS</span>
+          <div class="gold-divider"></div>
+          <h2 data-key="news-titre">Our Latest Updates</h2>
+        </div>
+        <a href="blog.html" class="text-link" data-key="news-btn">View All Posts →</a>
+      </div>
+      <div class="posts-grid">
+        <div class="blog-card">
+          <p class="blog-date">September 30, 2024</p>
+          <h3 data-key="news-text1">The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues</h3>
+          <p>The recent visa amnesty programme presents a significant opportunity for individuals with expired or irregular residency status.</p>
+          <a href="blog.html" class="blog-link">Read More →</a>
+        </div>
+        <div class="blog-card">
+          <p class="blog-date">April 4, 2023</p>
+          <h3 data-key="news-text2">Representing Client Interests: Versatility and Mobility in a Globalized World</h3>
+          <p>Understanding the complex legal framework governing international matters and client representation across jurisdictions.</p>
+          <a href="blog.html" class="blog-link">Read More →</a>
+        </div>
+        <div class="blog-card">
+          <p class="blog-date">March 10, 2023</p>
+          <h3>Client Update — Extraterritorial Reach of U.S. Banking Laws to UAE Banks</h3>
+          <p>Key considerations for UAE banking institutions regarding compliance with U.S. federal banking regulations.</p>
+          <a href="blog.html" class="blog-link">Read More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FAQ ══ -->
+  <section class="faq-section section-padding">
+    <div class="container">
+      <div class="faq-layout">
+        <div class="faq-left">
+          <span class="section-label">FAQ</span>
+          <div class="gold-divider"></div>
+          <h2 data-key="faq-title">Frequently Asked Questions</h2>
+          <p style="margin-top:16px; font-size:0.9rem; color:var(--muted);">Can't find what you're looking for? <a href="contact.html" style="color:var(--gold);">Contact us directly.</a></p>
+        </div>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 data-key="faq-question1">What Is Your Success Rate?</h4>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer"><p data-key="faq-answer1">Each case is specific. Our global success rate is 96%.</p></div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 data-key="faq-question2">Can You Help Me?</h4>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer"><p data-key="faq-answer2">dmlegal-firm does its best to solve each case and meet the expectations of its clients.</p></div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 data-key="faq-question3">Can I Contact You At Anytime?</h4>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer"><p data-key="faq-answer3">Definitely yes! Feel free to send an email or fill the form in our contact section. Our team will respond as soon as possible.</p></div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4 data-key="faq-question4">Are You Looking For New Attorneys?</h4>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer"><p data-key="faq-answer4">Not at the moment, but feel free to send your resume to our email address.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA STRIP ══ -->
+  <section class="cta-strip">
+    <div class="container">
+      <span class="section-label">GET IN TOUCH</span>
+      <div class="gold-divider"></div>
+      <h2 data-key="contact-titre">Ready to Get Legal Clarity?</h2>
+      <p data-key="contact-text">Blending innovative thinking with exceptional client care is the cornerstone of our practice.</p>
+      <a href="contact.html" class="cta-btn cta-btn-fill" data-key="contact-btn">Contact Us Today</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-text">dm<span style="color:var(--gold)">legal</span>-firm</div>
+        <p class="footer-tagline">An innovative and client-focused law firm based in Dubai, UAE. Serving clients across the Middle East and internationally.</p>
+        <ul class="footer-contacts">
+          <li data-key="footer-location1">📍 Khalid Bin Waleed Road, Bank Street Building, 2nd Floor Office 215, Dubai. PO BOX 21602, UAE</li>
+          <li data-key="footer-phone1">📞 Phone: (+971) 4 355 0004</li>
+          <li data-key="footer-email">✉️ Email: <a href="mailto:contact@dmlegal-firm.com">contact@dmlegal-firm.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-links-title">Quick Links</h4>
+        <ul>
+          <li><a href="contact.html" data-key="footer-link1">Contact Us</a></li>
+          <li><a href="team.html" data-key="footer-link2">Meet the Team</a></li>
+          <li><a href="blog.html" data-key="footer-link3">Insights</a></li>
+          <li><a href="services.html" data-key="footer-link4">Our Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-news-title">Profiles</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jordana-dray-a1086329/" target="_blank"><i class="fab fa-linkedin"></i> Jordana Dray</a></li>
+          <li><a href="https://www.linkedin.com/in/denis-acker/" target="_blank"><i class="fab fa-linkedin"></i> Denis Acker</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2025 dmlegal-firm.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translate.js"></script>
+<script>
+  // Navbar scroll
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  });
+  // Mobile nav
+  const toggle = document.getElementById('navToggle');
+  const mobileNav = document.getElementById('mobileNav');
+  toggle.addEventListener('click', () => {
+    toggle.classList.toggle('open');
+    mobileNav.classList.toggle('open');
+  });
+  // FAQ
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const isOpen = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      if (!isOpen) item.classList.add('active');
+    });
+  });
+  // Filter
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.service-card').forEach(c => {
+        c.style.display = (f === 'all' || c.dataset.category === f) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>

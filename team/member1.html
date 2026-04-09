@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denis Acker — dmlegal-firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/dm-style.css">
+</head>
+<body>
+<style>
+  .profile-hero { padding: 120px 0 80px; background: linear-gradient(135deg, var(--cream) 0%, var(--blush) 100%); }
+  .profile-layout { display: grid; grid-template-columns: 320px 1fr; gap: 70px; align-items: flex-start; }
+  .profile-photo-col { position: sticky; top: 90px; }
+  .profile-photo {
+    aspect-ratio: 3/4; background: linear-gradient(135deg, var(--blush) 0%, var(--blush-mid) 100%);
+    position: relative; margin-bottom: 20px; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .badge-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .badge {
+    font-size: .72rem; font-weight: 600; letter-spacing: .08em;
+    padding: 5px 12px; border: 1px solid var(--gold-border);
+    color: var(--gold); background: var(--blush);
+  }
+  .profile-name { font-family: var(--font-display); font-size: clamp(2rem,4vw,3.2rem); line-height: 1.1; margin-bottom: 8px; }
+  .profile-role { font-size: .78rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .profile-position { font-family: var(--font-display); font-size: 1.1rem; font-style: italic; color: var(--gold); margin-bottom: 24px; }
+  .profile-bio p { font-size: .97rem; line-height: 1.9; color: var(--mid); margin-bottom: 20px; }
+  .achievements-section { margin-top: 50px; }
+  .achievement-item { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--border); font-size: .93rem; color: var(--mid); transition: var(--transition); }
+  .achievement-item:hover { color: var(--charcoal); padding-left: 8px; }
+  .achievement-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 7px; }
+  .linkedin-box { margin-top: 40px; padding: 24px; background: var(--blush); border: 1px solid var(--blush-deep); display: flex; align-items: center; gap: 14px; }
+  .linkedin-box i { font-size: 1.5rem; color: var(--gold); }
+  @media(max-width:900px) {
+    .profile-layout { grid-template-columns: 1fr; }
+    .profile-photo-col { position: static; }
+    .profile-photo { max-width: 280px; }
+  }
+</style>
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">dm<span>legal</span>-firm</a>
+      <nav><ul class="nav-links"><li><a href="../index.html" data-key="nav-home">Home</a></li>
+<li><a href="../team.html" class="active" data-key="nav-team">Team</a></li>
+<li><a href="../services.html" data-key="nav-services">Services</a></li>
+<li><a href="../blog.html" data-key="nav-insight">Insight</a></li>
+<li><a href="../contact.html" data-key="nav-contact">Contact</a></li>
+<li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li></ul></nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="../index.html" data-key="nav-home">Home</a>
+<a href="../team.html" data-key="nav-team">Team</a>
+<a href="../services.html" data-key="nav-services">Services</a>
+<a href="../blog.html" data-key="nav-insight">Insight</a>
+<a href="../contact.html" data-key="nav-contact">Contact</a>
+
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="profile-hero">
+    <div class="container">
+      <a href="../team.html" style="display:inline-flex;align-items:center;gap:8px;font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:28px;">← Back to Team</a>
+      <nav class="breadcrumb" style="justify-content:flex-start;margin-bottom:32px;">
+        <a href="../index.html" data-key="nav-home">Home</a>
+        <span>›</span>
+        <a href="../team.html" data-key="nav-team">Team</a>
+        <span>›</span>
+        <span>Denis Acker</span>
+      </nav>
+      <div class="profile-layout">
+        <div class="profile-photo-col">
+          <div class="profile-photo">
+            <img src="../assets/img/gallery/member2.png" alt="Denis Acker" class="team-member-photo">
+            <div class="corner-accent tl"></div>
+            <div class="corner-accent tr"></div>
+            <div class="corner-accent bl"></div>
+            <div class="corner-accent br"></div>
+          </div>
+          <div class="badge-list"><span class="badge">Quebec Bar</span> <span class="badge">20+ Years</span> <span class="badge">Corporate Law</span> <span class="badge">Investment Immigration</span></div>
+          <div style="margin-top:20px;">
+            <a href="../contact.html" class="cta-btn cta-btn-fill" style="display:block;text-align:center;">Schedule Consultation</a>
+          </div>
+        </div>
+        <div>
+          <span class="section-label" data-key="team-job1-pos">Founding Partner</span>
+          <div class="gold-divider"></div>
+          <h1 class="profile-name" data-key="team-name1">Denis Acker</h1>
+          <p class="profile-role" data-key="team-job1">Advocate and Legal Consultant</p>
+          <p class="profile-position">Founding Partner, dmlegal-firm</p>
+          <div class="profile-bio"><p data-key="team1-desc">Denis Acker, Founding Partner, is a Canadian Attorney and co-founder of the Legal Consultancy Firm operating out of Dubai. Denis is a member of the Quebec Bar Association with over twenty years of experience. He specializes in Company Formation, Establishment of Trusts and Foundations, as well as Investment Immigration. He offers guidance to foreign investors on their projects for establishment in Malta and other EU countries.</p></div>
+          <div class="achievements-section">
+            <span class="section-label">CREDENTIALS & ACHIEVEMENTS</span>
+            <div class="gold-divider"></div>
+            <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <span data-key="team1-item1">Over 20 years of experience in corporate and investment law.</span>
+        </div>
+<div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <span data-key="team1-item2">Successfully assisted numerous multinational corporations in setting up businesses in the UAE and EU.</span>
+        </div>
+<div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <span data-key="team1-item3">Expert in trust formation and asset protection strategies.</span>
+        </div>
+<div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <span data-key="team1-item4">Recognized for his work in investment immigration and international business structuring.</span>
+        </div>
+<div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <span data-key="team1-item5">Regular speaker at international legal and business conferences.</span>
+        </div>
+          </div>
+          <div style="margin-top:40px;">
+            <span class="section-label">EXPERTISE AREAS</span>
+            <div class="gold-divider"></div>
+            <div class="badge-list" style="margin-top:12px;"><span class="badge">Company Formation</span> <span class="badge">Trusts & Foundations</span> <span class="badge">Investment Immigration</span> <span class="badge">Corporate Law</span> <span class="badge">EU Business Setup</span> <span class="badge">Malta Investment</span></div>
+          </div>
+          <div class="linkedin-box">
+            <a href="https://www.linkedin.com/in/denis-acker/" target="_blank" style="display:flex;align-items:center;gap:14px;color:var(--charcoal);">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <p style="font-weight:600;color:var(--charcoal);font-size:.9rem;margin-bottom:2px;">Connect on LinkedIn</p>
+                <p style="font-size:.82rem;color:var(--muted);">linkedin.com/in/denis-acker</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-text">dm<span style="color:var(--gold)">legal</span>-firm</div>
+        <p class="footer-tagline">An innovative and client-focused law firm based in Dubai, UAE.</p>
+        <ul class="footer-contacts">
+          <li data-key="footer-location1">📍 Khalid Bin Waleed Road, Bank Street Building, 2nd Floor Office 215, Dubai. PO BOX 21602, UAE</li>
+          <li data-key="footer-phone1">📞 (+971) 4 355 0004</li>
+          <li data-key="footer-email">✉️ <a href="mailto:contact@dmlegal-firm.com">contact@dmlegal-firm.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-links-title">Quick Links</h4>
+        <ul>
+          <li><a href="../contact.html" data-key="footer-link1">Contact Us</a></li>
+          <li><a href="../team.html" data-key="footer-link2">Meet the Team</a></li>
+          <li><a href="../blog.html" data-key="footer-link3">Insights</a></li>
+          <li><a href="../services.html" data-key="footer-link4">Our Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-news-title">Profiles</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jordana-dray-a1086329/" target="_blank"><i class="fab fa-linkedin"></i> Jordana Dray</a></li>
+          <li><a href="https://www.linkedin.com/in/denis-acker/" target="_blank"><i class="fab fa-linkedin"></i> Denis Acker</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2025 dmlegal-firm.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/translate.js"></script>
+<script>
+  const h = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => h.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights — dmlegal-firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">dm<span>legal</span>-firm</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" class="active" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <span class="section-label">LEGAL INSIGHTS</span>
+  <div class="gold-divider"></div>
+  <h1 data-key="news-titre">Our Latest Updates</h1>
+  <nav class="breadcrumb">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <span>›</span>
+    <span data-key="nav-insight">Insights</span>
+  </nav>
+</section>
+
+<!-- ══ FEATURED POST ══ -->
+<section class="section-padding" style="background:var(--cream);">
+  <div class="container">
+    <div class="featured-card">
+      <div class="featured-content">
+        <span class="category-tag">Featured</span>
+        <h2 data-key="news-text1">The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues</h2>
+        <p class="featured-excerpt">The recent visa amnesty programme announced by UAE authorities presents a significant opportunity for individuals with expired or irregular residency status to regularize their legal standing without penalties.</p>
+        <div class="featured-meta">
+          <span class="featured-date" data-key="footer-date">September 30, 2024</span>
+          <a href="single-blog.html" class="featured-link" data-key="news-btn">Read Article →</a>
+        </div>
+      </div>
+      <div class="featured-image">
+        <div class="corner-accent tl"></div>
+        <div class="corner-accent tr"></div>
+        <div class="corner-accent bl"></div>
+        <div class="corner-accent br"></div>
+        <div style="display:flex; align-items:center; justify-content:center; height:100%; padding:40px; text-align:center;">
+          <div>
+            <div style="font-family:var(--font-display); font-size:4rem; color:var(--gold); opacity:0.3; line-height:1;">"</div>
+            <p style="font-family:var(--font-display); font-size:1.1rem; font-style:italic; color:var(--charcoal);">Legal Intelligence<br>for a Complex World</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SANITY CMS POSTS (dynamic) ══ -->
+<section class="section-padding" style="background:var(--white);">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:40px;">
+      <span class="section-label">ALL ARTICLES</span>
+      <div class="gold-divider"></div>
+      <h2>Browse Insights</h2>
+    </div>
+    <!-- Dynamic posts from Sanity CMS -->
+    <div class="posts-grid" id="sanityPosts">
+      <!-- Static fallback posts -->
+      <div class="blog-card">
+        <p class="blog-date">April 4, 2023</p>
+        <h3>Inheritance Between Spouses of Different Faiths: Legal Implications in the UAE</h3>
+        <p>Understanding the complex legal framework governing inheritance matters between spouses of different religious backgrounds.</p>
+        <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <p class="blog-date">March 10, 2023</p>
+        <h3>Client Update — Extraterritorial Reach of U.S. Banking Laws to UAE Banks</h3>
+        <p>Key considerations for UAE banking institutions regarding compliance with U.S. federal banking regulations.</p>
+        <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <p class="blog-date">February 28, 2023</p>
+        <h3>Digital Transformation in UAE Legal Services: Trends and Opportunities</h3>
+        <p>Exploring how technology is reshaping the legal landscape in the UAE and creating new opportunities for service providers.</p>
+        <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <p class="blog-date">January 20, 2023</p>
+        <h3>Real Estate Investment in Dubai: Legal Framework Update</h3>
+        <p>Latest updates to Dubai's real estate laws and regulations affecting both local and international property investors.</p>
+        <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <p class="blog-date">December 10, 2022</p>
+        <h3>International Arbitration in the UAE: A Comprehensive Guide</h3>
+        <p>Understanding the arbitration landscape in the UAE, including DIFC and ADGM arbitration centers and their advantages.</p>
+        <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <p class="blog-date">November 5, 2022</p>
+        <h3>Employment Law Reforms: What Businesses Need to Know</h3>
+        <p>Recent changes to UAE employment legislation and their implications for businesses operating in the Emirates.</p>
+        <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
+      </div>
+    </div>
+
+    <!-- PAGINATION -->
+    <div class="pagination-wrap">
+      <a href="#" class="page-arrow">← Prev</a>
+      <a href="#" class="page-num active">1</a>
+      <a href="#" class="page-num">2</a>
+      <a href="#" class="page-num">3</a>
+      <a href="#" class="page-arrow">Next →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-text">dm<span style="color:var(--gold)">legal</span>-firm</div>
+        <p class="footer-tagline">An innovative and client-focused law firm based in Dubai, UAE.</p>
+        <ul class="footer-contacts">
+          <li data-key="footer-location1">📍 Khalid Bin Waleed Road, Bank Street Building, 2nd Floor, Dubai. PO BOX 21602, UAE</li>
+          <li data-key="footer-phone1">📞 (+971) 4 355 0004</li>
+          <li data-key="footer-email">✉️ <a href="mailto:contact@dmlegal-firm.com">contact@dmlegal-firm.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-links-title">Quick Links</h4>
+        <ul>
+          <li><a href="contact.html" data-key="footer-link1">Contact Us</a></li>
+          <li><a href="team.html" data-key="footer-link2">Meet the Team</a></li>
+          <li><a href="blog.html" data-key="footer-link3">Insights</a></li>
+          <li><a href="services.html" data-key="footer-link4">Our Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-news-title">Profiles</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jordana-dray-a1086329/" target="_blank"><i class="fab fa-linkedin"></i> Jordana Dray</a></li>
+          <li><a href="https://www.linkedin.com/in/denis-acker/" target="_blank"><i class="fab fa-linkedin"></i> Denis Acker</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2025 dmlegal-firm.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translate.js"></script>
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+
+  // Try to load Sanity posts dynamically
+  const projectId = "0g8ouwa5";
+  const dataset = "production";
+  const apiVersion = "2023-01-01";
+  const query = encodeURIComponent(`*[_type=="post"] | order(publishedAt desc){ title, excerpt, "slug": slug.current, publishedAt, "image": mainImage.asset->url }`);
+  fetch(`https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`)
+    .then(r => r.json())
+    .then(({ result }) => {
+      if (!result || result.length === 0) return;
+      const container = document.getElementById('sanityPosts');
+      container.innerHTML = result.map(post => `
+        <div class="blog-card">
+          <p class="blog-date">${new Date(post.publishedAt).toDateString()}</p>
+          <h3>${post.title}</h3>
+          <p>${post.excerpt || ''}</p>
+          <a href="single-blog.html?slug=${post.slug}" class="blog-link">Read More →</a>
+        </div>
+      `).join('');
+    }).catch(() => {/* fallback static posts already shown */});
+</script>
+</body>
+</html>

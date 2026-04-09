@@ -1,0 +1,236 @@
+.single-team {
+    .team-img {
+        overflow: hidden;
+        margin-bottom: 19px;
+
+        /* Add fixed dimensions for the image container */
+        width: 100%; /* Adjust based on parent container width */
+        max-width: 350px; /* Example size */
+        height: 30rem; /* Example size */
+        position: relative;
+
+        & img {
+            /* Ensure the image fits inside the container */
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image is cropped to fit */
+            transform: scale(1);
+            transition: all 0.6s ease-out 0s;
+        }
+    }
+
+    .team-caption {
+        & span {
+            color: #c7ae24;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: $font_3;
+            display: block;
+            position: relative;
+            margin-left: 30px;
+            margin-bottom: 10px;
+
+            &::before {
+                position: absolute;
+                content: "";
+                width: 25px;
+                height: 2px;
+                top: 0;
+                left: -30px;
+                top: 50%;
+                transform: translateY(-50%);
+                background: #c7ae24;
+            }
+        }
+
+        & h3 {
+            color: $heading-color;
+            font-weight: 700;
+            font-size: 25px;
+            font-family: $font_3;
+        }
+    }
+}
+
+/* Optional: Hover effect */
+.single-team:hover .team-img img {
+    transform: scale(1.1);
+}
+/* From Uiverse.io by 0xnihilism */ 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Common styles for both buttons */
+  .brutalist-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 142px;
+    height: 142px;
+    color: #e5dede;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  /* Styles for the second button */
+  .button-2 {
+    width: 142px;
+    height: 142px; /* Added to maintain square shape */
+    background-color: #191a33;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 14px 14px;
+    box-shadow: 4px 4px 0px #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative; /* Added to ensure proper positioning of pseudo-elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -150%;
+    width: 300%;
+    height: 300%;
+    background-color: #c7ae24;
+    border-radius: 50%;
+    transform: translateX(-50%) scale(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .button-2:hover::before {
+    transform: translateX(-50%) scale(1);
+  }
+  
+  .button-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 150%;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.1) 25%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.1) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: translateX(-100%) translateY(-100%) rotate(45deg);
+    pointer-events: none;
+    opacity: 0;
+  }
+  
+  .button-2:hover::after {
+    animation: glassPass 0.8s ease-in-out 0.5s forwards;
+  }
+  
+  @keyframes glassPass {
+    0% {
+      transform: translateX(-100%) translateY(-100%) rotate(45deg);
+      opacity: 0.7;
+    }
+    100% {
+      transform: translateX(100%) translateY(100%) rotate(45deg);
+      opacity: 0;
+    }
+  }
+  
+  .button-2:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px 1px;
+  }
+  
+  .button-2:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000000;
+  }
+  
+  /* Ensure content stays on top */
+  .button-2 .acd-law-logo,
+  .button-2 .button-text {
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effects */
+  .brutalist-button:hover .acd-law-logo {
+    transform: translateY(-10px);
+  }
+  
+  .brutalist-button:hover .acd-law-icon {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .brutalist-button:hover .button-text {
+    opacity: 1;
+    max-height: 60px;
+    margin-top: 8px;
+  }
+  
+  /* Styles for the ACD-LAW logo and text */
+  .acd-law-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 3;
+  }
+  
+  .acd-law-icon {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+    text-align: center;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 3;
+  }
+  
+  .button-text span:first-child {
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  .button-text span:last-child {
+    font-size: 16px;
+  }
+  
+  .brutalist-button:hover .acd-law-icon {
+    animation: spin-and-zoom 2s cubic-bezier(0.25, 0.8, 0.25, 1) infinite;
+  }
+  
+  .brutalist-button:hover .button-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .brutalist-button:active .acd-law-icon,
+  .brutalist-button:active .button-text {
+    transform: scale(0.95);
+  }

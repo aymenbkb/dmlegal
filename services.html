@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — dmlegal-firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">dm<span>legal</span>-firm</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" class="active" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <span class="section-label">LEGAL EXPERTISE</span>
+  <div class="gold-divider"></div>
+  <h1 data-key="service-title">Our Services</h1>
+  <nav class="breadcrumb">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <span>›</span>
+    <span data-key="nav-services">Services</span>
+  </nav>
+</section>
+
+<!-- ══ SERVICES GRID ══ -->
+<section class="section-padding" style="background:var(--cream);">
+    <div class="filter-bar-sticky">
+    <div class="container">
+        <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all" data-key="service-filter">All</button>
+        <button class="filter-btn" data-filter="business" data-key="service-filter1">Business</button>
+        <button class="filter-btn" data-filter="property" data-key="service-filter2">Property</button>
+        <button class="filter-btn" data-filter="civil" data-key="service-filter3">Civil</button>
+        <button class="filter-btn" data-filter="specialized" data-key="service-filter4">Specialized</button>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="services-grid" id="servicesGrid">
+      <div class="service-card" data-category="business">
+        <div class="service-icon-wrap icon-business">🏢</div>
+        <h3 data-key="service1">Business Setup in UAE Free Zones</h3>
+        <a href="services_details.html?service=business-setup" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="specialized">
+        <div class="service-icon-wrap icon-special">💡</div>
+        <h3 data-key="service2">Intellectual Property Law</h3>
+        <a href="services_details.html?service=ip-law" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="specialized">
+        <div class="service-icon-wrap icon-special">⚖️</div>
+        <h3 data-key="service3">Criminal Law</h3>
+        <a href="services_details.html?service=criminal-law" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="business">
+        <div class="service-icon-wrap icon-business">✈️</div>
+        <h3 data-key="service4">Immigration Law</h3>
+        <a href="services_details.html?service=immigration" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="civil">
+        <div class="service-icon-wrap icon-civil">📋</div>
+        <h3 data-key="service5">Tax Law</h3>
+        <a href="services_details.html?service=tax-law" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="property">
+        <div class="service-icon-wrap icon-property">📜</div>
+        <h3 data-key="service6">Wills & Estate Planning</h3>
+        <a href="services_details.html?service=wills" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="civil">
+        <div class="service-icon-wrap icon-civil">🏛️</div>
+        <h3 data-key="service7">Arbitration & Dispute Resolution</h3>
+        <a href="services_details.html?service=arbitration" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="civil">
+        <div class="service-icon-wrap icon-civil">👨‍👩‍👧</div>
+        <h3 data-key="service8">Family Law</h3>
+        <a href="services_details.html?service=family-law" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="business">
+        <div class="service-icon-wrap icon-business">🏦</div>
+        <h3 data-key="service9">Corporate Law</h3>
+        <a href="services_details.html?service=corporate-law" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="business">
+        <div class="service-icon-wrap icon-business">📊</div>
+        <h3 data-key="service10">Commercial Law</h3>
+        <a href="services_details.html?service=commercial-law" class="cta-btn" data-key="team-cta">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ BOTTOM CTA ══ -->
+<section class="cta-strip">
+  <div class="container">
+    <span class="section-label">CONSULTATION</span>
+    <div class="gold-divider"></div>
+    <h2>Need a Specific Service?</h2>
+    <p>Contact us for a personalized legal consultation.</p>
+    <a href="contact.html" class="cta-btn cta-btn-fill" style="margin-bottom:24px;">Get Consultation</a>
+    <div class="contact-meta">
+      <span><strong>Phone:</strong> (+971) 4 355 0004</span>
+      <span><strong>Email:</strong> contact@dmlegal-firm.com</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-text">dm<span style="color:var(--gold)">legal</span>-firm</div>
+        <p class="footer-tagline">An innovative and client-focused law firm based in Dubai, UAE.</p>
+        <ul class="footer-contacts">
+          <li data-key="footer-location1">📍 Khalid Bin Waleed Road, Bank Street Building, 2nd Floor, Dubai. PO BOX 21602, UAE</li>
+          <li data-key="footer-phone1">📞 (+971) 4 355 0004</li>
+          <li data-key="footer-email">✉️ <a href="mailto:contact@dmlegal-firm.com">contact@dmlegal-firm.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-links-title">Quick Links</h4>
+        <ul>
+          <li><a href="contact.html" data-key="footer-link1">Contact Us</a></li>
+          <li><a href="team.html" data-key="footer-link2">Meet the Team</a></li>
+          <li><a href="blog.html" data-key="footer-link3">Insights</a></li>
+          <li><a href="services.html" data-key="footer-link4">Our Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-key="footer-news-title">Profiles</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/jordana-dray-a1086329/" target="_blank"><i class="fab fa-linkedin"></i> Jordana Dray</a></li>
+          <li><a href="https://www.linkedin.com/in/denis-acker/" target="_blank"><i class="fab fa-linkedin"></i> Denis Acker</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2025 dmlegal-firm.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/translate.js"></script>
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.service-card').forEach(c => {
+        c.style.display = (f === 'all' || c.dataset.category === f) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>
