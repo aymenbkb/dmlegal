@@ -27,3 +27,17 @@
 
 # Dotenv and similar local-only files
 *.local
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+
+# Node modules and build artifacts
+*.node
+*.exe
+
+# Source maps
+*.js.map
