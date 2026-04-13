@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article —  DM Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt=" DM Legal" /></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" class="active" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ ARTICLE ══ -->
+<main class="article-main">
+  <div class="container">
+    <div class="article-layout">
+
+      <!-- Article Body -->
+      <div>
+        <a href="blog.html" class="back-link">← Back to Insights</a>
+        <div class="article-meta">
+          <span class="article-cat">Legal Insight</span>
+          <span id="articleDate">Loading…</span>
+        </div>
+        <h1 id="articleTitle">Loading article…</h1>
+        <div class="article-img">
+          <img id="articleImage" src="" alt="" onerror="this.style.display='none'; document.querySelector('.article-img-placeholder').style.display='flex';">
+          <div class="article-img-placeholder">Legal Intelligence ·  DM Legal</div>
+        </div>
+        <div id="articleContent">
+          <p class="loading-text">Loading content…</p>
+        </div>
+
+        <!-- Author box -->
+        <div class="author-box">
+          <div class="author-icon">⚖️</div>
+          <div>
+            <h4 class="author-name"> DM Legal Editorial Team</h4>
+            <p class="author-desc">Legal insights and updates from our team of experienced UAE-based attorneys and legal consultants.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="article-sidebar">
+        <div class="sidebar-widget">
+          <h4>Recent Articles</h4>
+          <div class="recent-post">
+            <div class="recent-post-thumb">📋</div>
+            <div>
+              <h5><a href="single-blog.html">The UAE Visa Amnesty Programme</a></h5>
+              <p>September 30, 2024</p>
+            </div>
+          </div>
+          <div class="recent-post">
+            <div class="recent-post-thumb">⚖️</div>
+            <div>
+              <h5><a href="single-blog.html">Inheritance Between Spouses of Different Faiths</a></h5>
+              <p>April 4, 2023</p>
+            </div>
+          </div>
+          <div class="recent-post">
+            <div class="recent-post-thumb">🏦</div>
+            <div>
+              <h5><a href="single-blog.html">Extraterritorial Reach of U.S. Banking Laws</a></h5>
+              <p>March 10, 2023</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-widget">
+          <h4>Our Services</h4>
+          <ul class="other-services">
+            <li><a href="services_details.html?service=business-setup" data-key="service1">Business Setup in UAE</a></li>
+            <li><a href="services_details.html?service=arbitration" data-key="service7">Arbitration</a></li>
+            <li><a href="services_details.html?service=corporate-law" data-key="service9">Corporate Law</a></li>
+            <li><a href="services_details.html?service=tax-law" data-key="service5">Tax Law</a></li>
+            <li><a href="services_details.html?service=immigration" data-key="service4">Immigration</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-widget sidebar-widget--gold">
+          <h4>Need Legal Advice?</h4>
+          <p>Our experts are ready to assist you with any legal matter.</p>
+          <a href="contact.html" class="cta-btn" data-key="contact-btn">Contact Us</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo-center">
+        <div class="footer-logo"><img src="assets/img/logo/logo.png" class="nac-logo"/></div>
+      </div>
+      <div class="footer-content-wrapper">
+        <div class="footer-info">
+          <p class="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
+          <ul class="footer-contacts">
+            <li data-key="footer-location1">📍 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
+            <li data-key="footer-phone1">📞 Phone: (+971) 4 355 0004</li>
+            <li data-key="footer-email">✉️ Email: <a href="mailto:contact@ DM Legal.com">contact@ DM Legal.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="footer-links-title">Quick Links</h4>
+          <ul>
+            <li><a href="contact.html" data-key="footer-link1">Contact</a></li>
+            <li><a href="team.html" data-key="footer-link2">Team</a></li>
+            <li><a href="blog.html" data-key="footer-link3">Insights</a></li>
+            <li><a href="services.html" data-key="footer-link4">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2026  DM Legal.</p>
+    </div>
+  </div>
+</footer>
+
+ 
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+
+  // Load from Sanity CMS
+  const projectId = "0g8ouwa5";
+  const dataset = "production";
+  const apiVersion = "2023-01-01";
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("slug");
+
+  if (slug) {
+    const query = encodeURIComponent(`*[_type=="post" && slug.current=="${slug}"][0]{ title, publishedAt, body, "image": mainImage.asset->url }`);
+    fetch(`https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`)
+      .then(r => r.json())
+      .then(({ result }) => {
+        if (!result) return;
+        document.getElementById('articleTitle').textContent = result.title;
+        document.title = result.title + ' —  DM Legal';
+        document.getElementById('articleDate').textContent = new Date(result.publishedAt).toDateString();
+        if (result.image) document.getElementById('articleImage').src = result.image;
+        document.getElementById('articleContent').innerHTML = result.body
+          .map(block => `<p>${block.children.map(c => c.text).join('')}</p>`)
+          .join('');
+      }).catch(() => {
+        document.getElementById('articleTitle').textContent = 'Article Not Found';
+        document.getElementById('articleContent').innerHTML = '<p>This article could not be loaded. Please try again later.</p>';
+      });
+  } else {
+    // Default static article
+    document.getElementById('articleTitle').textContent = 'The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues';
+    document.getElementById('articleDate').textContent = 'September 30, 2024';
+    document.getElementById('articleContent').innerHTML = `
+      <p>The recent visa amnesty programme announced by UAE authorities presents a significant opportunity for individuals with expired or irregular residency status to regularize their legal standing without penalties. This comprehensive initiative aims to benefit thousands of residents across the Emirates.</p>
+      <p>The programme allows individuals who have overstayed their visas or have irregular immigration status to come forward and resolve their situations through a simplified process. Participants may be required to pay reduced fines or, in some cases, may be exempt from penalties entirely.</p>
+      <p>For businesses operating in the UAE, this amnesty period provides an opportunity to review the immigration status of their workforce and ensure full compliance with UAE immigration laws before the amnesty window closes.</p>
+      <p>At  DM Legal, we can assist both individuals and companies in navigating this amnesty process, assessing eligibility, and ensuring that all necessary documentation is correctly prepared and submitted within the relevant deadlines.</p>
+    `;
+  }
+</script>
+</body>
+</html>

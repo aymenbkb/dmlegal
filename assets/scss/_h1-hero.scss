@@ -1,0 +1,285 @@
+
+.slider-height {
+    min-height: 750px;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    @media #{$md}{
+        min-height: 620px;
+    }
+    @media #{$md}{
+        min-height: 600px;
+    }
+    @media #{$sm}{
+        min-height: 600px;
+    }
+    @media #{$xs}{
+        min-height: 400px;
+    }
+}
+
+.slider-height2{
+    min-height: 590px;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    @media #{$md}{
+        min-height: 500px;
+    }
+    @media #{$xs}{
+        min-height: 350px;
+    }
+    @media #{$sm}{
+        min-height: 350px;
+    }
+}
+.btn1 {
+    padding: 25px 0px;
+    @media #{$md}{
+        padding: 25px 0;
+    }
+}
+
+.slider-video {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.slider-area{
+    margin-top: -1px;
+    .hero__caption {
+        margin-left: 27px;
+        padding-top: 0px;
+        @media #{$md} {
+            padding-top: 70px;
+        }
+        @media #{$sm} {
+            padding-top: 70px;
+        }
+        @media #{$xs} {
+            padding-top: 70px;
+        }
+    
+        h1 {
+            font-size: 60px;
+            font-weight: 800;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            position: relative;
+            display: inline-block;
+            color: transparent; /* Make text transparent */
+            -webkit-text-fill-color: transparent; /* Make text fill transparent */
+            -webkit-text-stroke: 1px #fff; /* White border around the text */
+            background: linear-gradient(130deg, #fff 45%, transparent 50%); /* Background rotated 140 degrees */
+            -webkit-background-clip: text; /* Clips the background to the text */
+            background-clip: text; /* For other browsers that support background-clip on text */
+            @media #{$lg} {
+                font-size: 55px;
+            }
+            @media #{$md} {
+                font-size: 50px;
+            }
+            @media #{$sm} {
+                font-size: 45px;
+            }
+            @media #{$xs} {
+                font-size: 22px;
+            }
+        }
+    
+        .stock-text {
+            position: relative;
+            left: 119px;
+            top: -38px;
+            @media #{$lg} {
+                top: -29px;
+            }
+            @media #{$md} {
+                top: -19px;
+            }
+            @media #{$sm} {
+                top: -12px;
+                left: 40px;
+            }
+            @media #{$xs} {
+                top: 0;
+                left: 0;
+            }
+    
+            h2 {
+                font-size: 140px;
+                font-weight: 800;
+                margin: 0;
+                line-height: 1;
+                text-transform: uppercase;
+                position: relative;
+                display: inline-block;
+                color: transparent;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: 1px #fff;
+                background: linear-gradient(140deg, #fff 50%, transparent 50%);
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+        }
+        @keyframes animate {
+            0%, 100% {
+                clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 69%, 100% 52%, 100% 100%, 0% 100%);
+            }
+            50% {
+                clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+            }
+        }
+    
+        .hero-text1, .hero-text2 {
+            span, a {
+                position: relative;
+                color: #fff;
+                font-size: 18px;
+                text-transform: uppercase;
+                font-family: $font_3;
+                font-weight: 400;
+                letter-spacing: 0.03em;
+                display: block;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 25px;
+                    height: 2px;
+                    top: 0;
+                    left: -30px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background: $theme-color;
+                }
+                @media #{$xs} {
+                    font-size: 10px;
+                    margin-bottom: -30px;
+                }
+            }
+        }
+    
+        .hero-text2 {
+            @media #{$lg} {
+                margin-top: 100px;
+            }
+            @media #{$md} {
+                margin-top: 56px;
+            }
+            @media #{$sm} {
+                margin-top: 50px;
+            }
+            @media #{$xs} {
+                margin-top: 50px;
+            }
+        }
+    }
+    
+
+}
+
+// Hero Overly
+.hero-overly {
+    position: relative;
+    z-index: 1;
+    &::before {
+        position: absolute;
+        content: "";
+        @extend %hero-overly;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        background-repeat: no-repeat;
+        @media #{$lg} {
+        }
+        @media #{$md} {
+        }
+        @media #{$sm} {
+            height: 100%;
+        }
+        @media #{$xs} {
+            height: 100%;
+        }
+    }
+}
+
+// Another Hero Page
+.slider-area{
+    .hero-cap{
+        & h2{
+            color: #fff;
+            font-size: 70px;
+            font-weight: 900;
+            text-transform: uppercase;
+            @media #{$sm}{
+                font-size: 50px;
+              }
+            @media #{$xs}{
+                font-size: 50px;
+              }
+        }
+        // 
+        nav {
+            margin: 7px 0;
+            padding-left: 95px;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 75px;
+                height: 1px;
+                background: #c7ae24;
+                left: 0;
+                top: 52%;
+                transform: translateY(-50%);
+            }
+        }
+        .breadcrumb {
+            background: none;
+            padding: 0;
+            margin: 0;
+
+            a {
+                color: #c7ae24;
+                font-size: 17px;
+                text-transform: uppercase;
+            }
+        }
+        .breadcrumb-item + .breadcrumb-item::before {
+            color: #c7ae24;
+        }
+        &.hero-cap2{
+            @media #{$xs}{
+                padding-top: 50px;
+             }
+            @media #{$sm}{
+                padding-top: 50px;
+             }
+            h2{
+               font-size: 60px;
+               font-weight: 700;
+               text-transform: capitalize;
+               @media #{$sm}{
+                font-size: 37px;
+                 }
+               @media #{$xs}{
+                    font-size: 26px;
+                 }
+           }
+       }
+    }
+
+}

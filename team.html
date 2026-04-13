@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team —  DM Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt=" DM Legal" /></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" class="active" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero page-hero--team">
+  <span class="section-label">WHO WE ARE</span>
+  <div class="gold-divider"></div>
+  <h1 data-key="team-title">Meet the Team</h1>
+  <nav class="breadcrumb">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <span>›</span>
+    <span data-key="nav-team">Team</span>
+  </nav>
+</section>
+
+<!-- ══ TEAM GRID ══ -->
+<section class="section-padding section--cream">
+  <div class="container">
+    <div class="team-grid-2 team-grid-centered">
+
+      <!-- Member 1 -->
+      <div class="team-member-card">
+        <div class="photo-area">
+          <img src="assets/img/gallery/member2.png" alt="Andrew Mitchell KC" class="team-member-photo">
+          <div class="corner-accent tl"></div>
+          <div class="corner-accent tr"></div>
+          <div class="corner-accent bl"></div>
+          <div class="corner-accent br"></div>
+        </div>
+        <div class="member-info-box">
+          <h3 data-key="team-name1">Andrew Mitchell KC</h3>
+          <p class="member-role" data-key="team-job1">Advocate and Legal Consultant</p>
+          <p class="member-position" data-key="team-job1_pos">Founding Partner</p>
+          <div class="profile-cta">
+            <a href="team/member1.html" class="cta-btn" data-key="team-cta">View Full Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="team-member-card">
+        <div class="photo-area">
+          <img src="assets/img/gallery/member1.png" alt="Jordana Dray" class="team-member-photo">
+          <div class="corner-accent tl"></div>
+          <div class="corner-accent tr"></div>
+          <div class="corner-accent bl"></div>
+          <div class="corner-accent br"></div>
+        </div>
+        <div class="member-info-box">
+          <h3 data-key="team-name2">Jordana Dray</h3>
+          <p class="member-role" data-key="team-job2">Advocate and Legal Consultant</p>
+          <p class="member-position" data-key="team-job2_pos">Founding Partner</p>
+          <div class="profile-cta">
+            <a href="team/member2.html" class="cta-btn" data-key="team-cta">View Full Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-strip">
+  <div class="container">
+    <h2>Work With Our Team</h2>
+    <p>Reach out for a consultation with our legal experts.</p>
+    <a href="contact.html" class="cta-btn cta-btn-fill" data-key="contact-btn">Get in Touch</a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo-center">
+        <div class="footer-logo"><img src="assets/img/logo/logo.png" class="nac-logo"/></div>
+      </div>
+      <div class="footer-content-wrapper">
+        <div class="footer-info">
+          <p class="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
+          <ul class="footer-contacts">
+            <li data-key="footer-location1">📍 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
+            <li data-key="footer-phone1">📞 Phone: (+971) 4 355 0004</li>
+            <li data-key="footer-email">✉️ Email: <a href="mailto:contact@ DM Legal.com">contact@ DM Legal.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="footer-links-title">Quick Links</h4>
+          <ul>
+            <li><a href="contact.html" data-key="footer-link1">contact</a></li>
+            <li><a href="team.html" data-key="footer-link2">Team</a></li>
+            <li><a href="blog.html" data-key="footer-link3">insights</a></li>
+            <li><a href="services.html" data-key="footer-link4">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2026  DM Legal.</p>
+    </div>
+  </div>
+</footer>
+
+ 
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact —  DM Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt=" DM Legal" /></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" class="active" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero page-hero--contact">
+  <span class="section-label">GET IN TOUCH</span>
+  <div class="gold-divider"></div>
+  <h1 data-key="contact-title">Contact Us</h1>
+  <p class="hero-sub" data-key="contact-msg">Send us your query anytime!</p>
+  <nav class="breadcrumb">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <span>›</span>
+    <span data-key="nav-contact">Contact</span>
+  </nav>
+</section>
+
+<!-- ══ CONTACT MAIN ══ -->
+<section class="section-padding section--white">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Form -->
+      <div>
+        <h2 class="contact-form-head">Send a Message</h2>
+        <p class="contact-form-sub" data-key="contact-text">Blending innovative thinking with exceptional client care is the cornerstone of our practice.</p>
+        <form action="contact_process.php" method="post" id="contactForm" novalidate>
+          <div class="form-group">
+            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Enter Message" data-key="message"></textarea>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input class="form-control" name="name" id="name" type="text" placeholder="Your Name" data-key="name">
+            </div>
+            <div class="form-group">
+              <input class="form-control" name="email" id="email" type="email" placeholder="Email Address" data-key="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <input class="form-control" name="subject" id="subject" type="text" placeholder="Subject" data-key="subject">
+          </div>
+          <div class="form-group form-group--top">
+            <button type="submit" class="cta-btn cta-btn-fill cta-btn--block" data-key="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div>
+        <div class="office-section office-section--spaced">
+          <h4>Ras Al Khaimah Office</h4>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-info-content">
+              <h3>Address</h3>
+              <p data-key="contact-local">516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila lndustrial Free Zone, RAK, UAE</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-content">
+              <h3>Phone</h3>
+              <p data-key="footer-phone1">(+971) 4 355 0004</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-info-content">
+              <h3>Email</h3>
+              <p data-key="footer-email"><a href="mailto:contact@DM Legal.com" class="link-gold">contact@DM Legal.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="office-section office-section--spaced">
+          <h4>Paris Office</h4>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-info-content">
+              <h3>Address</h3>
+              <p data-key="footer-location2">39Bis, Boulevard Exelmans, 75016 Paris</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-content">
+              <h3>Phone</h3>
+              <p data-key="footer-phone2">(+33) 145531996</p>
+            </div>
+          </div>
+        </div>
+        <div class="office-section office-section--spaced">
+          <h4>Turks and Caicos Office</h4>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-info-content">
+              <h3>Address</h3>
+              <p>Office 105, Nethinya, Kumkoy, Mersin 10, Turkey</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-info-content">
+              <h3>Phone</h3>
+              <p>+90 212 51 51 51</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-info-content">
+              <h3>Email</h3>
+              <p><a href="mailto:contact@DM Legal.com" class="link-gold">contact@DM Legal.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="contact-divider">
+
+        <p class="contact-note">We typically respond within 24 business hours. All communications are confidential.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MAP STRIP ══ -->
+<div class="map-strip">
+  <div class="map-crosshair">
+    <div class="map-city">Ras Al Khaimah · <span>UAE</span></div>
+  </div>
+  <p class="map-note">516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila lndustrial Free Zone, RAK, UAE</p>
+</div>
+
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo-center">
+        <div class="footer-logo"><img src="assets/img/logo/logo.png" class="nac-logo"/></div>
+      </div>
+      <div class="footer-content-wrapper">
+        <div class="footer-info">
+          <p class="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
+          <ul class="footer-contacts">
+            <li data-key="footer-location1">📍 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
+            <li data-key="footer-phone1">📞 Phone: (+971) 4 355 0004</li>
+            <li data-key="footer-email">✉️ Email: <a href="mailto:contact@ DM Legal.com">contact@ DM Legal.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="footer-links-title">Quick Links</h4>
+          <ul>
+            <li><a href="contact.html" data-key="footer-link1">Contact</a></li>
+            <li><a href="team.html" data-key="footer-link2">Team</a></li>
+            <li><a href="blog.html" data-key="footer-link3">Insights</a></li>
+            <li><a href="services.html" data-key="footer-link4">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2026  DM Legal.</p>
+    </div>
+  </div>
+</footer>
+
+ 
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const isOpen = item.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+      if (!isOpen) item.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>

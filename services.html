@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services —  DM Legal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt=" DM Legal" /></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" class="active" data-key="nav-services">Services</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <a href="#" onclick="changeLanguage('en')">EN</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('fr')">FR</a>
+            <span class="lang-sep">|</span>
+            <a href="#" onclick="changeLanguage('ar')">AR</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang">
+      <a href="#" onclick="changeLanguage('en')">EN</a>
+      <a href="#" onclick="changeLanguage('fr')">FR</a>
+      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero page-hero--services">
+  <span class="section-label">LEGAL EXPERTISE</span>
+  <div class="gold-divider"></div>
+  <h1 data-key="service-title">Our Services</h1>
+  <nav class="breadcrumb">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <span>›</span>
+    <span data-key="nav-services">Services</span>
+  </nav>
+</section>
+
+<!-- ══ SERVICES GRID ══ -->
+<section class="section-padding section--cream">
+    <div class="container">
+        <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all" data-key="service-filter">All</button>
+        <button class="filter-btn" data-filter="business" data-key="service-filter1">Business</button>
+        <button class="filter-btn" data-filter="property" data-key="service-filter2">Property</button>
+        <button class="filter-btn" data-filter="civil" data-key="service-filter3">Civil</button>
+        <button class="filter-btn" data-filter="specialized" data-key="service-filter4">Specialized</button>
+        </div>
+    </div>
+    <div class="container">
+    <div class="services-grid" id="servicesGrid">
+      <div class="service-card" data-category="business">
+        <div class="service-icon"><i class="fas fa-building"></i></div>
+        <h3 data-key="service1">Business Setup in UAE Free Zones</h3>
+        <p data-key="service1-description">Comprehensive guidance for establishing your business in UAE free zones with expert legal support.</p>
+        <a href="servises/business-uae.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="specialized">
+        <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+        <h3 data-key="service2">Intellectual Property Law</h3>
+        <p data-key="service2-description">Protecting your innovations, brand identity, trademarks and creative works comprehensively.</p>
+        <a href="servises/intellectual-law.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="specialized">
+        <div class="service-icon"><i class="fas fa-balance-scale"></i></div>
+        <h3 data-key="service3">Criminal Law</h3>
+        <p data-key="service3-description">Strong defense representation in criminal proceedings with proven track record.</p>
+        <a href="servises/criminal-law.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="business">
+        <div class="service-icon"><i class="fas fa-plane"></i></div>
+        <h3 data-key="service4">Immigration Law</h3>
+        <p data-key="service4-description">Complete immigration solutions for individuals and businesses operating in the UAE.</p>
+        <a href="servises/legal-Imegration.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="civil">
+        <div class="service-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+        <h3 data-key="service5">Tax Law</h3>
+        <p data-key="service5-description">Strategic tax planning, VAT compliance, and corporate tax services for UAE businesses.</p>
+        <a href="servises/tax-law.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="property">
+        <div class="service-icon"><i class="fas fa-scroll"></i></div>
+        <h3 data-key="service6">Wills & Estate Planning</h3>
+        <p data-key="service6-description">DIFC and ADGM Wills providing secure asset distribution for non-Muslim expatriates.</p>
+        <a href="servises/wills-law.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="civil">
+        <div class="service-icon"><i class="fas fa-gavel"></i></div>
+        <h3 data-key="service7">Arbitration & Dispute Resolution</h3>
+        <p data-key="service7-description">Professional arbitration services for resolving commercial and civil disputes efficiently.</p>
+        <a href="servises/arbitration-resolution.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="civil">
+        <div class="service-icon"><i class="fas fa-users"></i></div>
+        <h3 data-key="service8">Family Law</h3>
+        <p data-key="service8-description">Comprehensive family law services including marriage, divorce, child custody matters.</p>
+        <a href="servises/familly-law.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="business">
+        <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+        <h3 data-key="service9">Corporate Law</h3>
+        <p data-key="service9-description">Expert corporate legal services for company formation, governance, and compliance.</p>
+        <a href="servises/corporate-law.html" class="cta-btn">Learn More →</a>
+      </div>
+      <div class="service-card" data-category="business">
+        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+        <h3 data-key="service10">Commercial Law</h3>
+        <p data-key="service10-description">Comprehensive commercial legal services for contracts, transactions, and business operations.</p>
+        <a href="servises/commercial-law.html" class="cta-btn">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ BOTTOM CTA ══ -->
+<section class="cta-strip">
+  <div class="container">
+    <span class="section-label">CONSULTATION</span>
+    <div class="gold-divider"></div>
+    <h2>Need a Specific Service?</h2>
+    <p>Contact us for a personalized legal consultation.</p>
+    <a href="contact.html" class="cta-btn cta-btn-fill cta-btn-mb">Get Consultation</a>
+    <div class="contact-meta">
+      <span><strong>Phone:</strong> (+971) 4 355 0004</span>
+      <span><strong>Email:</strong> contact@ DM Legal.com</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo-center">
+        <div class="footer-logo"><img src="assets/img/logo/logo.png" class="nac-logo"/></div>
+      </div>
+      <div class="footer-content-wrapper">
+        <div class="footer-info">
+          <p class="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
+          <ul class="footer-contacts">
+            <li data-key="footer-location1">📍 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
+            <li data-key="footer-phone1">📞 Phone: (+971) 4 355 0004</li>
+            <li data-key="footer-email">✉️ Email: <a href="mailto:contact@ DM Legal.com">contact@ DM Legal.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-key="footer-links-title">Quick Links</h4>
+          <ul>
+            <li><a href="contact.html" data-key="footer-link1">contact</a></li>
+            <li><a href="team.html" data-key="footer-link2">Team</a></li>
+            <li><a href="blog.html" data-key="footer-link3">insights</a></li>
+            <li><a href="services.html" data-key="footer-link4">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p data-key="footer-copyright">All rights reserved &copy;2026  DM Legal.</p>
+    </div>
+  </div>
+</footer>
+
+ 
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.service-card').forEach(c => {
+        c.style.display = (f === 'all' || c.dataset.category === f) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+</body>
+</html>
