@@ -365,6 +365,12 @@ p { color: var(--mid); line-height: 1.8; }
 }
 .footer-contacts li:last-child { border: none; }
 .footer-contacts a { color: var(--gold); }
+.footer-contacts i {
+  color: #FAF0E6;
+  margin-right: 8px;
+  width: 16px;
+  text-align: center;
+}
 .footer-content-wrapper {
   display: flex;
   justify-content: space-between;
