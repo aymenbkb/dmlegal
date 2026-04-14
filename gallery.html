@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — DM Legal</title>
+  <meta name="description" content="Photo gallery of DM Legal — a global law firm.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/dm-style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt="DM Legal" /></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" data-key="nav-home">Home</a></li>
+          <li><a href="team.html" data-key="nav-team">Team</a></li>
+          <li><a href="services.html" data-key="nav-services">Services</a></li>
+          <li><a href="offices.html" data-key="nav-offices">Offices</a></li>
+          <li><a href="gallery.html" class="active" data-key="nav-gallery">Gallery</a></li>
+          <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
+          <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
+          <li class="lang-switcher">
+            <div class="lang-slider">
+              <div class="lang-slider-track">
+                <a href="#" onclick="changeLanguage('en')" class="lang-option active" data-lang="en">EN</a>
+                <a href="#" onclick="changeLanguage('fr')" class="lang-option" data-lang="fr">FR</a>
+                <a href="#" onclick="changeLanguage('ar')" class="lang-option" data-lang="ar">AR</a>
+              </div>
+              <div class="lang-slider-indicator"></div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html" data-key="nav-home">Home</a>
+    <a href="team.html" data-key="nav-team">Team</a>
+    <a href="services.html" data-key="nav-services">Services</a>
+    <a href="offices.html" data-key="nav-offices">Offices</a>
+    <a href="gallery.html" data-key="nav-gallery">Gallery</a>
+    <a href="blog.html" data-key="nav-insight">Insight</a>
+    <a href="contact.html" data-key="nav-contact">Contact</a>
+    <div class="mobile-lang lang-slider">
+      <div class="lang-slider-track">
+        <a href="#" onclick="changeLanguage('en')" class="lang-option active" data-lang="en">EN</a>
+        <a href="#" onclick="changeLanguage('fr')" class="lang-option" data-lang="fr">FR</a>
+        <a href="#" onclick="changeLanguage('ar')" class="lang-option" data-lang="ar">AR</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero page-hero--blog">
+  <span class="section-label">OUR WORLD</span>
+  <div class="gold-divider"></div>
+  <h1>Gallery</h1>
+  <nav class="breadcrumb">
+    <a href="index.html">Home</a>
+    <span>›</span>
+    <span>Gallery</span>
+  </nav>
+</section>
+
+<!-- ══ GALLERY ══ -->
+<section class="section-padding section--cream">
+  <div class="container">
+    <div class="text-center" data-aos="fade">
+      <span class="section-label">PHOTOS</span>
+      <div class="gold-divider"></div>
+      <h2 class="section-intro-heading">A Glimpse of DM Legal</h2>
+      <p class="section-intro-text">From our offices across three continents to the people behind the firm.</p>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="0" onclick="openLightbox(0)">
+        <img src="assets/img/gallery/member1-2.png" alt="DM Legal — photo 1">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="60" onclick="openLightbox(1)">
+        <img src="assets/img/gallery/about4.png" alt="DM Legal — photo 2">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="120" onclick="openLightbox(2)">
+        <img src="assets/img/gallery/about5.png" alt="DM Legal — photo 3">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="0" onclick="openLightbox(3)">
+        <img src="assets/img/gallery/member2-2.jpg" alt="DM Legal — photo 4">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="60" onclick="openLightbox(4)">
+        <img src="assets/img/gallery/about1.png" alt="DM Legal — photo 5">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="120" onclick="openLightbox(5)">
+        <img src="assets/img/gallery/about8.jpeg" alt="DM Legal — photo 6">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="0" onclick="openLightbox(6)">
+        <img src="assets/img/gallery/member1-3.png" alt="DM Legal — photo 7">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="60" onclick="openLightbox(7)">
+        <img src="assets/img/gallery/member2-1.png" alt="DM Legal — photo 8">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+      <div class="gallery-item" data-aos="fade" data-aos-delay="120" onclick="openLightbox(8)">
+        <img src="assets/img/gallery/about10.jpeg" alt="DM Legal Paris Office">
+        <div class="gallery-item-overlay"><i class="fas fa-expand"></i></div>
+      </div>
+
+    </div>
+
+    <p class="gallery-note">More photos coming soon. <a href="contact.html" class="link-gold">Contact us</a> to learn more.</p>
+  </div>
+</section>
+
+<!-- ══ LIGHTBOX ══ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">&times;</button>
+  <button class="lightbox-nav lightbox-prev" onclick="shiftLightbox(-1)" aria-label="Previous">&#8249;</button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" onclick="shiftLightbox(1)" aria-label="Next">&#8250;</button>
+</div>
+
+<!-- ══ CTA STRIP ══ -->
+<section class="cta-strip">
+  <div class="container" data-aos="fade">
+    <span class="section-label">GET IN TOUCH</span>
+    <div class="gold-divider"></div>
+    <h2>Ready to Work With Us?</h2>
+    <p>A global firm at your service.</p>
+    <a href="contact.html" class="cta-btn cta-btn-fill">Contact Us Today</a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo-center">
+        <div class="footer-logo"><img src="assets/img/logo/logo.png" class="nac-logo"/></div>
+      </div>
+      <div class="footer-content-wrapper">
+        <div class="footer-info">
+          <p class="footer-tagline">A global law firm with offices in Ras Al Khaimah (UAE), Paris, and Turks & Caicos Islands.</p>
+          <ul class="footer-contacts">
+            <li><i class="bi bi-geo-alt"></i> 516W127A, Shed No016 - Al Hulaila FZ, RAK, UAE</li>
+            <li><i class="bi bi-telephone"></i> Phone: (+971) 4 355 0004</li>
+            <li><i class="bi bi-envelope"></i> Email: <a href="mailto:contact@dmlegal.com">contact@dmlegal.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="blog.html">Insights</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>All rights reserved &copy;2026 DM Legal.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.getElementById('mobileNav').classList.toggle('open');
+  });
+  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
+
+  // Lightbox
+  const images = Array.from(document.querySelectorAll('.gallery-item img')).map(img => img.src);
+  let currentIndex = 0;
+
+  function openLightbox(index) {
+    currentIndex = index;
+    document.getElementById('lightboxImg').src = images[index];
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function shiftLightbox(dir) {
+    currentIndex = (currentIndex + dir + images.length) % images.length;
+    document.getElementById('lightboxImg').src = images[currentIndex];
+  }
+
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) closeLightbox();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (!document.getElementById('lightbox').classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') shiftLightbox(-1);
+    if (e.key === 'ArrowRight') shiftLightbox(1);
+  });
+</script>
+</body>
+</html>
