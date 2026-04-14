@@ -67,7 +67,7 @@ const translations = {
         "service5-item5": "Tax Disputes and Litigation: Representing clients in disputes with tax authorities and resolving complex tax issues.",
         "service5-item6": "Financial Management: Advising on accounting, financial reporting, and structuring tax-efficient business operations.",
         "service5-item7": "UAE Corporate Tax: Assisting individuals and companies in apprehending the implementation of the UAE Corporate Tax and minimise the risk exposure of our clients in UAE and abroad.",
-        "service5-content": "Our team of experts includes correspondents in France, the UK, and Israel, providing specialized guidance on bilateral treaties, cross-border assets transfers, relocations, and compliance.",
+        "service5-content": "Our team of experts  include correspondents in France, the UK, and Israel, providing specialized guidance on bilateral treaties, cross-border assets transfers, relocations, and compliance.",
         "service6": "Wills & Estate Planning",
             "service6-description": "DIFC and ADGM Wills providing secure asset distribution for non-Muslim expatriates.",
             "service6-key": "Key Areas of Wills Include:",
@@ -90,7 +90,7 @@ const translations = {
             "service7-item3": "Civil and Commercial Disputes: Expertise in resolving civil and commercial disputes through arbitration.",
             "service7-item4": "Ras Al Khaimah International Arbitration Centre (DIAC): Extensive experience disputing claims at DIAC.",
             "service7-item5": "Other Arbitration Centres: Proficient in handling cases at various arbitration centres within the UAE.",
-            "service7-content": "Our team specializes in arbitration and litigation in both within and beyond the UAE. We bring extensive expertise in representing clients in arbitration proceedings, including property disputes, civil matters, and commercial claims. Our proven track record includes successful cases at leading institutions such as the Ras Al Khaimah International Arbitration Centre (DIAC) and other recognized arbitration centers. Whether drafting arbitration agreements or representing you in complex proceedings, we are dedicated to achieving favorable outcomes with efficiency and professionalism.",
+            "service7-content": "Our team specializes in arbitration and litigation in both within and beyond the UAE. We bring extensive expertise in representing clients in arbitration proceedings, including property disputes, civil matters, and commercial claims. Our proven track record  include successful cases at leading institutions such as the Ras Al Khaimah International Arbitration Centre (DIAC) and other recognized arbitration centers. Whether drafting arbitration agreements or representing you in complex proceedings, we are dedicated to achieving favorable outcomes with efficiency and professionalism.",
        
         "service8": "Family Law",
         "service8-description": "Family Law governs legal matters related to family , including but not limited to marriage, divorce, child custody, alimony, and inheritance. <br> The UAE legal framework is primarily influenced by both civil law and Sharia principles, with distinct provisions for Muslims and non-Muslims.",
