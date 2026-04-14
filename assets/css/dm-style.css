@@ -923,39 +923,6 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 .geo-box:nth-child(3) { background: var(--blush-mid); transform: scale(0.9); }
 .geo-box:nth-child(4) { background: var(--cream-2); }
 
-/* ── CORNERS LAYOUT: images pinned to corners, text centered ── */
-.geo-pattern--corners {
-  position: relative;
-  display: block;
-  min-height: 540px;
-}
-.geo-pattern--corners .geo-box {
-  position: absolute;
-  width: 190px;
-  height: 190px;
-  transform: none !important;
-}
-.geo-pattern--corners .geo-box:nth-child(1) { top: 0;    left: 0; }
-.geo-pattern--corners .geo-box:nth-child(2) { top: 0;    right: 0; }
-.geo-pattern--corners .geo-box:nth-child(3) { bottom: 0; left: 0; }
-.geo-pattern--corners .geo-box:nth-child(4) { bottom: 0; right: 0; }
-.geo-center-label {
-position: absolute;
-    top: 50%;
-    left: 50%;
-    display: flex;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 55%;
-    text-align: center;
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-
 .geo-box {
   overflow: hidden;
   display: flex;
@@ -1212,7 +1179,7 @@ position: absolute;
   grid-template-rows: 1fr 1fr;
   gap: 16px;
   height: 100%;
-  min-height: 430px;
+  min-height: 280px;
 }
 .geo-box {
   border: 2px solid var(--gold-border);
