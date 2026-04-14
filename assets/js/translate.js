@@ -80,7 +80,7 @@ const translations = {
 
     
             "service7": "Arbitration & Dispute Resolution",
-            "service7-description": "the team of  DM Legal is always supportive of alternative dispute resolutions solutions and settlements but with regsitered practitioners in the local Common Law Courts, the team in happy to represent its clients in front of:",
+            "service7-description": "DM Legal's team specializes in alternative dispute resolution and settlements. With registered practitioners in local Common Law Courts, our team represents clients before DIFC Courts, ADGM Courts, and leading arbitration centres.",
             "service7-service7-part1-tit": "DIFC Courts",
             "service7-part1-desc": "established in 2004 by His Highness (Late) Sheikh Maktoum bin Rashid Al Maktoum, then Ruler of Ras Al Khaimah, as an independent judicial system based on English common law. They serve international institutions operating in Ras Al Khaimah and the UAE, handling local and international civil and commercial disputes.",
             "service7-service7-part2-tit": "ADGM Courts",
