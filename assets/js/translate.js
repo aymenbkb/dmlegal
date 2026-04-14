@@ -539,10 +539,56 @@ const translations = {
         "web-visit": "زيارة الموقع"
     },
 };
+function initLanguageSliders() {
+    document.querySelectorAll('.lang-slider').forEach(slider => {
+        const options = slider.querySelectorAll('.lang-option');
+        const indicator = slider.querySelector('.lang-slider-indicator');
+
+        options.forEach(option => {
+            option.addEventListener('click', (e) => {
+                e.preventDefault();
+                options.forEach(opt => opt.classList.remove('active'));
+                option.classList.add('active');
+                if (indicator && !slider.classList.contains('mobile-lang')) {
+                    indicator.style.transform = `translateX(${option.offsetLeft - 2}px)`;
+                    if (option.offsetWidth > 36) {
+                        indicator.style.width = `${option.offsetWidth - 4}px`;
+                    }
+                }
+                if (slider.classList.contains('mobile-lang')) {
+                    options.forEach(opt => {
+                        opt.style.background = opt.classList.contains('active') ? 'var(--gold)' : 'var(--blush)';
+                        opt.style.color = opt.classList.contains('active') ? 'var(--white)' : 'var(--charcoal)';
+                    });
+                }
+            });
+        });
+    });
+}
+
+function syncSliderToLang(lang) {
+    document.querySelectorAll('.lang-option').forEach(opt => {
+        if (opt.dataset.lang === lang) {
+            opt.classList.add('active');
+            const slider = opt.closest('.lang-slider');
+            if (slider) {
+                const indicator = slider.querySelector('.lang-slider-indicator');
+                if (indicator && !slider.classList.contains('mobile-lang')) {
+                    indicator.style.transform = `translateX(${opt.offsetLeft - 2}px)`;
+                }
+            }
+        } else {
+            opt.classList.remove('active');
+        }
+    });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+    initLanguageSliders();
     // Load saved language from localStorage or default to English
     const savedLang = localStorage.getItem("language") || "en";
     changeLanguage(savedLang);
+    syncSliderToLang(savedLang);
 });
 
 function changeLanguage(lang) {
@@ -560,6 +606,8 @@ function changeLanguage(lang) {
     document.querySelectorAll("[data-key]").forEach(element => {
         translateElement(element, lang);
     });
+
+    syncSliderToLang(lang);
 }
 
 function translateElement(element, lang) {

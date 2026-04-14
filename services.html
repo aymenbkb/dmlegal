@@ -25,11 +25,14 @@
           <li><a href="blog.html" data-key="nav-insight">Insight</a></li>
           <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
           <li class="lang-switcher">
-            <a href="#" onclick="changeLanguage('en')">EN</a>
-            <span class="lang-sep">|</span>
-            <a href="#" onclick="changeLanguage('fr')">FR</a>
-            <span class="lang-sep">|</span>
-            <a href="#" onclick="changeLanguage('ar')">AR</a>
+            <div class="lang-slider">
+              <div class="lang-slider-track">
+                <a href="#" onclick="changeLanguage('en')" class="lang-option active" data-lang="en">EN</a>
+                <a href="#" onclick="changeLanguage('fr')" class="lang-option" data-lang="fr">FR</a>
+                <a href="#" onclick="changeLanguage('ar')" class="lang-option" data-lang="ar">AR</a>
+              </div>
+              <div class="lang-slider-indicator"></div>
+            </div>
           </li>
         </ul>
       </nav>
@@ -42,10 +45,12 @@
     <a href="services.html" data-key="nav-services">Services</a>
     <a href="blog.html" data-key="nav-insight">Insight</a>
     <a href="contact.html" data-key="nav-contact">Contact</a>
-    <div class="mobile-lang">
-      <a href="#" onclick="changeLanguage('en')">EN</a>
-      <a href="#" onclick="changeLanguage('fr')">FR</a>
-      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    <div class="mobile-lang lang-slider">
+      <div class="lang-slider-track">
+        <a href="#" onclick="changeLanguage('en')" class="lang-option active" data-lang="en">EN</a>
+        <a href="#" onclick="changeLanguage('fr')" class="lang-option" data-lang="fr">FR</a>
+        <a href="#" onclick="changeLanguage('ar')" class="lang-option" data-lang="ar">AR</a>
+      </div>
     </div>
   </nav>
 </header>
@@ -190,6 +195,7 @@
 </footer>
 
 
+<script src="assets/js/translate.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   const header = document.getElementById('siteHeader');

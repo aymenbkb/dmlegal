@@ -324,54 +324,8 @@
     });
   });
 
-  // Language Slider
-  function initLanguageSliders() {
-    document.querySelectorAll('.lang-slider').forEach(slider => {
-      const options = slider.querySelectorAll('.lang-option');
-      const indicator = slider.querySelector('.lang-slider-indicator');
-      const track = slider.querySelector('.lang-slider-track');
-      
-      options.forEach((option, index) => {
-        option.addEventListener('click', (e) => {
-          e.preventDefault();
-          
-          // Remove active class from all options
-          options.forEach(opt => opt.classList.remove('active'));
-          // Add active class to clicked option
-          option.classList.add('active');
-          
-          // Move indicator to clicked option
-          if (indicator && !slider.classList.contains('mobile-lang')) {
-            const optionWidth = option.offsetWidth;
-            const optionLeft = option.offsetLeft;
-            indicator.style.transform = `translateX(${optionLeft - 2}px)`;
-            
-            // Adjust indicator width if needed
-            if (optionWidth > 36) {
-              indicator.style.width = `${optionWidth - 4}px`;
-            }
-          }
-          
-          // Update mobile slider active state
-          if (slider.classList.contains('mobile-lang')) {
-            options.forEach(opt => {
-              if (opt.classList.contains('active')) {
-                opt.style.background = 'var(--gold)';
-                opt.style.color = 'var(--white)';
-              } else {
-                opt.style.background = 'var(--blush)';
-                opt.style.color = 'var(--charcoal)';
-              }
-            });
-          }
-        });
-      });
-    });
-  }
-  
-  // Initialize language sliders
-  initLanguageSliders();
 </script>
+<script src="assets/js/translate.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
