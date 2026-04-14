@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/dm-style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -68,7 +69,7 @@
     <div class="contact-layout">
 
       <!-- Form -->
-      <div>
+      <div data-aos="fade">
         <h2 class="contact-form-head">Send a Message</h2>
         <p class="contact-form-sub" data-key="contact-text">Blending innovative thinking with exceptional client care is the cornerstone of our practice.</p>
         <form action="contact_process.php" method="post" id="contactForm" novalidate>
@@ -93,7 +94,7 @@
       </div>
 
       <!-- Info -->
-      <div>
+      <div data-aos="fade" data-aos-delay="100">
         <div class="office-section office-section--spaced">
           <h4>Ras Al Khaimah Office</h4>
           <div class="contact-info-item">
@@ -212,8 +213,10 @@
   </div>
 </footer>
 
- 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
   const header = document.getElementById('siteHeader');
   window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
   document.getElementById('navToggle').addEventListener('click', function() {

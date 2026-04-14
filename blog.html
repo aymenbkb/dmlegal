@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/dm-style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -64,7 +65,7 @@
 <!-- ══ FEATURED POST ══ -->
 <section class="section-padding section--cream">
   <div class="container">
-    <div class="featured-card">
+    <div class="featured-card" data-aos="fade">
       <div class="featured-content">
         <span class="category-tag">Featured</span>
         <h2 data-key="news-text1">The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues</h2>
@@ -93,7 +94,7 @@
 <!-- ══ SANITY CMS POSTS (dynamic) ══ -->
 <section class="section-padding section--white">
   <div class="container">
-    <div class="text-center section-header">
+    <div class="text-center section-header" data-aos="fade">
       <span class="section-label">ALL ARTICLES</span>
       <div class="gold-divider"></div>
       <h2>Browse Insights</h2>
@@ -101,37 +102,37 @@
     <!-- Dynamic posts from Sanity CMS -->
     <div class="posts-grid" id="sanityPosts">
       <!-- Static fallback posts -->
-      <div class="blog-card">
+      <div class="blog-card" data-aos="fade" data-aos-delay="0">
         <p class="blog-date">April 4, 2023</p>
         <h3>Inheritance Between Spouses of Different Faiths: Legal Implications in the UAE</h3>
         <p>Understanding the complex legal framework governing inheritance matters between spouses of different religious backgrounds.</p>
         <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
       </div>
-      <div class="blog-card">
+      <div class="blog-card" data-aos="fade" data-aos-delay="100">
         <p class="blog-date">March 10, 2023</p>
         <h3>Client Update — Extraterritorial Reach of U.S. Banking Laws to UAE Banks</h3>
         <p>Key considerations for UAE banking institutions regarding compliance with U.S. federal banking regulations.</p>
         <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
       </div>
-      <div class="blog-card">
+      <div class="blog-card" data-aos="fade" data-aos-delay="200">
         <p class="blog-date">February 28, 2023</p>
         <h3>Digital Transformation in UAE Legal Services: Trends and Opportunities</h3>
         <p>Exploring how technology is reshaping the legal landscape in the UAE and creating new opportunities for service providers.</p>
         <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
       </div>
-      <div class="blog-card">
+      <div class="blog-card" data-aos="fade" data-aos-delay="0">
         <p class="blog-date">January 20, 2023</p>
         <h3>Real Estate Investment in Ras Al Khaimah: Legal Framework Update</h3>
         <p>Latest updates to Ras Al Khaimah's real estate laws and regulations affecting both local and international property investors.</p>
         <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
       </div>
-      <div class="blog-card">
+      <div class="blog-card" data-aos="fade" data-aos-delay="100">
         <p class="blog-date">December 10, 2022</p>
         <h3>International Arbitration in the UAE: A Comprehensive Guide</h3>
         <p>Understanding the arbitration landscape in the UAE, including DIFC and ADGM arbitration centers and their advantages.</p>
         <a href="single-blog.html" class="blog-link" data-key="news-btn">Read More →</a>
       </div>
-      <div class="blog-card">
+      <div class="blog-card" data-aos="fade" data-aos-delay="200">
         <p class="blog-date">November 5, 2022</p>
         <h3>Employment Law Reforms: What Businesses Need to Know</h3>
         <p>Recent changes to UAE employment legislation and their implications for businesses operating in the Emirates.</p>
@@ -185,8 +186,10 @@
   </div>
 </footer>
 
- 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
   const header = document.getElementById('siteHeader');
   window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
   document.getElementById('navToggle').addEventListener('click', function() {

@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/dm-style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -64,7 +65,7 @@
 <!-- ══ SERVICES GRID ══ -->
 <section class="section-padding section--cream">
     <div class="container">
-        <div class="filter-buttons">
+        <div class="filter-buttons" data-aos="fade">
         <button class="filter-btn active" data-filter="all" data-key="service-filter">All</button>
         <button class="filter-btn" data-filter="business" data-key="service-filter1">Business</button>
         <button class="filter-btn" data-filter="property" data-key="service-filter2">Property</button>
@@ -74,61 +75,61 @@
     </div>
     <div class="container">
     <div class="services-grid" id="servicesGrid">
-      <div class="service-card" data-category="business">
+      <div class="service-card" data-category="business" data-aos="fade" data-aos-delay="0">
         <div class="service-icon"><i class="fas fa-building"></i></div>
         <h3 data-key="service1">Business Setup in UAE Free Zones</h3>
         <p data-key="service1-description">Comprehensive guidance for establishing your business in UAE free zones with expert legal support.</p>
         <a href="servises/business-uae.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="specialized">
+      <div class="service-card" data-category="specialized" data-aos="fade" data-aos-delay="100">
         <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
         <h3 data-key="service2">Intellectual Property Law</h3>
         <p data-key="service2-description">Protecting your innovations, brand identity, trademarks and creative works comprehensively.</p>
         <a href="servises/intellectual-law.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="specialized">
+      <div class="service-card" data-category="specialized" data-aos="fade" data-aos-delay="200">
         <div class="service-icon"><i class="fas fa-balance-scale"></i></div>
         <h3 data-key="service3">Criminal Law</h3>
         <p data-key="service3-description">Strong defense representation in criminal proceedings with proven track record.</p>
         <a href="servises/criminal-law.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="business">
+      <div class="service-card" data-category="business" data-aos="fade" data-aos-delay="0">
         <div class="service-icon"><i class="fas fa-plane"></i></div>
         <h3 data-key="service4">Immigration Law</h3>
         <p data-key="service4-description">Complete immigration solutions for individuals and businesses operating in the UAE.</p>
         <a href="servises/legal-Imegration.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="civil">
+      <div class="service-card" data-category="civil" data-aos="fade" data-aos-delay="100">
         <div class="service-icon"><i class="fas fa-file-invoice-dollar"></i></div>
         <h3 data-key="service5">Tax Law</h3>
         <p data-key="service5-description">Strategic tax planning, VAT compliance, and corporate tax services for UAE businesses.</p>
         <a href="servises/tax-law.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="property">
+      <div class="service-card" data-category="property" data-aos="fade" data-aos-delay="200">
         <div class="service-icon"><i class="fas fa-scroll"></i></div>
         <h3 data-key="service6">Wills & Estate Planning</h3>
         <p data-key="service6-description">DIFC and ADGM Wills providing secure asset distribution for non-Muslim expatriates.</p>
         <a href="servises/wills-law.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="civil">
+      <div class="service-card" data-category="civil" data-aos="fade" data-aos-delay="0">
         <div class="service-icon"><i class="fas fa-gavel"></i></div>
         <h3 data-key="service7">Arbitration & Dispute Resolution</h3>
         <p data-key="service7-description">Professional arbitration services for resolving commercial and civil disputes efficiently.</p>
         <a href="servises/arbitration-resolution.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="civil">
+      <div class="service-card" data-category="civil" data-aos="fade" data-aos-delay="100">
         <div class="service-icon"><i class="fas fa-users"></i></div>
         <h3 data-key="service8">Family Law</h3>
         <p data-key="service8-description">Comprehensive family law services including marriage, divorce, child custody matters.</p>
         <a href="servises/familly-law.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="business">
+      <div class="service-card" data-category="business" data-aos="fade" data-aos-delay="200">
         <div class="service-icon"><i class="fas fa-briefcase"></i></div>
         <h3 data-key="service9">Corporate Law</h3>
         <p data-key="service9-description">Expert corporate legal services for company formation, governance, and compliance.</p>
         <a href="servises/corporate-law.html" class="cta-btn">Learn More →</a>
       </div>
-      <div class="service-card" data-category="business">
+      <div class="service-card" data-category="business" data-aos="fade" data-aos-delay="0">
         <div class="service-icon"><i class="fas fa-chart-line"></i></div>
         <h3 data-key="service10">Commercial Law</h3>
         <p data-key="service10-description">Comprehensive commercial legal services for contracts, transactions, and business operations.</p>
@@ -140,7 +141,7 @@
 
 <!-- ══ BOTTOM CTA ══ -->
 <section class="cta-strip">
-  <div class="container">
+  <div class="container" data-aos="fade">
     <span class="section-label">CONSULTATION</span>
     <div class="gold-divider"></div>
     <h2>Need a Specific Service?</h2>
@@ -188,7 +189,8 @@
   </div>
 </footer>
 
- 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   const header = document.getElementById('siteHeader');
   window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
@@ -196,6 +198,8 @@
     this.classList.toggle('open');
     document.getElementById('mobileNav').classList.toggle('open');
   });
+  // AOS - re-init after filter to animate newly shown cards
+  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));

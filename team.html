@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/dm-style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -67,7 +68,7 @@
     <div class="team-grid-2 team-grid-centered">
 
       <!-- Member 1 -->
-      <div class="team-member-card">
+      <div class="team-member-card" data-aos="fade" data-aos-delay="0">
         <div class="photo-area">
           <img src="assets/img/gallery/member2.png" alt="Andrew Mitchell KC" class="team-member-photo">
           <div class="corner-accent tl"></div>
@@ -86,7 +87,7 @@
       </div>
 
       <!-- Member 2 -->
-      <div class="team-member-card">
+      <div class="team-member-card" data-aos="fade" data-aos-delay="150">
         <div class="photo-area">
           <img src="assets/img/gallery/member1.png" alt="Jordana Dray" class="team-member-photo">
           <div class="corner-accent tl"></div>
@@ -109,7 +110,7 @@
 
 <!-- ══ CTA ══ -->
 <section class="cta-strip">
-  <div class="container">
+  <div class="container" data-aos="fade">
     <h2>Work With Our Team</h2>
     <p>Reach out for a consultation with our legal experts.</p>
     <a href="contact.html" class="cta-btn cta-btn-fill" data-key="contact-btn">Get in Touch</a>
@@ -159,6 +160,10 @@
     this.classList.toggle('open');
     document.getElementById('mobileNav').classList.toggle('open');
   });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
 </script>
 </body>
 </html>

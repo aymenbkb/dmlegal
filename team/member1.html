@@ -56,12 +56,16 @@
       </nav>
       <div class="profile-layout">
         <div class="profile-photo-col">
-          <div class="profile-photo">
-            <img src="../assets/img/gallery/member2.png" alt="Andrew Mitchell KC" class="team-member-photo">
+          <div class="profile-photo" id="mainPhotoWrap">
+            <img src="../assets/img/gallery/member2.png" alt="Andrew Mitchell KC" class="team-member-photo" id="mainPhoto">
             <div class="corner-accent tl"></div>
             <div class="corner-accent tr"></div>
             <div class="corner-accent bl"></div>
             <div class="corner-accent br"></div>
+          </div>
+          <div class="photo-gallery">
+            <img src="../assets/img/gallery/member2.png"   alt="Andrew Mitchell KC — photo 1" class="photo-gallery-thumb active" onclick="switchPhoto(this,'../assets/img/gallery/member2.png')">
+            <img src="../assets/img/gallery/member2-1.png" alt="Andrew Mitchell KC — photo 2" class="photo-gallery-thumb"        onclick="switchPhoto(this,'../assets/img/gallery/member2-1.png')">
           </div>
           <div class="badge-list"><span class="badge">King's Counsel</span> <span class="badge">1976 Call</span> <span class="badge">1998 Silk</span> <span class="badge">Financial Crime</span></div>
           <div class="profile-cta">
@@ -149,6 +153,12 @@
     this.classList.toggle('open');
     document.getElementById('mobileNav').classList.toggle('open');
   });
+
+  function switchPhoto(thumb, src) {
+    document.getElementById('mainPhoto').src = src;
+    document.querySelectorAll('.photo-gallery-thumb').forEach(t => t.classList.remove('active'));
+    thumb.classList.add('active');
+  }
 </script>
 </body>
 </html>

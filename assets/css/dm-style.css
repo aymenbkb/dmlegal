@@ -51,6 +51,7 @@ img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; }
 ul { list-style: none; padding: 0; margin: 0; }
 
+
 /* ── Typography ── */
 h1, h2, h3, h4, h5 {
   font-family: var(--font-display);
@@ -725,6 +726,23 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 .delay-3 { animation-delay: 0.45s; opacity: 0; }
 .delay-4 { animation-delay: 0.6s;  opacity: 0; }
 
+/* ── AOS Animation Keyframes ── */
+@keyframes aos-fade-up {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+    visibility: hidden;
+  }
+  99% {
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+
 /* ── GRIDS ── */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .team-grid-2   { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; }
@@ -1311,6 +1329,22 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 .back-to-team:hover { gap: 14px; }
 .breadcrumb--left { justify-content: flex-start; margin-bottom: 32px; }
 .profile-cta { margin-top: 20px; }
+
+/* ── Profile Photo Gallery Thumbnails ── */
+.photo-gallery { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+.photo-gallery-thumb {
+  width: 72px;
+  height: 96px;
+  object-fit: cover;
+  object-position: top center;
+  cursor: pointer;
+  opacity: 0.55;
+  border: 2px solid transparent;
+  transition: opacity var(--transition), border-color var(--transition);
+}
+.photo-gallery-thumb:hover { opacity: 0.85; border-color: rgba(196,150,58,0.5); }
+.photo-gallery-thumb.active { opacity: 1; border-color: rgba(196,150,58,0.9); }
+
 .expertise-section { margin-top: 40px; }
 .expertise-section .badge-list { margin-top: 12px; }
 .linkedin-link { display: flex; align-items: center; gap: 14px; color: var(--charcoal); }

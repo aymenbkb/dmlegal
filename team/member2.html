@@ -56,12 +56,17 @@
       </nav>
       <div class="profile-layout">
         <div class="profile-photo-col">
-            <div class="profile-photo">
-            <img src="../assets/img/gallery/member1.png" alt="Jordana Drey" class="team-member-photo">
+            <div class="profile-photo" id="mainPhotoWrap">
+            <img src="../assets/img/gallery/member1.png" alt="Jordana Dray" class="team-member-photo" id="mainPhoto">
             <div class="corner-accent tl"></div>
             <div class="corner-accent tr"></div>
             <div class="corner-accent bl"></div>
             <div class="corner-accent br"></div>
+          </div>
+          <div class="photo-gallery">
+            <img src="../assets/img/gallery/member1.png"   alt="Jordana Dray — photo 1" class="photo-gallery-thumb active" onclick="switchPhoto(this,'../assets/img/gallery/member1.png')">
+            <img src="../assets/img/gallery/member1-2.png" alt="Jordana Dray — photo 2" class="photo-gallery-thumb"        onclick="switchPhoto(this,'../assets/img/gallery/member1-2.png')">
+            <img src="../assets/img/gallery/member1-3.png" alt="Jordana Dray — photo 3" class="photo-gallery-thumb"        onclick="switchPhoto(this,'../assets/img/gallery/member1-3.png')">
           </div>
           <div class="badge-list"><span class="badge">Quebec Bar</span> <span class="badge">20+ Years</span> <span class="badge">Corporate Law</span> <span class="badge">Investment Immigration</span></div>
           <div class="badge-list"><span class="badge">Paris Bar</span> <span class="badge">DIFC Registered</span> <span class="badge">ADGM Registered</span> <span class="badge">ICC Listed Counsel</span></div>
@@ -158,6 +163,12 @@
     this.classList.toggle('open');
     document.getElementById('mobileNav').classList.toggle('open');
   });
+
+  function switchPhoto(thumb, src) {
+    document.getElementById('mainPhoto').src = src;
+    document.querySelectorAll('.photo-gallery-thumb').forEach(t => t.classList.remove('active'));
+    thumb.classList.add('active');
+  }
 </script>
 </body>
 </html>
