@@ -319,6 +319,8 @@ p { color: var(--mid); line-height: 1.8; }
 .page-hero--corporate   { background-image: url('../img/service/servicess6.png'); }
 .page-hero--commercial  { background-image: url('../img/service/servicess2.png'); }
 .page-hero--company     { background-image: url('../img/service/servicess1.png'); }
+.page-hero--gallery     { background-image: url('../img/hero/about10.webp'); }
+.page-hero--offices     { background-image: url('../img/hero/about11.png'); }
 
 .breadcrumb {
   display: flex;
@@ -1563,6 +1565,8 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 
 .lang-slider-track {
   display: flex;
+  position: relative;
+  z-index: 2;
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
 }
@@ -1588,7 +1592,7 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 }
 
 .lang-option.active {
-  color: var(--gold);
+  color: var(--cream);
   font-weight: 700;
 }
 
@@ -1626,6 +1630,12 @@ textarea.form-control { resize: vertical; min-height: 120px; }
   border: 1px solid var(--gold-border);
   border-radius: 16px;
   margin-bottom: 4px;
+}
+
+.mobile-lang.lang-slider .lang-option.active {
+  background: var(--gold);
+  color: var(--cream);
+  border-color: var(--gold);
 }
 
 .mobile-lang.lang-slider .lang-slider-indicator {
