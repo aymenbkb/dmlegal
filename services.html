@@ -206,7 +206,7 @@
       btn.classList.add('active');
       const f = btn.dataset.filter;
       document.querySelectorAll('.service-card').forEach(c => {
-        c.style.display = (f === 'all' || c.dataset.category === f) ? 'block' : 'none';
+        c.style.display = (f === 'all' || c.dataset.category === f) ? 'flex' : 'none';
       });
     });
   });
