@@ -1828,7 +1828,7 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 .section-intro-text {
   max-width: 680px;
   margin: 0 auto;
-  color: #555;
+  color: var(--charcoal);
   line-height: 1.8;
 }
 
