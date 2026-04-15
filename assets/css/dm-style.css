@@ -750,7 +750,7 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 .team-grid-2   { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; }
 .team-grid-1   { display: grid; grid-template-columns: 1fr; max-width: 600px; margin: 0 auto; }
 .posts-grid    { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-.two-col       { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.two-col       { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
 
 /* ── PAGINATION ── */
 .pagination-wrap {
