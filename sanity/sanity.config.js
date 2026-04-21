@@ -1,16 +1,22 @@
-import {defineConfig} from 'sanity'
-import {structureTool} from 'sanity/structure'
-import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemaTypes'
+import { defineConfig } from 'sanity'
+import { deskTool } from 'sanity/desk'
+import { visionTool } from '@sanity/vision'
+import { schemaTypes } from './schemas/index'
+import { deskStructure } from './desk/deskStructure'
 
 export default defineConfig({
-  name: 'default',
-  title: ' DM Legal',
+  name: 'dmlegal',
+  title: 'DM Legal — Blog Studio',
 
-  projectId: '0g8ouwa5',
+  projectId: '1rdqxnwm',
   dataset: 'production',
 
-  plugins: [structureTool(), visionTool()],
+  plugins: [
+    deskTool({
+      structure: deskStructure,
+    }),
+    visionTool(), // GROQ query tester — remove in production if desired
+  ],
 
   schema: {
     types: schemaTypes,
