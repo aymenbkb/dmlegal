@@ -3,11 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact —  DM Legal</title>
+  <title>Contact DM Legal — Get Legal Advice in UAE | Ras Al Khaimah</title>
+  <meta name="description" content="Contact DM Legal for expert legal advice. We have offices in Ras Al Khaimah (UAE), Paris, and Turks & Caicos. Reach us for consultations on corporate, criminal, family, and immigration law.">
+  <meta name="keywords" content="contact DM Legal, legal consultation UAE, law firm contact Ras Al Khaimah, UAE lawyer, legal advice UAE">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="DM Legal">
+  <link rel="canonical" href="https://www.dmlegal.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dmlegal.com/contact.html">
+  <meta property="og:title" content="Contact DM Legal — Get Legal Advice in UAE">
+  <meta property="og:description" content="Contact DM Legal for expert legal advice. Offices in Ras Al Khaimah, Paris, and Turks & Caicos.">
+  <meta property="og:image" content="https://www.dmlegal.com/assets/img/logo/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact DM Legal — Get Legal Advice in UAE">
+  <meta name="twitter:description" content="Contact DM Legal for expert legal advice in the UAE, Paris, and Turks & Caicos.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://unpkg.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="preload" href="assets/css/dm-style.css" as="style">
   <link rel="stylesheet" href="assets/css/dm-style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -62,7 +80,6 @@
 
 <!-- ══ PAGE HERO ══ -->
 <section class="page-hero page-hero--contact">
-  <span class="section-label">GET IN TOUCH</span>
   <div class="gold-divider"></div>
   <h1 data-key="contact-title">Contact Us</h1>
   <p class="hero-sub" data-key="contact-msg">Send us your query anytime!</p>
@@ -76,6 +93,12 @@
 <!-- ══ CONTACT MAIN ══ -->
 <section class="section-padding section--white">
   <div class="container">
+    <div class="text-center" data-aos="fade">
+      <span class="section-label" data-key="contact-intro-label">DIRECT CONTACT</span>
+      <div class="gold-divider"></div>
+      <p class="section-intro-text" data-key="contact-intro-description">Reach out to our team from any of our offices across the globe. We are committed to providing timely, expert guidance on any legal matter.</p>
+    </div>
+
     <div class="contact-layout">
 
       <!-- Form -->
@@ -227,23 +250,27 @@
 
 
  
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
 <script>
-  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
-  const header = document.getElementById('siteHeader');
-  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
-  document.getElementById('navToggle').addEventListener('click', function() {
-    this.classList.toggle('open');
-    document.getElementById('mobileNav').classList.toggle('open');
-  });
-  document.querySelectorAll('.faq-question').forEach(q => {
-    q.addEventListener('click', () => {
-      const item = q.parentElement;
-      const isOpen = item.classList.contains('active');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-      if (!isOpen) item.classList.add('active');
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+    document.getElementById('navToggle').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.getElementById('mobileNav').classList.toggle('open');
+    });
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isOpen = item.classList.contains('active');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        if (!isOpen) item.classList.add('active');
+      });
     });
   });
 </script>
+
 </body>
 </html>

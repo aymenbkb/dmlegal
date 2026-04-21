@@ -3,12 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery — DM Legal</title>
-  <meta name="description" content="Photo gallery of DM Legal — a global law firm.">
+  <title>Photo Gallery — DM Legal | Global Law Firm</title>
+  <meta name="description" content="Explore the photo gallery of DM Legal — a global law firm with offices in Ras Al Khaimah UAE, Paris France, London, and Turks & Caicos Islands.">
+  <meta name="keywords" content="DM Legal gallery, law firm photos, UAE law firm, DM Legal offices">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="DM Legal">
+  <link rel="canonical" href="https://www.dmlegal.com/gallery.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dmlegal.com/gallery.html">
+  <meta property="og:title" content="Photo Gallery — DM Legal | Global Law Firm">
+  <meta property="og:description" content="Explore the photo gallery of DM Legal — a global law firm with offices worldwide.">
+  <meta property="og:image" content="https://www.dmlegal.com/assets/img/logo/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Photo Gallery — DM Legal">
+  <meta name="twitter:description" content="Explore the photo gallery of DM Legal — a global law firm.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://unpkg.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="preload" href="assets/css/dm-style.css" as="style">
   <link rel="stylesheet" href="assets/css/dm-style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -65,13 +82,12 @@
 
 <!-- ══ PAGE HERO ══ -->
 <section class="page-hero page-hero--gallery">
-  <span class="section-label">OUR WORLD</span>
   <div class="gold-divider"></div>
-  <h1>Gallery</h1>
+  <h1 data-key="gallery-title">Gallery</h1>
   <nav class="breadcrumb">
-    <a href="index.html">Home</a>
+    <a href="index.html" data-key="nav-home">Home</a>
     <span>›</span>
-    <span>Gallery</span>
+    <span data-key="nav-gallery">Gallery</span>
   </nav>
 </section>
 
@@ -79,10 +95,9 @@
 <section class="section-padding section--cream">
   <div class="container">
     <div class="text-center" data-aos="fade">
-      <span class="section-label">PHOTOS</span>
+      <span class="section-label" data-key="gallery-intro-label">PHOTOS</span>
       <div class="gold-divider"></div>
-      <h2 class="section-intro-heading">A Glimpse of DM Legal</h2>
-      <p class="section-intro-text">From our offices across three continents to the people behind the firm.</p>
+      <p class="section-intro-text" data-key="gallery-intro-description">From our offices across three continents to the people behind the firm.</p>
     </div>
 
     <div class="gallery-grid" id="galleryGrid">
@@ -134,7 +149,7 @@
 
     </div>
 
-    <p class="gallery-note">More photos coming soon. <a href="contact.html" class="link-gold">Contact us</a> to learn more.</p>
+    <p class="gallery-note" data-key="gallery-note">More photos coming soon. <a href="contact.html" class="link-gold">Contact us</a> to learn more.</p>
   </div>
 </section>
 
@@ -149,11 +164,11 @@
 <!-- ══ CTA STRIP ══ -->
 <section class="cta-strip">
   <div class="container" data-aos="fade">
-    <span class="section-label">GET IN TOUCH</span>
+    <span class="section-label" data-key="gallery-cta-label">GET IN TOUCH</span>
     <div class="gold-divider"></div>
-    <h2>Ready to Work With Us?</h2>
-    <p>A global firm at your service.</p>
-    <a href="contact.html" class="cta-btn cta-btn-fill">Contact Us Today</a>
+    <h2 data-key="gallery-cta-title">Ready to Work With Us?</h2>
+    <p data-key="gallery-cta-description">A global firm at your service.</p>
+    <a href="contact.html" class="cta-btn cta-btn-fill" data-key="gallery-cta-button">Contact Us Today</a>
   </div>
 </section>
 
@@ -194,17 +209,28 @@
   </div>
 </footer>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  const header = document.getElementById('siteHeader');
-  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
-  document.getElementById('navToggle').addEventListener('click', function() {
-    this.classList.toggle('open');
-    document.getElementById('mobileNav').classList.toggle('open');
-  });
-  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
 
-  // Lightbox
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+    document.getElementById('navToggle').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.getElementById('mobileNav').classList.toggle('open');
+    });
+    AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
+    document.getElementById('lightbox').addEventListener('click', function(e) {
+      if (e.target === this) closeLightbox();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (!document.getElementById('lightbox').classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') shiftLightbox(-1);
+      if (e.key === 'ArrowRight') shiftLightbox(1);
+    });
+  });
+
   const images = Array.from(document.querySelectorAll('.gallery-item img')).map(img => img.src);
   let currentIndex = 0;
 
@@ -224,17 +250,7 @@
     currentIndex = (currentIndex + dir + images.length) % images.length;
     document.getElementById('lightboxImg').src = images[currentIndex];
   }
-
-  document.getElementById('lightbox').addEventListener('click', function(e) {
-    if (e.target === this) closeLightbox();
-  });
-
-  document.addEventListener('keydown', function(e) {
-    if (!document.getElementById('lightbox').classList.contains('open')) return;
-    if (e.key === 'Escape') closeLightbox();
-    if (e.key === 'ArrowLeft') shiftLightbox(-1);
-    if (e.key === 'ArrowRight') shiftLightbox(1);
-  });
 </script>
+
 </body>
 </html>

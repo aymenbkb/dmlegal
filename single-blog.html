@@ -1,21 +1,59 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Article —  DM Legal</title>
+  <title>Legal Article â€” DM Legal | UAE Law Insights</title>
+  <meta name="description" content="Read in-depth legal articles and insights from DM Legal â€” a global law firm based in Ras Al Khaimah, UAE. Expert analysis on UAE law, international regulations, and legal trends.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="DM Legal">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Legal Article â€” DM Legal | UAE Law Insights">
+  <meta property="og:description" content="In-depth legal articles and insights from DM Legal on UAE law and international legal trends.">
+  <meta property="og:image" content="https://www.dmlegal.com/assets/img/logo/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Legal Article â€” DM Legal">
+  <meta name="twitter:description" content="In-depth legal insights from DM Legal on UAE law and international trends.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="preload" href="assets/css/dm-style.css" as="style">
   <link rel="stylesheet" href="assets/css/dm-style.css">
+
+  <style>
+    .translation-loading {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #9a7c3f;
+      font-style: italic;
+      padding: 1rem 0;
+    }
+    .translation-loading::before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #9a7c3f;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      flex-shrink: 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
 </head>
 <body>
 
-<!-- ══ NAVBAR ══ -->
+<!-- â•â• NAVBAR â•â• -->
 <header class="site-header" id="siteHeader">
   <div class="container">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt=" DM Legal" /></a>
+      <a href="index.html" class="nav-logo"><img src="assets/img/logo/logo.png" alt="DM Legal" /></a>
       <nav>
         <ul class="nav-links">
           <li><a href="index.html" data-key="nav-home">Home</a></li>
@@ -24,11 +62,14 @@
           <li><a href="blog.html" class="active" data-key="nav-insight">Insight</a></li>
           <li><a href="contact.html" data-key="nav-contact">Contact</a></li>
           <li class="lang-switcher">
-            <a href="#" onclick="changeLanguage('en')">EN</a>
-            <span class="lang-sep">|</span>
-            <a href="#" onclick="changeLanguage('fr')">FR</a>
-            <span class="lang-sep">|</span>
-            <a href="#" onclick="changeLanguage('ar')">AR</a>
+            <div class="lang-slider">
+              <div class="lang-slider-track">
+                <a href="#" onclick="changeLanguage('en')" class="lang-option active" data-lang="en">EN</a>
+                <a href="#" onclick="changeLanguage('fr')" class="lang-option" data-lang="fr">FR</a>
+                <a href="#" onclick="changeLanguage('ar')" class="lang-option" data-lang="ar">AR</a>
+              </div>
+              <div class="lang-slider-indicator"></div>
+            </div>
           </li>
         </ul>
       </nav>
@@ -41,81 +82,43 @@
     <a href="services.html" data-key="nav-services">Services</a>
     <a href="blog.html" data-key="nav-insight">Insight</a>
     <a href="contact.html" data-key="nav-contact">Contact</a>
-    <div class="mobile-lang">
-      <a href="#" onclick="changeLanguage('en')">EN</a>
-      <a href="#" onclick="changeLanguage('fr')">FR</a>
-      <a href="#" onclick="changeLanguage('ar')">AR</a>
+    <div class="mobile-lang lang-slider">
+      <div class="lang-slider-track">
+        <a href="#" onclick="changeLanguage('en')" class="lang-option active" data-lang="en">EN</a>
+        <a href="#" onclick="changeLanguage('fr')" class="lang-option" data-lang="fr">FR</a>
+        <a href="#" onclick="changeLanguage('ar')" class="lang-option" data-lang="ar">AR</a>
+      </div>
     </div>
   </nav>
 </header>
 
-<!-- ══ ARTICLE ══ -->
+<!-- â•â• ARTICLE â•â• -->
 <main class="article-main">
   <div class="container">
     <div class="article-layout">
 
       <!-- Article Body -->
       <div>
-        <a href="blog.html" class="back-link">← Back to Insights</a>
+        <a href="blog.html" class="back-link">â† Back to Insights</a>
         <div class="article-meta">
           <span class="article-cat">Legal Insight</span>
-          <span id="articleDate">Loading…</span>
+          <span id="articleDate">Loadingâ€¦</span>
         </div>
-        <h1 id="articleTitle">Loading article…</h1>
-        <div class="article-img">
-          <img id="articleImage" src="" alt="" onerror="this.style.display='none'; document.querySelector('.article-img-placeholder').style.display='flex';">
-          <div class="article-img-placeholder">Legal Intelligence ·  DM Legal</div>
-        </div>
+        <h1 id="articleTitle">Loading articleâ€¦</h1>
+        <div class="article-img-placeholder" style="display:flex">Legal Intelligence Â· DM Legal</div>
         <div id="articleContent">
-          <p class="loading-text">Loading content…</p>
+          <p class="loading-text">Loading contentâ€¦</p>
         </div>
 
-        <!-- Author box -->
-        <div class="author-box">
-          <div class="author-icon">⚖️</div>
-          <div>
-            <h4 class="author-name"> DM Legal Editorial Team</h4>
-            <p class="author-desc">Legal insights and updates from our team of experienced UAE-based attorneys and legal consultants.</p>
-          </div>
-        </div>
       </div>
 
       <!-- Sidebar -->
       <aside class="article-sidebar">
         <div class="sidebar-widget">
-          <h4>Recent Articles</h4>
-          <div class="recent-post">
-            <div class="recent-post-thumb">📋</div>
-            <div>
-              <h5><a href="single-blog.html">The UAE Visa Amnesty Programme</a></h5>
-              <p>September 30, 2024</p>
-            </div>
+          <h4 id="recentTitle">Recent Articles</h4>
+          <div id="recentPosts">
+            <!-- Populated dynamically from Sanity -->
           </div>
-          <div class="recent-post">
-            <div class="recent-post-thumb">⚖️</div>
-            <div>
-              <h5><a href="single-blog.html">Inheritance Between Spouses of Different Faiths</a></h5>
-              <p>April 4, 2023</p>
-            </div>
-          </div>
-          <div class="recent-post">
-            <div class="recent-post-thumb">🏦</div>
-            <div>
-              <h5><a href="single-blog.html">Extraterritorial Reach of U.S. Banking Laws</a></h5>
-              <p>March 10, 2023</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="sidebar-widget">
-          <h4>Our Services</h4>
-          <ul class="other-services">
-            <li><a href="services_details.html?service=business-setup" data-key="service1">Business Setup in UAE</a></li>
-            <li><a href="services_details.html?service=arbitration" data-key="service7">Arbitration</a></li>
-            <li><a href="services_details.html?service=corporate-law" data-key="service9">Corporate Law</a></li>
-            <li><a href="services_details.html?service=tax-law" data-key="service5">Tax Law</a></li>
-            <li><a href="services_details.html?service=immigration" data-key="service4">Immigration</a></li>
-          </ul>
         </div>
 
         <div class="sidebar-widget sidebar-widget--gold">
@@ -128,7 +131,7 @@
   </div>
 </main>
 
-<!-- ══ FOOTER ══ -->
+<!-- â•â• FOOTER â•â• -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-inner">
@@ -141,7 +144,7 @@
           <ul class="footer-contacts">
             <li data-key="footer-location1"><i class="bi bi-geo-alt"></i> 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
             <li data-key="footer-phone1"><i class="bi bi-telephone"></i> Phone: (+971) 4 XXX XXXX</li>
-            <li data-key="footer-email"><i class="bi bi-envelope"></i> Email: <a href="mailto:contact@ DM Legal.com">contact@ DM Legal.com</a></li>
+            <li data-key="footer-email"><i class="bi bi-envelope"></i> Email: <a href="mailto:contact@dmlegal.com">contact@dmlegal.com</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -160,55 +163,439 @@
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p data-key="footer-copyright">All rights reserved &copy;2026  DM Legal.</p>
+      <p data-key="footer-copyright">All rights reserved &copy;2026 DM Legal.</p>
     </div>
   </div>
 </footer>
 
- 
+<!-- â•â• SCRIPTS â•â• -->
+
+
 <script>
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// CONFIG
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+const SANITY_PROJECT = "1rdqxnwm";
+const SANITY_DATASET = "production";
+const CLAUDE_MODEL   = "claude-sonnet-4-20250514";
+
+const params = new URLSearchParams(window.location.search);
+const slug   = params.get("slug");
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// HELPERS
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+function getLang() {
+  return localStorage.getItem('dm-lang') || 'en';
+}
+
+function setLoadingState(message) {
+  document.getElementById('articleContent').innerHTML =
+    `<p class="translation-loading">${message}</p>`;
+}
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// PORTABLE TEXT   HTML RENDERER
+// Handles Sanity's block structure from your schema:
+// { _type:"block", style:"normal"|"h1"â€¦, children:[{_type:"span", marks:[], text:"â€¦"}] }
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+function renderPortableText(blocks) {
+  if (!blocks || !Array.isArray(blocks)) return '<p>Content unavailable.</p>';
+
+  const html = [];
+  let listBuffer = [];
+  let listType   = null;
+
+  function flushList() {
+    if (!listBuffer.length) return;
+    const tag = listType === 'number' ? 'ol' : 'ul';
+    html.push(`<${tag}>${listBuffer.join('')}</${tag}>`);
+    listBuffer = [];
+    listType   = null;
+  }
+
+  function renderInner(block) {
+    const markDefs = block.markDefs || [];
+    return (block.children || []).map(span => {
+      if (span._type !== 'span') return '';
+      let text = escapeHtml(span.text || '');
+      const marks = span.marks || [];
+
+      // Decorator marks
+      if (marks.includes('strong'))    text = `<strong>${text}</strong>`;
+      if (marks.includes('em'))        text = `<em>${text}</em>`;
+      if (marks.includes('underline')) text = `<u>${text}</u>`;
+      if (marks.includes('strike-through')) text = `<s>${text}</s>`;
+      if (marks.includes('code'))      text = `<code>${text}</code>`;
+
+      // Annotation marks (links)
+      marks.forEach(key => {
+        const def = markDefs.find(d => d._key === key);
+        if (def && def._type === 'link' && def.href) {
+          const target = def.blank ? ' target="_blank" rel="noopener noreferrer"' : '';
+          text = `<a href="${escapeHtml(def.href)}"${target}>${text}</a>`;
+        }
+      });
+
+      return text;
+    }).join('');
+  }
+
+  blocks.forEach(block => {
+    if (block._type !== 'block') return;
+
+    const inner = renderInner(block);
+
+    if (block.listItem) {
+      if (block.listItem !== listType) {
+        flushList();
+        listType = block.listItem;
+      }
+      listBuffer.push(`<li>${inner}</li>`);
+      return;
+    }
+
+    flushList();
+
+    switch (block.style) {
+      case 'h1':         html.push(`<h1>${inner}</h1>`); break;
+      case 'h2':         html.push(`<h2>${inner}</h2>`); break;
+      case 'h3':         html.push(`<h3>${inner}</h3>`); break;
+      case 'h4':         html.push(`<h4>${inner}</h4>`); break;
+      case 'blockquote': html.push(`<blockquote>${inner}</blockquote>`); break;
+      default:           if (inner) html.push(`<p>${inner}</p>`);
+    }
+  });
+
+  flushList();
+  return html.join('\n');
+}
+
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// RENDER
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+function renderArticle(data, lang) {
+  const isRTL = lang === 'ar';
+
+  const title   = lang === 'fr' ? (data.title_fr   || data.title)
+                : lang === 'ar' ? (data.title_ar   || data.title)
+                : data.title;
+
+  const content = lang === 'fr' ? (data.content_fr || data.content)
+                : lang === 'ar' ? (data.content_ar || data.content)
+                : data.content; // plain-text fallback for translated versions
+
+  // Update page title + meta
+  document.getElementById('articleTitle').textContent = title || 'Untitled';
+  document.title = (title || 'Article') + ' â€” DM Legal';
+
+  // Date
+  if (data.publishedAt) {
+    document.getElementById('articleDate').textContent =
+      new Date(data.publishedAt).toLocaleDateString(
+        lang === 'ar' ? 'ar-AE' : lang === 'fr' ? 'fr-FR' : 'en-US',
+        { year: 'numeric', month: 'long', day: 'numeric' }
+      );
+  }
+
+  // Cover image
+  const imgPlaceholder = document.querySelector('.article-img-placeholder');
+  if (imgPlaceholder) {
+    if (data.imageUrl) {
+      const img = document.createElement('img');
+      img.src   = data.imageUrl;
+      img.alt   = data.imageAlt || title || '';
+      img.style.cssText = 'width:100%;max-height:420px;object-fit:cover;border-radius:4px;margin-bottom:2rem;';
+      img.loading = 'lazy';
+      imgPlaceholder.replaceWith(img);
+    } else {
+      imgPlaceholder.style.display = 'none';
+    }
+  }
+
+  // Body
+  const articleEl = document.getElementById('articleContent');
+  articleEl.dir = isRTL ? 'rtl' : 'ltr';
+  articleEl.style.textAlign = isRTL ? 'right' : '';
+
+  // For English: use rich portable-text rendering from raw blocks.
+  // For translated languages: fall back to plain-text paragraphs (translations are text-only).
+  if (lang === 'en' && data.body && Array.isArray(data.body)) {
+    articleEl.innerHTML = renderPortableText(data.body);
+  } else if (content) {
+    articleEl.innerHTML = content
+      .split('\n\n')
+      .map(p => p.trim())
+      .filter(Boolean)
+      .map(p => `<p>${p}</p>`)
+      .join('');
+  } else {
+    articleEl.innerHTML = '<p>Content unavailable.</p>';
+  }
+}
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// TRANSLATE via Claude API
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function translateArticle(data, lang) {
+  const cacheKey = `dml-article-${slug || 'default'}-${lang}`;
+
+  // Check session cache first
+  try {
+    const cached = sessionStorage.getItem(cacheKey);
+    if (cached) {
+      const parsed = JSON.parse(cached);
+      data[`title_${lang}`]   = parsed.title;
+      data[`content_${lang}`] = parsed.content;
+      return;
+    }
+  } catch(e) {}
+
+  const langLabel = lang === 'fr' ? 'French' : 'Arabic';
+  setLoadingState(`Translating article to ${langLabel}â€¦`);
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: CLAUDE_MODEL,
+        max_tokens: 2000,
+        messages: [{
+          role: 'user',
+          content: `You are a professional legal translator. Translate the following legal article title and body into ${langLabel}.
+
+Return ONLY a valid JSON object â€” no markdown, no explanation, no code fences â€” in this exact format:
+{"title":"...","content":"..."}
+
+The "content" value must be plain paragraphs separated by double newlines (\\n\\n). Do not use HTML tags.
+
+Title: ${data.title}
+
+Content:
+${data.content || (data.body ? data.body.map(b => (b.children||[]).map(s=>s.text||'').join('')).join('\n\n') : '')}`
+        }]
+      })
+    });
+
+    if (!response.ok) throw new Error(`API error ${response.status}`);
+
+    const result = await response.json();
+    const rawText = result.content?.[0]?.text?.trim() || '';
+
+    // Strip any accidental markdown fences
+    const clean = rawText.replace(/^```(?:json)?|```$/gm, '').trim();
+    const parsed = JSON.parse(clean);
+
+    data[`title_${lang}`]   = parsed.title;
+    data[`content_${lang}`] = parsed.content;
+
+    // Cache for this session
+    sessionStorage.setItem(cacheKey, JSON.stringify({ title: parsed.title, content: parsed.content }));
+
+  } catch (err) {
+    console.error('Translation error:', err);
+    // Graceful fallback: show English with a notice
+    data[`title_${lang}`]   = data.title;
+    data[`content_${lang}`] = data.content +
+      '\n\n[Translation unavailable â€” displaying original English version.]';
+  }
+}
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// RECENT POSTS SIDEBAR
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function loadRecentPosts() {
+  const icons = ['ðŸ“‹', 'âš–ï¸', 'ðŸ¦', 'ðŸ“œ', 'ðŸŒ'];
+  const lang  = getLang();
+
+  const recentTitle = document.getElementById('recentTitle');
+  if (recentTitle) {
+    recentTitle.textContent = lang === 'fr' ? 'Articles RÃ©cents' : lang === 'ar' ? 'Ù…Ù‚Ø§Ù„Ø§Øª Ø­Ø¯ÙŠØ«Ø©' : 'Recent Articles';
+  }
+
+  try {
+    const query = encodeURIComponent(
+      `*[_type=="post"] | order(publishedAt desc)[0..4]{
+        title,
+        "slug": slug.current,
+        publishedAt
+      }`
+    );
+    const res = await fetch(
+      `https://${SANITY_PROJECT}.api.sanity.io/v2023-01-01/data/query/${SANITY_DATASET}?query=${query}`
+    );
+    const { result } = await res.json();
+
+    const container = document.getElementById('recentPosts');
+    if (!container) return;
+
+    if (!result || result.length === 0) {
+      container.innerHTML = '<p style="font-style:italic;color:#9a7c3f;font-size:0.85rem">No articles yet.</p>';
+      return;
+    }
+
+    container.innerHTML = result.map((post, i) => {
+      const date = post.publishedAt
+        ? new Date(post.publishedAt).toLocaleDateString(
+            lang === 'ar' ? 'ar-AE' : lang === 'fr' ? 'fr-FR' : 'en-US',
+            { year: 'numeric', month: 'long', day: 'numeric' }
+          )
+        : '';
+      const link  = post.slug ? `single-blog.html?slug=${post.slug}` : 'blog.html';
+      const icon  = icons[i % icons.length];
+      return `
+        <div class="recent-post">
+          <div class="recent-post-thumb">${icon}</div>
+          <div>
+            <h5><a href="${link}">${post.title || 'Untitled'}</a></h5>
+            <p>${date}</p>
+          </div>
+        </div>`;
+    }).join('');
+
+  } catch (err) {
+    console.error('Recent posts error:', err);
+  }
+}
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// LOAD FROM SANITY
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+async function loadArticle() {
+  let articleData = null;
+
+  if (slug) {
+    try {
+      const query = encodeURIComponent(
+        `*[_type=="post" && slug.current=="${slug}"][0]{
+          title,
+          publishedAt,
+          excerpt,
+          body,
+          "content": pt::text(body),
+          "imageUrl": mainImage.asset->url,
+          "imageAlt": mainImage.alt
+        }`
+      );
+      const res = await fetch(
+        `https://${SANITY_PROJECT}.api.sanity.io/v2023-01-01/data/query/${SANITY_DATASET}?query=${query}`
+      );
+      const { result } = await res.json();
+
+      if (!result) {
+        document.getElementById('articleTitle').textContent = 'Article Not Found';
+        document.getElementById('articleContent').innerHTML =
+          '<p>This article could not be found. Please check the URL or return to Insights.</p>';
+        return;
+      }
+
+      articleData = result;
+
+    } catch (err) {
+      console.error('Sanity fetch error:', err);
+      document.getElementById('articleTitle').textContent = 'Failed to Load';
+      document.getElementById('articleContent').innerHTML =
+        '<p>Unable to load article. Please try again later.</p>';
+      return;
+    }
+
+  } else {
+    // No slug in URL â€” auto-load the most recent post
+    try {
+      const latestQuery = encodeURIComponent(
+        `*[_type=="post"] | order(publishedAt desc)[0]{
+          title,
+          publishedAt,
+          excerpt,
+          body,
+          "content": pt::text(body),
+          "slug": slug.current,
+          "imageUrl": mainImage.asset->url,
+          "imageAlt": mainImage.alt
+        }`
+      );
+      const latestRes = await fetch(
+        `https://${SANITY_PROJECT}.api.sanity.io/v2023-01-01/data/query/${SANITY_DATASET}?query=${latestQuery}`
+      );
+      const { result: latestResult } = await latestRes.json();
+
+      if (!latestResult) {
+        document.getElementById('articleTitle').textContent = 'No Articles Yet';
+        document.getElementById('articleContent').innerHTML =
+          '<p>No articles have been published yet. Please check back soon.</p>';
+        return;
+      }
+
+      articleData = latestResult;
+
+      // Update URL bar to reflect the actual slug (no reload)
+      if (latestResult.slug) {
+        history.replaceState(null, '', `single-blog.html?slug=${latestResult.slug}`);
+      }
+
+    } catch (err) {
+      console.error('Sanity fetch error (latest):', err);
+      document.getElementById('articleTitle').textContent = 'Failed to Load';
+      document.getElementById('articleContent').innerHTML =
+        '<p>Unable to load article. Please try again later.</p>';
+      return;
+    }
+  }
+
+  // Store globally so language switcher can access it
+  window._dmArticleData = articleData;
+
+  // Translate if needed, then render
+  const lang = getLang();
+  if (lang !== 'en') {
+    await translateArticle(articleData, lang);
+  }
+  renderArticle(articleData, lang);
+}
+
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// HOOK INTO EXISTING changeLanguage
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+document.addEventListener('DOMContentLoaded', function () {
+  // Navbar scroll + toggle (unchanged)
   const header = document.getElementById('siteHeader');
   window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
-  document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navToggle').addEventListener('click', function () {
     this.classList.toggle('open');
     document.getElementById('mobileNav').classList.toggle('open');
   });
 
-  // Load from Sanity CMS
-  const projectId = "0g8ouwa5";
-  const dataset = "production";
-  const apiVersion = "2023-01-01";
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get("slug");
+  // Wrap changeLanguage to also re-render the article
+  const _origChangeLang = window.changeLanguage;
+  window.changeLanguage = async function (lang) {
+    // Run the original UI translations first
+    if (typeof _origChangeLang === 'function') _origChangeLang(lang);
 
-  if (slug) {
-    const query = encodeURIComponent(`*[_type=="post" && slug.current=="${slug}"][0]{ title, publishedAt, body, "image": mainImage.asset->url }`);
-    fetch(`https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`)
-      .then(r => r.json())
-      .then(({ result }) => {
-        if (!result) return;
-        document.getElementById('articleTitle').textContent = result.title;
-        document.title = result.title + ' —  DM Legal';
-        document.getElementById('articleDate').textContent = new Date(result.publishedAt).toDateString();
-        if (result.image) document.getElementById('articleImage').src = result.image;
-        document.getElementById('articleContent').innerHTML = result.body
-          .map(block => `<p>${block.children.map(c => c.text).join('')}</p>`)
-          .join('');
-      }).catch(() => {
-        document.getElementById('articleTitle').textContent = 'Article Not Found';
-        document.getElementById('articleContent').innerHTML = '<p>This article could not be loaded. Please try again later.</p>';
-      });
-  } else {
-    // Default static article
-    document.getElementById('articleTitle').textContent = 'The UAE Visa Amnesty Programme: A Golden Opportunity to Resolve Residency Issues';
-    document.getElementById('articleDate').textContent = 'September 30, 2024';
-    document.getElementById('articleContent').innerHTML = `
-      <p>The recent visa amnesty programme announced by UAE authorities presents a significant opportunity for individuals with expired or irregular residency status to regularize their legal standing without penalties. This comprehensive initiative aims to benefit thousands of residents across the Emirates.</p>
-      <p>The programme allows individuals who have overstayed their visas or have irregular immigration status to come forward and resolve their situations through a simplified process. Participants may be required to pay reduced fines or, in some cases, may be exempt from penalties entirely.</p>
-      <p>For businesses operating in the UAE, this amnesty period provides an opportunity to review the immigration status of their workforce and ensure full compliance with UAE immigration laws before the amnesty window closes.</p>
-      <p>At  DM Legal, we can assist both individuals and companies in navigating this amnesty process, assessing eligibility, and ensuring that all necessary documentation is correctly prepared and submitted within the relevant deadlines.</p>
-    `;
-  }
+    // Then handle the article
+    const data = window._dmArticleData;
+    if (!data) return;
+
+    if (lang !== 'en' && !data[`title_${lang}`]) {
+      await translateArticle(data, lang);
+    }
+    renderArticle(data, lang);
+    loadRecentPosts();
+  };
+
+  // Load the article and sidebar
+  loadArticle();
+  loadRecentPosts();
+});
 </script>
+
 </body>
 </html>

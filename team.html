@@ -3,11 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team —  DM Legal</title>
+  <title>Our Legal Team — DM Legal | Expert Lawyers in UAE</title>
+  <meta name="description" content="Meet DM Legal's founding partners: Andrew Mitchell KC and Jordana Dray — experienced international lawyers serving clients across the Middle East, Europe, and beyond.">
+  <meta name="keywords" content="DM Legal team, Andrew Mitchell KC, Jordana Dray, UAE lawyers, international law firm partners">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="DM Legal">
+  <link rel="canonical" href="https://www.dmlegal.com/team.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dmlegal.com/team.html">
+  <meta property="og:title" content="Our Legal Team — DM Legal | Expert Lawyers in UAE">
+  <meta property="og:description" content="Meet DM Legal's founding partners: Andrew Mitchell KC and Jordana Dray.">
+  <meta property="og:image" content="https://www.dmlegal.com/assets/img/logo/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Our Legal Team — DM Legal">
+  <meta name="twitter:description" content="Meet DM Legal's founding partners: Andrew Mitchell KC and Jordana Dray.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://unpkg.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="preload" href="assets/css/dm-style.css" as="style">
   <link rel="stylesheet" href="assets/css/dm-style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -62,7 +80,6 @@
 
 <!-- ══ PAGE HERO ══ -->
 <section class="page-hero page-hero--team">
-  <span class="section-label">WHO WE ARE</span>
   <div class="gold-divider"></div>
   <h1 data-key="team-title">Meet the Team</h1>
   <nav class="breadcrumb">
@@ -75,12 +92,18 @@
 <!-- ══ TEAM GRID ══ -->
 <section class="section-padding section--cream">
   <div class="container">
+    <div class="text-center" data-aos="fade">
+      <span class="section-label" data-key="team-intro-label">OUR FOUNDERS</span>
+      <div class="gold-divider"></div>
+      <p class="section-intro-text" data-key="team-intro-description">Our founding partners bring together decades of international legal experience from the UK, France, and the Caribbean — united by a commitment to exceptional client service across borders.</p>
+    </div>
+
     <div class="team-grid-2 team-grid-centered">
 
       <!-- Member 1 -->
       <div class="team-member-card" data-aos="fade" data-aos-delay="0">
         <div class="photo-area">
-          <img src="assets/img/gallery/member2.png" alt="Andrew Mitchell KC" class="team-member-photo">
+          <img src="assets/img/gallery/member2.png" alt="Andrew Mitchell KC" class="team-member-photo" loading="lazy">
           <div class="corner-accent tl"></div>
           <div class="corner-accent tr"></div>
           <div class="corner-accent bl"></div>
@@ -99,7 +122,7 @@
       <!-- Member 2 -->
       <div class="team-member-card" data-aos="fade" data-aos-delay="150">
         <div class="photo-area">
-          <img src="assets/img/gallery/member1-4.jpg" alt="Jordana Dray" class="team-member-photo">
+          <img src="assets/img/gallery/member1-4.jpg" alt="Jordana Dray" class="team-member-photo" loading="lazy">
           <div class="corner-accent tl"></div>
           <div class="corner-accent tr"></div>
           <div class="corner-accent bl"></div>
@@ -121,8 +144,8 @@
 <!-- ══ CTA ══ -->
 <section class="cta-strip">
   <div class="container" data-aos="fade">
-    <h2>Work With Our Team</h2>
-    <p>Reach out for a consultation with our legal experts.</p>
+    <h2 data-key="team-cta-title">Work With Our Team</h2>
+    <p data-key="team-cta-description">Reach out for a consultation with our legal experts.</p>
     <a href="contact.html" class="cta-btn cta-btn-fill" data-key="contact-btn">Get in Touch</a>
   </div>
 </section>
@@ -136,7 +159,7 @@
       </div>
       <div class="footer-content-wrapper">
         <div class="footer-info">
-          <p class="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
+          <p class="footer-tagline" data-key="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
           <ul class="footer-contacts">
             <li data-key="footer-location1"><i class="bi bi-geo-alt"></i> 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
             <li data-key="footer-phone1"><i class="bi bi-telephone"></i> Phone: (+971) 4 XXX XXXX</li>
@@ -166,17 +189,19 @@
 
  
  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
 <script>
-  const header = document.getElementById('siteHeader');
-  window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
-  document.getElementById('navToggle').addEventListener('click', function() {
-    this.classList.toggle('open');
-    document.getElementById('mobileNav').classList.toggle('open');
+  document.addEventListener('DOMContentLoaded', function() {
+    const header = document.getElementById('siteHeader');
+    window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 40));
+    document.getElementById('navToggle').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.getElementById('mobileNav').classList.toggle('open');
+    });
+    AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
   });
 </script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init({ duration: 800, once: false, easing: 'ease-out-cubic', offset: 60 });
-</script>
+
 </body>
 </html>
