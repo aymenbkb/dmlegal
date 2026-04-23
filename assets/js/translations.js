@@ -343,6 +343,11 @@ const translations = {
     'badge-bribery-corruption': 'Bribery &amp; Corruption',
     'schedule-consultation': 'Schedule Consultation',
 
+    // Contact Form Labels
+    "contact-address": "Address",
+    "contact-phone": "Phone", 
+    "contact-email": "Email",
+
     // --- Team Member Page: Jordana Dray (member2.html) ---
     'member2-breadcrumb': 'Jordana Dray',
     'team2-desc': 'Jordana Dray is an internationally accomplished legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at <strong>Olivier Metzner LLP</strong> and <strong>D.O. Kaminski LLP</strong>, in Israel with <strong>Meitar Liquvornik Geva Leshem</strong> and Professor Yuval Levy. In 2013, she founded her own boutique firm in Paris before joining <strong>Binmes\'har &amp; Co</strong> in the UAE as a partner in 2022. In 2024, she joined <strong>Acker Choquette</strong> to create <strong>ACD Law</strong> in Dubai. And recently, in 2025, she founded <strong>DM Legal</strong> in Ras Al Khaimah. Fluent in French, English, and Hebrew.',
@@ -704,6 +709,10 @@ const translations = {
     'badge-bribery-corruption': 'Corruption et pots-de-vin',
     'schedule-consultation': 'Planifier une consultation',
 
+    "contact-address": "Adresse",
+    "contact-phone": "Téléphone",
+    "contact-email": "Email",
+
     // --- Team Member Page: Jordana Dray (member2.html) ---
     'member2-breadcrumb': 'Jordana Dray',
     'team2-desc': 'Jordana Dray est une avocate de renommée internationale, spécialisée dans les affaires transfrontalières et les litiges complexes. Elle a exercé à Paris au sein des cabinets <strong>Olivier Metzner LLP</strong> et <strong>D.O. Kaminski LLP</strong>, ainsi qu\'en Israël auprès du cabinet <strong>Meitar Liquvornik Geva Leshem</strong> et du professeur Yuval Levy. En 2013, elle fonde son propre cabinet à Paris, avant de rejoindre <strong>Binmes\'har &amp; Co</strong> aux Émirats arabes unis en tant qu\'associée en 2022. En 2024, elle participe à la création d\'<strong>ACD Law</strong> à Dubaï aux côtés d\'<strong>Acker Choquette</strong>. Plus récemment, en 2025, elle fonde <strong>DM Legal</strong> à Ras Al Khaimah, où elle conseille sur des problématiques juridiques et commerciales internationales. Elle accompagne des particuliers et des entreprises dans leurs enjeux juridiques entre l\'Europe et le Moyen-Orient. Trilingue français, anglais et hébreu, elle intervient régulièrement sur des dossiers à dimension internationale.',
@@ -1064,6 +1073,10 @@ ar: {
     'badge-fraud': 'الاحتيال',
     'badge-bribery-corruption': 'الرشوة والفساد',
     'schedule-consultation': 'حجز موعد استشاري',
+
+    "contact-address": "العنوان",
+    "contact-phone": "الهاتف", 
+    "contact-email": "البريد الإلكتروني",
 
     // --- Team Member Page: Jordana Dray (member2.html) ---
     'member2-breadcrumb': 'جوردانا دراي',
