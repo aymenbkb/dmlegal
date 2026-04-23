@@ -1,4 +1,4 @@
-// ============================================================
+﻿// ============================================================
 // DM Legal — Website Translations
 // EN · FR · AR — Complete Reference
 // ============================================================
@@ -185,6 +185,11 @@ const translations = {
     'contact-local': '516W127A, Shed No016 - <strong>Al Hulaila FZ</strong>, Al Hulaila Industrial Free Zone, RAK, UAE',
     'footer-location2': '39Bis, Boulevard Exelmans, 75016 Paris',
     'footer-phone2': '(+33) 145531996',
+
+    // Map Section
+    'contact-map-label': 'OUR LOCATIONS',
+    'contact-map-title': 'Find Us Around the World',
+    'contact-map-directions': 'Get Directions',
 
     // --- Service Page: Business Setup in UAE Free Zones (business-uae.html) ---
     'service1': 'Business Setup in <strong>UAE Free Zones</strong>',
@@ -542,6 +547,11 @@ const translations = {
     'footer-location2': '39Bis, Boulevard Exelmans, 75016 Paris',
     'footer-phone2': '(+33) 145531996',
 
+    // Map Section
+    'contact-map-label': 'NOS BUREAUX',
+    'contact-map-title': 'Retrouvez-nous dans le monde',
+    'contact-map-directions': 'Obtenir l\'itinéraire',
+
     // --- Service Page: Business Setup in UAE Free Zones (business-uae.html) ---
     'service1': 'Création d\'entreprise dans les <strong>Free Zone des EAU</strong>',
     'service1-description': 'La création d\'entreprise dans les zones franches des Émirats arabes unis offre un cadre simplifié aux investisseurs étrangers pour s\'implanter et exercer leur activité. Ces zones permettent aux investisseurs étrangers de détenir 100 % du capital, des exonérations fiscales, des procédures d\'enregistrement simplifiées ainsi qu\'un accès à des infrastructures de classe mondiale.',
@@ -898,6 +908,11 @@ ar: {
     'footer-location2': '39 مكرر، شارع إيكسلمان، 75016 باريس',
     'footer-phone2': '(+33) 145531996',
 
+    // Map Section
+    'contact-map-label': 'مواقعنا',
+    'contact-map-title': 'اعثر علينا حول العالم',
+    'contact-map-directions': 'الحصول على الاتجاهات',
+
     // --- Service Page: Business Setup in UAE Free Zones (business-uae.html) ---
     'service1': 'تأسيس الأعمال في <strong>المناطق الحرة بالإمارات العربية المتحدة</strong>',
     'service1-description': 'يُتيح تأسيس الأعمال في المناطق الحرة بالإمارات إطاراً قانونياً ميسَّراً للمستثمرين الأجانب لإنشاء شركاتهم وإدارتها، يتميز بالملكية الأجنبية الكاملة والإعفاءات الضريبية وإجراءات التسجيل المبسطة والولوج إلى بنية تحتية بمعايير دولية.',
@@ -1101,27 +1116,35 @@ function changeLanguage(lang) {
 }
 
 function _applyTranslation(el, value) {
+  // Handle input/textarea — update placeholder attribute
+  if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+    el.placeholder = value;
+    return;
+  }
   // Pure text element — no child elements
   if (el.children.length === 0) {
     el.innerHTML = value;
     return;
   }
-  // Element whose only child elements are <i> icons, <br> tags, or <a> links
+  // Element whose only child elements are inline/void elements (including those set by previous translations)
+  var inlineTags = ['I', 'BR', 'A', 'STRONG', 'EM', 'SPAN', 'B', 'U', 'SMALL'];
   var nonVoidChildren = Array.from(el.children).filter(function(c) {
-    return c.tagName !== 'I' && c.tagName !== 'BR' && c.tagName !== 'A';
+    return inlineTags.indexOf(c.tagName) === -1;
   });
   if (nonVoidChildren.length === 0) {
-    var icons = Array.from(el.querySelectorAll('i')).map(function(i) { return i.outerHTML; }).join('');
+    var icons = Array.from(el.children)
+      .filter(function(c) { return c.tagName === 'I'; })
+      .map(function(i) { return i.outerHTML; }).join('');
     if (icons) {
       // Footer-style: icon(s) + translated text
-      el.innerHTML = icons + '\u00a0' + value;
+      el.innerHTML = icons + ' ' + value;
     } else {
-      // Paragraph-style: translated text (may contain <br> and <a> from translation string)
+      // Paragraph-style: translated text (may contain inline elements from translation string)
       el.innerHTML = value;
     }
     return;
   }
-  // Complex element (contains paragraphs, divs, etc.) — skip to preserve structure
+  // Complex element (contains block-level children) — skip to preserve structure
 }
 
 function _updateSliderIndicators(lang) {
@@ -1142,4 +1165,5 @@ function _updateSliderIndicators(lang) {
 document.addEventListener('DOMContentLoaded', function() {
   var saved = localStorage.getItem('dm-lang') || 'en';
   changeLanguage(saved);
+  document.documentElement.classList.remove('dm-lang-init');
 });

@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script>(function(){var l=localStorage.getItem('dm-lang');if(l&&l!=='en')document.documentElement.classList.add('dm-lang-init');})()</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact DM Legal — Get Legal Advice in UAE | Ras Al Khaimah</title>
   <meta name="description" content="Contact DM Legal for expert legal advice. We have offices in Ras Al Khaimah (UAE), Paris, and Turks & Caicos. Reach us for consultations on corporate, criminal, family, and immigration law.">
@@ -28,6 +29,7 @@
   <link rel="preload" href="assets/css/dm-style.css" as="style">
   <link rel="stylesheet" href="assets/css/dm-style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 
@@ -126,89 +128,223 @@
         </form>
       </div>
 
-      <!-- Info -->
+      <!-- Info Switcher -->
       <div data-aos="fade" data-aos-delay="100">
-        <div class="office-section office-section--spaced">
-          <h4>Ras Al Khaimah Office</h4>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
-            <div class="contact-info-content">
-              <h3>Address</h3>
-              <p data-key="contact-local">516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila lndustrial Free Zone, RAK, UAE</p>
+        <div class="office-switcher">
+
+          <!-- Tab buttons -->
+          <div class="osw-tabs">
+            <button class="osw-btn active" onclick="switchOffice(this,'rak')">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span data-key="office-rak-country">Ras Al Khaimah</span>
+            </button>
+            <button class="osw-btn" onclick="switchOffice(this,'paris')">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span data-key="office-paris-country">Paris</span>
+            </button>
+            <button class="osw-btn" onclick="switchOffice(this,'london')">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span data-key="office-london-country">London</span>
+            </button>
+            <button class="osw-btn" onclick="switchOffice(this,'tci')">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span data-key="office-tci-country">Turks &amp; Caicos</span>
+            </button>
+          </div>
+
+          <!-- RAK -->
+          <div class="osw-panel active" id="osw-rak">
+            <p class="osw-region" data-key="office-rak-city">United Arab Emirates</p>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-info-content">
+                <h3>Address</h3>
+                <p data-key="contact-local">516W127A, Shed No016 — Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info-content">
+                <h3>Phone</h3>
+                <p>(+971) 4 355 0004</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info-content">
+                <h3>Email</h3>
+                <p><a href="mailto:contact@dmlegal.com" class="link-gold">contact@dmlegal.com</a></p>
+              </div>
             </div>
           </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
-            <div class="contact-info-content">
-              <h3>Phone</h3>
-              <p data-key="footer-phone1">(+971) 4 355 0004</p>
+
+          <!-- Paris -->
+          <div class="osw-panel" id="osw-paris">
+            <p class="osw-region" data-key="office-paris-city">France — Europe</p>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-info-content">
+                <h3>Address</h3>
+                <p data-key="footer-location2">39Bis, Boulevard Exelmans, 75016 Paris</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info-content">
+                <h3>Phone</h3>
+                <p data-key="footer-phone2">(+33) 145531996</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info-content">
+                <h3>Email</h3>
+                <p><a href="mailto:contact@dmlegal.com" class="link-gold">contact@dmlegal.com</a></p>
+              </div>
             </div>
           </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
-            <div class="contact-info-content">
-              <h3>Email</h3>
-              <p data-key="footer-email"><a href="mailto:contact@DM Legal.com" class="link-gold">contact@DM Legal.com</a></p>
+
+          <!-- London -->
+          <div class="osw-panel" id="osw-london">
+            <p class="osw-region" data-key="office-london-city">United Kingdom — Europe</p>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-info-content">
+                <h3>Address</h3>
+                <p>30 Lincoln's Inn Fields, London, WC2A 3PD</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info-content">
+                <h3>Phone</h3>
+                <p>+44 20 7440 9950</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info-content">
+                <h3>Email</h3>
+                <p><a href="mailto:arm@33cllaw.com" class="link-gold">arm@33cllaw.com</a></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="office-section office-section--spaced">
-          <h4>Paris Office</h4>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
-            <div class="contact-info-content">
-              <h3>Address</h3>
-              <p data-key="footer-location2">39Bis, Boulevard Exelmans, 75016 Paris</p>
+
+          <!-- TCI -->
+          <div class="osw-panel" id="osw-tci">
+            <p class="osw-region" data-key="office-tci-city">TCI — British Overseas Territory</p>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-info-content">
+                <h3>Address</h3>
+                <p>P O Box 477, 2nd Floor, Grant's Building, Leeward Highway, Providenciales, TKCA 1ZZ</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info-content">
+                <h3>Phone</h3>
+                <p>+1 (649) 232-6216</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info-content">
+                <h3>Email</h3>
+                <p><a href="mailto:arm@fga-law.com" class="link-gold">arm@fga-law.com</a></p>
+              </div>
             </div>
           </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
-            <div class="contact-info-content">
-              <h3>Phone</h3>
-              <p data-key="footer-phone2">(+33) 145531996</p>
-            </div>
-          </div>
-        </div>
-        <div class="office-section office-section--spaced">
-          <h4>Turks and Caicos Office</h4>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
-            <div class="contact-info-content">
-              <h3>Address</h3>
-              <p>Office 105, Nethinya, Kumkoy, Mersin 10, Turkey</p>
-            </div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
-            <div class="contact-info-content">
-              <h3>Phone</h3>
-              <p>+90 212 51 51 51</p>
-            </div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
-            <div class="contact-info-content">
-              <h3>Email</h3>
-              <p><a href="mailto:contact@DM Legal.com" class="link-gold">contact@DM Legal.com</a></p>
-            </div>
-          </div>
+
         </div>
 
         <hr class="contact-divider">
-
         <p class="contact-note">We typically respond within 24 business hours. All communications are confidential.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══ MAP STRIP ══ -->
-<div class="map-strip">
-  <div class="map-crosshair">
-    <div class="map-city">Ras Al Khaimah · <span>UAE</span></div>
+<!-- ══ OFFICES MAP ══ -->
+<section class="offices-map-section">
+  <div class="container">
+    <div class="text-center" data-aos="fade">
+      <span class="section-label" data-key="contact-map-label">OUR LOCATIONS</span>
+      <div class="gold-divider"></div>
+      <h2 class="section-title" data-key="contact-map-title">Find Us Around the World</h2>
+    </div>
+
+    <div class="map-tabs-wrapper" data-aos="fade">
+      <div class="map-tab-nav">
+        <button class="map-tab-btn active" onclick="switchMapTab(this,'rak')">
+          <i class="bi bi-geo-alt-fill"></i>
+          <span data-key="office-rak-country">Ras Al Khaimah</span>
+          <small data-key="office-rak-city">United Arab Emirates</small>
+        </button>
+        <button class="map-tab-btn" onclick="switchMapTab(this,'paris')">
+          <i class="bi bi-geo-alt-fill"></i>
+          <span data-key="office-paris-country">Paris</span>
+          <small data-key="office-paris-city">France — Europe</small>
+        </button>
+        <button class="map-tab-btn" onclick="switchMapTab(this,'london')">
+          <i class="bi bi-geo-alt-fill"></i>
+          <span data-key="office-london-country">London</span>
+          <small data-key="office-london-city">United Kingdom — Europe</small>
+        </button>
+        <button class="map-tab-btn" onclick="switchMapTab(this,'tci')">
+          <i class="bi bi-geo-alt-fill"></i>
+          <span data-key="office-tci-country">Turks &amp; Caicos Islands</span>
+          <small data-key="office-tci-city">TCI — British Overseas Territory</small>
+        </button>
+      </div>
+
+      <!-- RAK — Al Hulaila Industrial Free Zone -->
+      <div class="map-panel active" id="map-rak">
+        <div class="map-leaflet" id="lmap-rak"></div>
+        <div class="map-panel-info">
+          <div class="map-info-item"><i class="bi bi-geo-alt"></i><span>516W127A, Shed No016 — Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</span></div>
+          <div class="map-info-item"><i class="bi bi-telephone"></i><span>(+971) 4 355 0004</span></div>
+          <div class="map-info-item"><i class="bi bi-envelope"></i><span><a href="mailto:contact@dmlegal.com">contact@dmlegal.com</a></span></div>
+          <a href="https://www.google.com/maps/place/Al+Hulaila+Industrial+Zone+GATE/@25.9293333,55.4761505,10z/data=!4m10!1m2!2m1!1sAl+Hulaila+Industrial+Free+Zone+Ras+Al+Khaimah+UAE!3m6!1s0x3ef66580e7441afd:0xeda40a7776f2b764!8m2!3d25.9378377!4d56.0606513!15sCjJBbCBIdWxhaWxhIEluZHVzdHJpYWwgRnJlZSBab25lIFJhcyBBbCBLaGFpbWFoIFVBRWo4IjJhbCBodWxhaWxhIGluZHVzdHJpYWwgZnJlZSB6b25lIHJhcyBhbCBraGFpbWFoIHVhZZIBDWdvdmVybm1lbnRfb2ZmaWNlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJzeFptVkVUWGRSYkd4Q1ZHdHdiMDlJUm1wVmJYQjBVbTFzZFdWRlJSQULgAQD6AQQIABAS!16s%2Fg%2F11kjcl_6_v?entry=ttu&g_ep=EgoyMDI2MDQyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="map-directions-btn" data-key="contact-map-directions">Get Directions</a>
+        </div>
+      </div>
+
+      <!-- Paris -->
+      <div class="map-panel" id="map-paris">
+        <div class="map-leaflet" id="lmap-paris"></div>
+        <div class="map-panel-info">
+          <div class="map-info-item"><i class="bi bi-geo-alt"></i><span>39Bis, Boulevard Exelmans, 75016 Paris, France</span></div>
+          <div class="map-info-item"><i class="bi bi-telephone"></i><span>(+33) 145531996</span></div>
+          <div class="map-info-item"><i class="bi bi-envelope"></i><span><a href="mailto:contact@dmlegal.com">contact@dmlegal.com</a></span></div>
+          <a href="https://www.google.com/maps/search/?api=1&query=39+Boulevard+Exelmans+75016+Paris+France" target="_blank" rel="noopener" class="map-directions-btn" data-key="contact-map-directions">Get Directions</a>
+        </div>
+      </div>
+
+      <!-- London -->
+      <div class="map-panel" id="map-london">
+        <div class="map-leaflet" id="lmap-london"></div>
+        <div class="map-panel-info">
+          <div class="map-info-item"><i class="bi bi-geo-alt"></i><span>30 Lincoln's Inn Fields, London, WC2A 3PD, UK</span></div>
+          <div class="map-info-item"><i class="bi bi-telephone"></i><span>+44 20 7440 9950</span></div>
+          <div class="map-info-item"><i class="bi bi-envelope"></i><span><a href="mailto:arm@33cllaw.com">arm@33cllaw.com</a></span></div>
+          <a href="https://www.google.com/maps/search/?api=1&query=30+Lincolns+Inn+Fields+London+WC2A+3PD" target="_blank" rel="noopener" class="map-directions-btn" data-key="contact-map-directions">Get Directions</a>
+        </div>
+      </div>
+
+      <!-- TCI -->
+      <div class="map-panel" id="map-tci">
+        <div class="map-leaflet" id="lmap-tci"></div>
+        <div class="map-panel-info">
+          <div class="map-info-item"><i class="bi bi-geo-alt"></i><span>P O Box 477, 2nd Floor, Grant's Building, Leeward Highway, Providenciales, TKCA 1ZZ</span></div>
+          <div class="map-info-item"><i class="bi bi-telephone"></i><span>+1 (649) 232-6216</span></div>
+          <div class="map-info-item"><i class="bi bi-envelope"></i><span><a href="mailto:arm@fga-law.com">arm@fga-law.com</a></span></div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Leeward+Highway+Providenciales+Turks+and+Caicos+Islands" target="_blank" rel="noopener" class="map-directions-btn" data-key="contact-map-directions">Get Directions</a>
+        </div>
+      </div>
+
+    </div>
   </div>
-  <p class="map-note">516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila lndustrial Free Zone, RAK, UAE</p>
-</div>
+</section>
 
 
 <!-- ══ FOOTER ══ -->
@@ -220,7 +356,7 @@
       </div>
       <div class="footer-content-wrapper">
         <div class="footer-info">
-          <p class="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
+          <p class="footer-tagline" data-key="footer-tagline">An innovative and client-focused law firm based in Ras Al Khaimah, UAE. Serving clients across the Middle East and internationally.</p>
           <ul class="footer-contacts">
             <li data-key="footer-location1"><i class="bi bi-geo-alt"></i> 516W127A, Shed No016 - Al Hulaila FZ, Al Hulaila Industrial Free Zone, RAK, UAE</li>
             <li data-key="footer-phone1"><i class="bi bi-telephone"></i> Phone: (+971) 4 XXX XXXX</li>
@@ -251,6 +387,7 @@
 
  
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
@@ -261,15 +398,66 @@
       this.classList.toggle('open');
       document.getElementById('mobileNav').classList.toggle('open');
     });
-    document.querySelectorAll('.faq-question').forEach(q => {
-      q.addEventListener('click', () => {
-        const item = q.parentElement;
-        const isOpen = item.classList.contains('active');
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-        if (!isOpen) item.classList.add('active');
-      });
-    });
+    _initOfficeMap('rak');
   });
+
+  var _officeMaps = {};
+  var _officeMapCfg = {
+    rak:    { lat: 25.9378, lng: 56.0607, zoom: 13 },
+    paris:  { lat: 48.8414, lng: 2.2627,  zoom: 14 },
+    london: { lat: 51.5176, lng: -0.1154,  zoom: 14 },
+    tci:    { lat: 21.7735, lng: -72.2070, zoom: 13 }
+  };
+
+  var _pinIcon = L.divIcon({
+    html: '<i class="bi bi-geo-alt-fill" style="color:#111111;font-size:30px;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,0.25));line-height:1;"></i>',
+    iconSize: [30, 38],
+    iconAnchor: [15, 38],
+    className: ''
+  });
+
+  function _initOfficeMap(id) {
+    if (_officeMaps[id]) {
+      setTimeout(function() { _officeMaps[id].invalidateSize(); }, 30);
+      return;
+    }
+    var cfg = _officeMapCfg[id];
+    var el = document.getElementById('lmap-' + id);
+    if (!cfg || !el) return;
+    var m = L.map(el, {
+      center: [cfg.lat, cfg.lng],
+      zoom: cfg.zoom,
+      zoomControl: false,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      dragging: false,
+      touchZoom: false,
+      boxZoom: false,
+      keyboard: false
+    });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(m);
+    L.marker([cfg.lat, cfg.lng], { icon: _pinIcon }).addTo(m);
+    _officeMaps[id] = m;
+  }
+
+  function switchMapTab(btn, id) {
+    document.querySelectorAll('.map-tab-btn').forEach(function(b) { b.classList.remove('active'); });
+    document.querySelectorAll('.map-panel').forEach(function(p) { p.classList.remove('active'); });
+    btn.classList.add('active');
+    document.getElementById('map-' + id).classList.add('active');
+    setTimeout(function() { _initOfficeMap(id); }, 30);
+  }
+
+  function switchOffice(btn, id) {
+    document.querySelectorAll('.osw-btn').forEach(function(b) { b.classList.remove('active'); });
+    document.querySelectorAll('.osw-panel').forEach(function(p) { p.classList.remove('active'); });
+    btn.classList.add('active');
+    document.getElementById('osw-' + id).classList.add('active');
+  }
 </script>
 
 <script src="assets/js/translations.js" defer></script>
