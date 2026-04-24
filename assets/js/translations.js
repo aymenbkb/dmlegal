@@ -175,10 +175,10 @@ const translations = {
     'contact-msg': 'Send us your query anytime!',
     'contact-intro-label': 'DIRECT CONTACT',
     'contact-intro-description': 'Reach out to our team from any of our offices across the globe. We are committed to providing timely, expert guidance on any legal matter.',
-    'message': 'Enter Message',
-    'name': 'Your Name',
-    'email': 'Email Address',
-    'subject': 'Subject',
+    'message': 'Enter Message (placeholder)',
+    'name': 'Your Name (placeholder)',
+    'email': 'Email Address (placeholder)',
+    'subject': 'Subject (placeholder)',
     'submit': 'Send Message',
 
     // Office Info — Ras Al Khaimah
@@ -541,10 +541,10 @@ const translations = {
     'contact-msg': 'Envoyez-nous votre demande à tout moment !',
     'contact-intro-label': 'CONTACT DIRECT',
     'contact-intro-description': 'Contactez notre équipe depuis l\'un de nos bureaux dans le monde entier. Nous nous engageons à fournir des conseils experts et rapides sur toute question juridique.',
-    'message': 'Saisissez votre message',
-    'name': 'Votre nom',
-    'email': 'Adresse e-mail',
-    'subject': 'Objet',
+    'message': 'Saisissez votre message (placeholder)',
+    'name': 'Votre nom (placeholder)',
+    'email': 'Adresse e-mail (placeholder)',
+    'subject': 'Objet (placeholder)',
     'submit': 'Envoyer le message',
 
     // Office Info
