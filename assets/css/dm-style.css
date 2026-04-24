@@ -707,7 +707,7 @@ display: flex;
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 1.5px solid var(--border);
+  border-bottom: 1.5px solid var(--mid);
   padding: 12px 0;
   font-family: var(--font-body);
   font-size: 0.95rem;
@@ -1347,10 +1347,12 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 
 /* ── CONTACT FORM ── */
 .contact-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
-  align-items: start;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 70px;
+background: var(--blush-mid);
+padding: 40px;
+align-items: start;
 }
 .contact-form-head {
   font-family: var(--font-display);
