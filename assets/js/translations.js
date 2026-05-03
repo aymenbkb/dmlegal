@@ -234,7 +234,7 @@ const translations = {
     // --- Service Page: Criminal Law (criminal-law.html) ---
     'service3-description': 'Our criminal law and compliance services are designed to provide expert guidance and robust defense across international jurisdictions. With a deep understanding of the complexities of criminal law systems worldwide, our team of seasoned lawyers ensures comprehensive support throughout every stage of your case.',
     'service3-key': 'Key Areas of Our Criminal Law Services Include:',
-    'service3-item1': '<strong>Criminal Defense:</strong> Representing clients in criminal cases to safeguard their rights and ensure a fair trial, including in extradition proceedings, <strong>Interpol Red Notices</strong>, and arrest warrant matters across multiple jurisdictions.',
+    'service3-item1': '<strong>Criminal Defense:</strong> Representing clients in criminal cases to safeguard their rights and ensure a fair trial, including in extradition proceedings, Interpol Red Notices, and arrest warrant matters across multiple jurisdictions.',
     'service3-item2': '<strong>Interpol Red Notice Defense:</strong> Specialized expertise in challenging and managing Interpol Red Notices, including requests for removal, review, and defense against wrongful notifications.',
     'service3-item3': '<strong>Extradition Proceedings:</strong> Comprehensive representation in extradition cases, including defense against extradition requests and international surrender proceedings.',
     'service3-item4': '<strong>Legal Advice:</strong> Providing expert legal opinion regarding criminal matters to help clients understand their options across different legal systems.',
@@ -367,7 +367,7 @@ const translations = {
 
     // --- Team Member Page: Jordana Dray (member2.html) ---
     'member2-breadcrumb': 'Jordana Dray',
-    'team2-desc': 'Jordana Dray is an internationally accomplished legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at <strong>Olivier Metzner LLP</strong> and <strong>D.O. Kaminski LLP</strong>, in Israel with <strong>Meitar Liquvornik Geva Leshem</strong> and Professor Yuval Levy. In 2013, she founded her own boutique firm in Paris before joining <strong>Binmes\'har &amp; Co</strong> in the UAE as a partner in 2022. In 2024, she joined <strong>Acker Choquette</strong> to create <strong>ACD Law</strong> in Dubai. And recently, in 2025, she founded <strong>DM Legal</strong> in Ras Al Khaimah. Fluent in French, English, and Hebrew.',
+    'team2-desc': 'Jordana Dray is an internationally accomplished legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at Olivier Metzner LLP and D.O. Kaminski LLP, in Israel with Meitar Liquvornik Geva Leshem and Professor Yuval Levy. In 2013, she founded her own boutique firm in Paris before joining Binmes’har & Co in the UAE as a partner in 2022. In 2024, she joined Acker Choquette to create ACD Law in Dubai. And recently, in 2025, she founded DM Legal in Ras Al Khaimah to advise on cross-border legal and business matters. She leverages her global expertise to help individuals and companies navigate legal challenges between Europe and the Middle East. Fluent in French, English, and Hebrew, she is a trusted advisor in international matters.',
     'team2-item1': 'Member of the <strong>Paris Bar Association</strong>.',
     'team2-item2': '<strong>DIFC</strong> Registered Practitioner.',
     'team2-item3': '<strong>ADGM</strong> Registered Practitioner.',
@@ -623,7 +623,7 @@ const translations = {
     // --- Service Page: Criminal Law (criminal-law.html) ---
     'service3-description': 'Nos services en droit pénal et compliance sont conçus pour offrir un conseil d\'expert et une défense solide à l\'échelle internationale. Forts d\'une parfaite maîtrise des spécificités des systèmes de droit pénal à travers le monde, nos avocats expérimentés assurent un suivi complet à chaque étape de votre dossier.',
     'service3-key': 'Principaux domaines de nos services de droit pénal :',
-    'service3-item1': '<strong>Défense pénale :</strong> représentation des clients dans le cadre de procédures pénales afin de protéger leurs droits et de garantir un procès équitable, y compris en matière d\'extradition, de <strong>notices rouges d\'Interpol</strong> et de mandats d\'arrêt dans plusieurs juridictions.',
+    'service3-item1': '<strong>Défense pénale :</strong> représentation des clients dans le cadre de procédures pénales afin de protéger leurs droits et de garantir un procès équitable, y compris en matière d\'extradition, de notices rouges d\'Interpol et de mandats d\'arrêt dans plusieurs juridictions.',
     'service3-item2': '<strong>Défense contre les notices rouges d\'Interpol :</strong> expertise spécialisée dans la contestation et la gestion des notices rouges d\'Interpol, y compris les demandes de suppression, de réexamen et de défense contre les notifications abusives.',
     'service3-item3': '<strong>Procédures d\'extradition :</strong> représentation complète dans les affaires d\'extradition, y compris la défense contre les demandes d\'extradition et les procédures de remise internationale.',
     'service3-item4': '<strong>Conseil juridique :</strong> fournir des avis juridiques experts sur les questions pénales afin d\'aider les clients à comprendre leurs options dans différents systèmes juridiques.',
@@ -1011,7 +1011,7 @@ ar: {
     // --- Service Page: Criminal Law (criminal-law.html) ---
     'service3-description': 'تُصمَّم خدماتنا في القانون الجنائي والامتثال الجنائي لتوفير مشورة قانونية متخصصة ودفاع قانوني متين عبر الولايات القضائية الدولية. بفضل الإلمام العميق بتشعبات أنظمة القانون الجنائي حول العالم، يضمن فريقنا من المحامين المحنَّكين تمثيلاً قانونياً شاملاً في كل مرحلة من مراحل الإجراءات.',
     'service3-key': 'المجالات الرئيسية لخدماتنا في القانون الجنائي:',
-    'service3-item1': '<strong>الدفاع الجنائي:</strong> تمثيل الموكلين في القضايا الجنائية لصون حقوقهم وكفالة محاكمة عادلة، بما يشمل قضايا التسليم و<strong>نشرات الإنتربول الحمراء</strong> ومذكرات التوقيف عبر الولايات القضائية المتعددة.',
+    'service3-item1': '<strong>الدفاع الجنائي:</strong> تمثيل الموكلين في القضايا الجنائية لصون حقوقهم وكفالة محاكمة عادلة، بما يشمل قضايا التسليم ونشرات الإنتربول الحمراء ومذكرات التوقيف عبر الولايات القضائية المتعددة.',
     'service3-item2': '<strong>الدفاع ضد نشرات الإنتربول الحمراء:</strong> خبرة متخصصة في التحدي وإدارة نشرات الإنتربول الحمراء، بما يشمل طلبات الإزالة والمراجعة والدفاع ضد الإخطارات غير المشروعة.',
     'service3-item3': '<strong>إجراءات التسليم:</strong> تمثيل شامل في قضايا التسليم، بما يشمل الدفاع ضد طلبات التسليم وإجراءات التسليم الدولي.',
     'service3-item4': '<strong>المشورة القانونية الجنائية:</strong> تقديم آراء قانونية متخصصة في المسائل الجنائية لتمكين الموكلين من فهم خياراتهم القانونية بوضوح في الأنظمة القانونية المختلفة.',
