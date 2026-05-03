@@ -93,7 +93,7 @@ const translations = {
     // --- Page 2: Team (team.html) ---
     'team-title': 'Meet the Team',
     'team-intro-label': 'OUR FOUNDERS',
-    'team-intro-description': 'Our founding partners bring together decades of international legal experience from the UK, France, and the Caribbean — united by a commitment to exceptional client service across borders.',
+    'team-intro-description': 'Our founding partners bring together decades of international legal experience from the UK, France, and the Caribbean — The firm has a global network of correspondents worldwide, enabling us to provide seamless legal support across multiple jurisdictions and international markets.',
     'caribbean-jurisdictions-title': 'Caribbean Jurisdictions Coverage',
     'caribbean-jurisdictions-description': 'The firm operates and provides comprehensive legal coverage across the Caribbean region, including:',
     'cayman-islands': 'Cayman Islands',
@@ -482,7 +482,7 @@ const translations = {
     // --- Page 2: Team (team.html) ---
     'team-title': 'Rencontrez l\'Équipe',
     'team-intro-label': 'NOS FONDATEURS',
-    'team-intro-description': 'Nos associés fondateurs réunissent des décennies d\'expérience juridique internationale au Royaume-Uni, en France et dans les Caraïbes, unis par une même exigence : celle d\'un service client d\'exception, par-delà les frontières.',
+    'team-intro-description': 'Nos associés fondateurs réunissent des décennies d\'expérience juridique internationale au Royaume-Uni, en France et dans les Caraïbes — Le cabinet dispose d\'un réseau de correspondants dans le monde entier, ce qui nous permet d\'offrir un soutien juridique sans faille sur plusieurs juridictions et marchés internationaux.',
     'caribbean-jurisdictions-title': 'Couverture des juridictions caribéennes',
     'caribbean-jurisdictions-description': 'Le cabinet exerce et assure une couverture juridique complète dans la région des Caraïbes, notamment :',
     'cayman-islands': 'Îles Caïmans',
@@ -870,7 +870,7 @@ ar: {
     // --- Page 2: Team (team.html) ---
     'team-title': 'تعرّف على فريقنا القانوني',
     'team-intro-label': 'الشركاء المؤسسون',
-    'team-intro-description': 'يجمع شركاؤنا المؤسسون عقوداً من الممارسة القانونية الدولية الرفيعة في المملكة المتحدة وفرنسا ومنطقة الكاريبي، يوحّدهم التزام راسخ بتقديم خدمة قانونية استثنائية تتجاوز الحدود الجغرافية.',
+    'team-intro-description': 'يجمع شركاؤنا المؤسسون عقوداً من الممارسة القانونية الدولية الرفيعة في المملكة المتحدة وفرنسا ومنطقة الكاريبي — يوفر المكتب شبكة عملاء عالمية، مما يتيح لنا تقديم دعم قانوني سلس عبر عدة جوازات وأسواق دولية.',
     'caribbean-jurisdictions-title': 'تغطية الولايات القضائية في الكاريبي',
     'caribbean-jurisdictions-description': 'يمارس المكتب ويقدم تغطية قانونية شاملة عبر منطقة الكاريبي، بما في ذلك:',
     'cayman-islands': 'جزر كايمان',
