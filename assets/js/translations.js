@@ -343,7 +343,7 @@ const translations = {
     // --- Team Member Page: Andrew Mitchell KC (member1.html) ---
     'back-to-team': '← Back to Team',
     'member1-breadcrumb': 'Andrew Mitchell KC',
-    'team1-desc': 'Andrew Mitchell KC is a senior barrister specializing in financial crime, proceeds of crime, asset recovery, fraud, bribery, and corruption. He is widely regarded as a leading expert in <strong>Proceeds of Crime Act (POCA)</strong> matters and regularly handles complex, high-value, multi-jurisdictional cases.',
+    'team1-desc': 'Andrew Mitchell KC is a senior barrister specializing in financial crime, proceeds of crime, asset recovery, fraud, bribery, and corruption. He is widely regarded as a leading expert in Proceeds of Crime Act (POCA) matters and regularly handles complex, high-value, multi-jurisdictional cases. He works across the UK and internationally, including the Caribbean and other Commonwealth jurisdictions, and has advised governments and institutions worldwide.',
     'credentials-achievements': 'CREDENTIALS &amp; ACHIEVEMENTS',
     'team1-item1': 'King\'s Counsel (KC) and leading barrister.',
     'team1-item2': 'Leading authority on proceeds of crime <strong>(POCA)</strong> and asset recovery.',
