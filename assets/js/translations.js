@@ -10,7 +10,7 @@ const translations = {
   // ============================================================
   en: {
 
-    // --- GLOBAL: Navigation ---
+    // —- GLOBAL: Navigation —-
     'nav-home': 'Home',
     'nav-team': 'Team',
     'nav-services': 'Services',
@@ -19,12 +19,12 @@ const translations = {
     'nav-insight': 'Insight',
     'nav-contact': 'Contact',
 
-    // --- GLOBAL: Language Switcher ---
+    // —- GLOBAL: Language Switcher —-
     'lang-en': 'EN',
     'lang-fr': 'FR',
     'lang-ar': 'AR',
 
-    // --- GLOBAL: Footer ---
+    // —- GLOBAL: Footer —-
     'footer-tagline': 'An innovative and client-focused law firm<br>based in Ras Al Khaimah, UAE. Serving<br>clients across the Middle East and internationally.',
     'footer-location1': '516W127A, Shed No016 - <strong>Al Hulaila FZ</strong>, Al Hulaila<br>Industrial Free Zone, RAK, UAE',
     'footer-phone1': 'Phone: (+971) 4 355 0004',
@@ -38,7 +38,7 @@ const translations = {
     'footer-link6': 'Gallery',
     'footer-copyright': 'All rights reserved ©2026 <strong>DM Legal</strong>.',
 
-    // --- Page 1: Homepage (index.html) ---
+    // —- Page 1: Homepage (index.html) —-
     // Hero Section
     'hero-eyebrow': 'a global firm',
     'hero-title': 'Premier Legal Solutions',
@@ -84,7 +84,7 @@ const translations = {
     'contact-text': 'Blending innovative thinking with exceptional client care is the cornerstone of our practice.',
     'contact-btn': 'Contact Us Today',
 
-    // --- Page 2: Team (team.html) ---
+    // —- Page 2: Team (team.html) —-
     'team-title': 'Meet the Team',
     'team-intro-label': 'OUR FOUNDERS',
     'team-intro-description': 'Our founding partners bring together decades of international legal experience from the UK, France, and the Caribbean — The firm has a global network of correspondents worldwide, enabling us to provide seamless legal support across multiple jurisdictions and international markets.',
@@ -114,7 +114,7 @@ const translations = {
     'team-cta-title': 'Work With Our Team',
     'team-cta-description': 'Reach out for a consultation with our legal experts.',
 
-    // --- Page 3: Services (services.html) ---
+    // —- Page 3: Services (services.html) —-
     'services-intro-label': 'OUR PRACTICES',
     'services-intro-description': '<strong>DM Legal</strong> offers comprehensive legal services across a broad range of practice areas — serving individuals and businesses in the UAE and internationally with expertise and dedication.',
     'service-filter': 'All',
@@ -134,7 +134,7 @@ const translations = {
     'cta-description': 'Contact us for a personalized legal consultation.',
     'cta-button': 'Get Consultation',
 
-    // --- Page 4: Offices (offices.html) ---
+    // —- Page 4: Offices (offices.html) —-
     'offices-title': 'Our Offices',
     'offices-intro-label': 'WHERE WE ARE',
     'offices-intro-description': '<strong>DM Legal</strong> operates from three strategic locations spanning the Middle East, Europe and the Atlantic — allowing us to serve clients across jurisdictions with local knowledge and a global perspective.',
@@ -159,7 +159,7 @@ const translations = {
     'offices-cta-description': 'Our global team is ready to assist you wherever you are.',
     'offices-cta-button': 'Contact Us Today',
 
-    // --- Page 5: Gallery (gallery.html) ---
+    // —- Page 5: Gallery (gallery.html) —-
     'gallery-title': 'Gallery',
     'gallery-intro-label': 'PHOTOS',
     'gallery-intro-description': 'From our offices across three continents to the people behind the firm.',
@@ -169,7 +169,7 @@ const translations = {
     'gallery-cta-description': 'A global firm at your service.',
     'gallery-cta-button': 'Contact Us Today',
 
-    // --- Page 6: Blog / Insight (blog.html) ---
+    // —- Page 6: Blog / Insight (blog.html) —-
     'blog-intro-label': 'LATEST UPDATES',
     'blog-intro-description': 'Stay informed with our latest articles, legal updates, and analysis across UAE, French, and English law — from international transactions to complex litigation.',
     'blog-featured-tag': 'Featured',
@@ -177,10 +177,10 @@ const translations = {
     'blog-all-articles-label': 'ALL ARTICLES',
     'blog-browse-title': 'Browse Insights',
 
-    // --- Page 7: Single Blog Post (single-blog.html) ---
+    // —- Page 7: Single Blog Post (single-blog.html) —-
     'contact-btn': 'Contact Us',
 
-    // --- Page 8: Contact (contact.html) ---
+    // —- Page 8: Contact (contact.html) —-
     'contact-title': 'Contact Us',
     'contact-msg': 'Send us your query anytime!',
     'contact-intro-label': 'DIRECT CONTACT',
@@ -201,7 +201,7 @@ const translations = {
     'contact-map-title': 'Find Us Around the World',
     'contact-map-directions': 'Get Directions',
 
-    // --- Service Page: Business Setup in UAE Free Zones (business-uae.html) ---
+    // —- Service Page: Business Setup in UAE Free Zones (business-uae.html) —-
     'service1': 'Business Setup in <strong>UAE Free Zones</strong>',
     'service1-description': 'Business establishment in the Free Zones of the UAE provides a streamlined framework for foreign investors to set up and operate companies. These zones offer 100% foreign ownership, tax exemptions, simplified registration processes, and access to world-class infrastructure.',
     'service1-key': 'Key Benefits of Setting Up in <strong>UAE Free Zones</strong> Include:',
@@ -214,7 +214,7 @@ const translations = {
     'service1-content': 'At <strong>DM Legal</strong>, we offer expert guidance for setting up businesses in the UAE\'s Free Zones. Whether you\'re looking to establish a new company, register your business, or ensure full legal compliance, our team provides tailored solutions.',
     'cta-contact': 'Contact Us',
 
-    // --- Service Page: Intellectual Property Law (intellectual-law.html) ---
+    // —- Service Page: Intellectual Property Law (intellectual-law.html) —-
     'service2-description': '<strong>Intellectual Property (IP) Law</strong> protects the rights of creators and businesses over their inventions, designs, brand identities, and creative works. It ensures that these assets are safeguarded against unauthorized use while promoting innovation and fair competition in the marketplace.',
     'service2-key': 'Key Areas of <strong>Intellectual Property Law</strong> Include:',
     'service2-item1': '<strong>Patents:</strong> Legal protection for inventions, granting exclusive rights to the inventor.',
@@ -225,7 +225,7 @@ const translations = {
     'service2-item6': '<strong>International IP Compliance:</strong> Navigating IP regulations across global jurisdictions.',
     'service2-content': 'At <strong>DM Legal</strong>, we help you protect your innovations and brand identity with our comprehensive intellectual property (IP) and trademark services. Our team assists with securing patents, copyrights, and trademarks, offering tailored strategies to safeguard your assets.',
 
-    // --- Service Page: Criminal Law (criminal-law.html) ---
+    // —- Service Page: Criminal Law (criminal-law.html) —-
     'service3-description': 'Our criminal law and compliance services are designed to provide expert guidance and robust defense across international jurisdictions. With a deep understanding of the complexities of criminal law systems worldwide, our team of seasoned lawyers ensures comprehensive support throughout every stage of your case.',
     'service3-key': 'Key Areas of Our Criminal Law Services Include:',
     'service3-item1': '<strong>Criminal Defense:</strong> Representing clients in criminal cases to safeguard their rights and ensure a fair trial, including in extradition proceedings, Interpol Red Notices, and arrest warrant matters across multiple jurisdictions.',
@@ -235,9 +235,9 @@ const translations = {
     'service3-item5': '<strong>Case Management:</strong> Offering complete support throughout the legal process, from investigation to trial and sentencing in both domestic and international courts.',
     'service3-item6': '<strong>Appeals:</strong> Representing clients in appellate proceedings before various courts, including national courts, international tribunals, and supranational courts.',
     'service3-item7': '<strong>International Cooperation:</strong> Managing cross-border legal matters, mutual legal assistance requests, and international criminal investigations.',
-    'service3-content': 'At <strong>DM Legal</strong>, we specialize in criminal law with international scope, offering expert defense strategies and legal advice across multiple jurisdictions.Our TCI office provides a full legal service, including criminal  : with an emphasis on helping High Net-Worth individuals to invest in TCI -- a jurisdiction with a solid common law foundation with an emphasis on the rule of law and the Privy Council in London as the final Court of Appeal.<br> All procedures are handled in collaboration with local attorneys representing clients in front of national courts and international tribunals (<strong>ECHR</strong>, <strong>ICC the Hague</strong>,<strong> Interpol </strong>, and other supranational bodies).',
+    'service3-content': 'At <strong>DM Legal</strong>, we specialize in criminal law with international scope, offering expert defense strategies and legal advice across multiple jurisdictions. Our TCI office provides a full legal service, including criminal  : with an emphasis on helping High Net-Worth individuals to invest in TCI — a jurisdiction with a solid common law foundation with an emphasis on the rule of law and the Privy Council in London as the final Court of Appeal.<br> All procedures are handled in collaboration with local attorneys representing clients in front of national courts and international tribunals (<strong>ECHR</strong>, <strong>ICC the Hague</strong>,<strong> Interpol </strong>, and other supranational bodies).',
 
-    // --- Service Page: Immigration Law (legal-Imegration.html) ---
+    // —- Service Page: Immigration Law (legal-Imegration.html) —-
     'service4-description': '<strong>Immigration Law</strong> governs the legal processes and regulations concerning individuals entering, residing in, and departing from a country. It covers a broad spectrum of issues, including visas, work permits, residency, and citizenship, ensuring compliance with national and international laws.',
     'service4-key': 'Key Areas of Immigration Law Include:',
     'service4-item1': '<strong>Visa Applications:</strong> Assisting with tourist, work, student, and family visa processes.',
@@ -248,7 +248,7 @@ const translations = {
     'service4-item6': '<strong>Appeals and Advocacy:</strong> Representing clients in immigration-related disputes or rejections.',
     'service4-content': 'At <strong>DM Legal</strong>, we specialize in immigration law, providing expert guidance through the complexities of immigration regulations. Whether you\'re seeking temporary relocation, permanent residency, or assistance with visas and work permits, our experienced team is here to support you every step of the way.',
 
-    // --- Service Page: Tax Law (tax-law.html) ---
+    // —- Service Page: Tax Law (tax-law.html) —-
     'service5-description': 'At <strong>DM Legal</strong>, we provide expert guidance on all aspects of tax law to help businesses navigate the complexities of VAT registration, corporate tax registration, tax compliance, and cross-border tax issues. We handle everything from routine VAT filings to complex tax disputes, ensuring your business remains compliant and protected from unnecessary risks.',
     'service5-key': 'Key Areas of Our Tax Law Services Include:',
     'service5-item1': '<strong>VAT Registration:</strong> Assisting businesses with the registration process for VAT compliance in the UAE.',
@@ -260,7 +260,7 @@ const translations = {
     'service5-item6': '<strong>Financial Management:</strong> Advising on accounting, financial reporting, and structuring tax-efficient business operations.',
     'service5-content': 'Our team of experts include correspondents in France, the UK, and Israel, providing specialized guidance on bilateral treaties, cross-border asset transfers, relocations, and compliance.',
 
-    // --- Service Page: Wills & Estate Planning (wills-law.html) ---
+    // —- Service Page: Wills & Estate Planning (wills-law.html) —-
     'service6-description': '<strong>DIFC</strong> and <strong>ADGM</strong> Wills provide a secure mechanism for non-Muslim expatriates to distribute their assets according to their wishes. The <strong>DIFC Wills Service Centre</strong> and the <strong>ADGM Registration Authority</strong> offer Will registration services with clear legal frameworks based on common law principles.',
     'service6-key': 'Key Areas of Wills &amp; Estate Planning include:',
     'service6-item1': '<strong>Drafting a Valid Will:</strong> Ensuring your Will adheres to local and international legal standards.',
@@ -270,7 +270,7 @@ const translations = {
     'service6-item5': '<strong>Asset Protection:</strong> Structuring your Will to protect assets and reduce tax liabilities for heirs.',
     'service6-content': 'We offer expert assistance with Wills and inheritance laws in the UAE through a seamless e-service platform. We ensure your assets are protected and your wishes are honored, adhering to both local and international regulations.',
 
-    // --- Service Page: Arbitration & Dispute Resolution (arbitration-resolution.html) ---
+    // —- Service Page: Arbitration & Dispute Resolution (arbitration-resolution.html) —-
     'service7-part1-title': '<strong>DIFC</strong> Courts',
     'service7-part1-desc': 'Established in 2004 by His Highness (Late) Sheikh Maktoum bin Rashid Al Maktoum, the <strong>DIFC Courts</strong> are an independent judicial system based on English common law, serving international institutions in Ras Al Khaimah and the UAE for civil and commercial disputes.',
     'service7-part2-title': '<strong>ADGM</strong> Courts',
@@ -289,7 +289,7 @@ const translations = {
     'service7-item5': '<strong>Other Arbitration Centres:</strong> Proficient in handling cases at various arbitration centres within the UAE.',
     'service7-content': 'Our team specializes in arbitration and litigation in both within and beyond the UAE. We bring extensive expertise in representing clients in arbitration proceedings, including property disputes, civil matters, and commercial claims. Our proven track record includes successful cases at leading institutions such as the <strong>Dubai International Arbitration Centre (DIAC)</strong> and other recognized arbitration centers.',
 
-    // --- Service Page: Family Law (familly-law.html) ---
+    // —- Service Page: Family Law (familly-law.html) —-
     'service8': 'Family Law',
     'service8-description-title': '<strong>Federal Law No. 28 of 2005</strong>',
     'service8-description1': 'On Personal Status, as amended (<strong>Personal Status Law Federal Law No. 41 of 2024</strong>), governs personal affairs: marriage, dissolution of marriage, divorce, fostering, capacity, tutelage, and guardianship.',
@@ -301,7 +301,7 @@ const translations = {
     'service8-item4': '<strong>Inheritance and Wills:</strong> Drafting and execution of Wills and inheritance distribution.',
     'service8-content': 'Our team works closely with local correspondents who represent clients before UAE Courts and abroad, ensuring that all family-related legal matters, including divorce proceedings, legacy issues, and custody arrangements, are handled with the utmost care and sensitivity.',
 
-    // --- Service Page: Corporate Law (corporate-law.html) ---
+    // —- Service Page: Corporate Law (corporate-law.html) —-
     'service9-description': 'Our corporate law services in the UAE are designed to support businesses at every stage of their lifecycle, from incorporation to corporate governance, mergers, and acquisitions. We provide expert legal counsel in structuring and managing businesses to ensure compliance with UAE laws and regulations.',
     'service9-key': 'Key Areas of Our Corporate Law Services Include:',
     'service9-item1': '<strong>Company Formation:</strong> Providing guidance on the legal requirements for starting a business in the UAE, including choosing the appropriate structure (LLC, Free Zone, etc.).',
@@ -312,7 +312,7 @@ const translations = {
     'service9-item6': '<strong>Corporate Disputes:</strong> Representing clients in corporate disputes, including breaches of contract, shareholder conflicts, and board disputes.',
     'service9-content': 'At <strong>DM Legal</strong>, we specialize in Corporate law, offering comprehensive legal services to businesses of all sizes. Whether you need assistance with company formation, corporate governance, mergers and acquisitions, or managing corporate disputes, our expert legal team is here to provide practical and results-oriented solutions.',
 
-    // --- Service Page: Company Law (company-law.html) ---
+    // —- Service Page: Company Law (company-law.html) —-
     'service9-company': 'Company Law',
     'service9-item1_co': '<strong>Company Formation:</strong> Expert guidance on choosing the right company structure and completing all legal formalities for incorporation.',
     'service9-item2_co': '<strong>Corporate Governance:</strong> Advising on board structure, directors\' duties, and good governance practices.',
@@ -322,7 +322,7 @@ const translations = {
     'service9-item6_co': '<strong>Dissolution &amp; Liquidation:</strong> Managing the voluntary or compulsory winding-up of companies.',
     'service9-content_co': 'At <strong>DM Legal</strong>, our company law specialists guide businesses through every stage of their corporate lifecycle. From initial formation to complex restructuring and dissolution, we ensure that your company operates within the bounds of UAE law while maximizing operational efficiency and legal protection.',
 
-    // --- Service Page: Commercial Law (commercial-law.html) ---
+    // —- Service Page: Commercial Law (commercial-law.html) —-
     'service10-desc': 'Also known as Business Law or Trade Law, is the branch of law that governs the rights, relationships, and conduct of individuals and businesses engaged in commerce, trade, and sales.',
     'service10-key': 'Key Areas of Commercial Law Include:',
     'service10-item1': '<strong>Contracts:</strong> Rules for creating and enforcing agreements between parties.',
@@ -332,9 +332,9 @@ const translations = {
     'service10-item5': '<strong>Intellectual Property:</strong> Protection of trademarks, patents, and copyrights.',
     'service10-item6': '<strong>International Trade:</strong> Rules for imports, exports, and cross-border transactions.',
     'service10-item7': '<strong>Dispute Resolution:</strong> Mechanisms for resolving conflicts in business dealings.',
-    'service10-content': 'At <strong>DM Legal</strong>, we offer comprehensive services across all areas of commercial law. Our expertise includes drafting and reviewing sale and purchase contracts, navigating import and export regulations, transportation and brokerage agreements, and providing investor support for businesses.',
+    'service10-content': 'Chez <strong>DM Legal</strong>, nous offrons des services complets dans tous les domaines du droit commercial. Notre bureau de TCI fournit un service juridique complet, y compris en matière commerciale, pénale et de conformité : en mettant particulièrement l\'accent sur l\'aide aux personnes à patrimoine net élevé souhaitant investir à TCI — une juridiction dotée d\'une base solide de common law, axée sur la primauté du droit et avec le Conseil privé à Londres comme cour d\'appel finale. <br> Notre expertise comprend l\'élaboration et la révision de contrats d\'achat et de vente, la gestion des réglementations d\'importation et d\'exportation, les accords de transport et de courtage, ainsi que le soutien aux investisseurs pour les entreprises.',
 
-    // --- Team Member Page: Andrew Mitchell KC (member1.html) ---
+    // —- Team Member Page: Andrew Mitchell KC (member1.html) —-
     'back-to-team': '← Back to Team',
     'member1-breadcrumb': 'Andrew Mitchell KC',
     'team1-desc': 'Andrew Mitchell KC is a senior barrister specializing in financial crime, proceeds of crime, asset recovery, fraud, bribery, and corruption. He is widely regarded as a leading expert in Proceeds of Crime Act (POCA) matters and regularly handles complex, high-value, multi-jurisdictional cases. He works across the UK and internationally, including the Caribbean and other Commonwealth jurisdictions, and has advised governments and institutions worldwide.',
@@ -365,7 +365,7 @@ const translations = {
     "contact-phone": "Phone", 
     "contact-email": "Email",
 
-    // --- Team Member Page: Jordana Dray (member2.html) ---
+    // —- Team Member Page: Jordana Dray (member2.html) —-
     'member2-breadcrumb': 'Jordana Dray',
     'team2-desc': 'Jordana Dray is an internationally accomplished legal expert specializing in cross-border matters and complex litigation. She has worked in Paris at Olivier Metzner LLP and D.O. Kaminski LLP, in Israel with Meitar Liquvornik Geva Leshem and Professor Yuval Levy. In 2013, she founded her own boutique firm in Paris before joining Binmes’har & Co in the UAE as a partner in 2022. In 2024, she joined Acker Choquette to create ACD Law in Dubai. And recently, in 2025, she founded DM Legal in Ras Al Khaimah to advise on cross-border legal and business matters. She leverages her global expertise to help individuals and companies navigate legal challenges between Europe and the Middle East. Fluent in French, English, and Hebrew, she is a trusted advisor in international matters.',
     'team2-item1': 'Member of the <strong>Paris Bar Association</strong>.',
@@ -399,7 +399,7 @@ const translations = {
   // ============================================================
   fr: {
 
-    // --- GLOBAL: Navigation ---
+    // —- GLOBAL: Navigation —-
     'nav-home': 'Accueil',
     'nav-team': 'Équipe',
     'nav-services': 'Services',
@@ -408,12 +408,12 @@ const translations = {
     'nav-insight': 'Actualités',
     'nav-contact': 'Contact',
 
-    // --- GLOBAL: Language Switcher ---
+    // —- GLOBAL: Language Switcher —-
     'lang-en': 'EN',
     'lang-fr': 'FR',
     'lang-ar': 'AR',
 
-    // --- GLOBAL: Footer ---
+    // —- GLOBAL: Footer —-
     'footer-tagline': 'Cabinet d\'avocats innovant et centré sur le client,<br>basé à Ras Al Khaimah, EAU. Au service de clients au<br>Moyen-Orient et à l\'international.',
     'footer-location1': '516W127A, Hangar N°016 - <strong>Zone Franche Al Hulaila</strong>,<br>Zone Industrielle Franche Al Hulaila, RAK, EAU',
     'footer-phone1': 'Tél. : (+971) 4 355 0004',
@@ -427,7 +427,7 @@ const translations = {
     'footer-link6': 'Galerie',
     'footer-copyright': 'Tous droits réservés ©2026 <strong>DM Legal</strong>.',
 
-    // --- Page 1: Homepage (index.html) ---
+    // —- Page 1: Homepage (index.html) —-
     // Hero Section
     'hero-eyebrow': 'un cabinet international',
     'hero-title': 'Solutions Juridiques de Premier Ordre',
@@ -473,7 +473,7 @@ const translations = {
     'contact-text': 'Notre approche : innovation et accompagnement d\'exception, au service de chaque client.',
     'contact-btn': 'Contactez-nous dès aujourd\'hui',
 
-    // --- Page 2: Team (team.html) ---
+    // —- Page 2: Team (team.html) —-
     'team-title': 'Rencontrez l\'Équipe',
     'team-intro-label': 'NOS FONDATEURS',
     'team-intro-description': 'Nos associés fondateurs réunissent des décennies d\'expérience juridique internationale au Royaume-Uni, en France et dans les Caraïbes — Le cabinet dispose d\'un réseau de correspondants dans le monde entier, ce qui nous permet d\'offrir un soutien juridique sans faille sur plusieurs juridictions et marchés internationaux.',
@@ -503,7 +503,7 @@ const translations = {
     'team-cta-title': 'Travaillez avec notre équipe',
     'team-cta-description': 'Contactez-nous pour une consultation avec nos experts juridiques.',
 
-    // --- Page 3: Services (services.html) ---
+    // —- Page 3: Services (services.html) —-
     'services-intro-label': 'NOS DOMAINES D\'EXPERTISE',
     'services-intro-description': '<strong>DM Legal</strong> propose une gamme complète de services juridiques couvrant un large éventail de domaines. Nous accompagnons les particuliers et les entreprises, aux Émirats Arabes Unis comme à l\'international, avec expertise et dévouement.',
     'service-filter': 'Tout',
@@ -523,7 +523,7 @@ const translations = {
     'cta-description': 'Contactez-nous pour une consultation juridique personnalisée.',
     'cta-button': 'Obtenir une consultation',
 
-    // --- Page 4: Offices (offices.html) ---
+    // —- Page 4: Offices (offices.html) —-
     'offices-title': 'Nos Bureaux',
     'offices-intro-label': 'OÙ SOMMES NOUS',
     'offices-intro-description': '<strong>DM Legal</strong> opère depuis trois sites stratégiques couvrant le Moyen-Orient, l\'Europe et l\'Atlantique, ce qui nous permet d\'accompagner nos clients dans différentes juridictions avec une connaissance locale et une perspective mondiale.',
@@ -548,7 +548,7 @@ const translations = {
     'offices-cta-description': 'Notre équipe mondiale est prête à vous aider où que vous soyez.',
     'offices-cta-button': 'Contactez-nous aujourd\'hui',
 
-    // --- Page 5: Gallery (gallery.html) ---
+    // —- Page 5: Gallery (gallery.html) —-
     'gallery-title': 'Galerie',
     'gallery-intro-label': 'PHOTOS',
     'gallery-intro-description': 'De nos bureaux sur trois continents aux personnes qui animent le cabinet.',
@@ -558,7 +558,7 @@ const translations = {
     'gallery-cta-description': 'Un cabinet mondial à votre service.',
     'gallery-cta-button': 'Contactez-nous aujourd\'hui',
 
-    // --- Page 6: Blog / Insight (blog.html) ---
+    // —- Page 6: Blog / Insight (blog.html) —-
     'blog-intro-label': 'DERNIÈRES ACTUALITÉS',
     'blog-intro-description': 'Restez informé grâce à nos derniers articles, mises à jour juridiques et analyses portant sur le droit émirati, français et anglais — des transactions internationales aux litiges complexes.',
     'blog-featured-tag': 'À la une',
@@ -566,10 +566,10 @@ const translations = {
     'blog-all-articles-label': 'TOUS LES ARTICLES',
     'blog-browse-title': 'Parcourir les actualités',
 
-    // --- Page 7: Single Blog Post (single-blog.html) ---
+    // —- Page 7: Single Blog Post (single-blog.html) —-
     'contact-btn': 'Nous contacter',
 
-    // --- Page 8: Contact (contact.html) ---
+    // —- Page 8: Contact (contact.html) —-
     'contact-title': 'Nous contacter',
     'contact-msg': 'Envoyez-nous votre demande à tout moment !',
     'contact-intro-label': 'CONTACT DIRECT',
@@ -590,7 +590,7 @@ const translations = {
     'contact-map-title': 'Retrouvez-nous dans le monde',
     'contact-map-directions': 'Obtenir l\'itinéraire',
 
-    // --- Service Page: Business Setup in UAE Free Zones (business-uae.html) ---
+    // —- Service Page: Business Setup in UAE Free Zones (business-uae.html) —-
     'service1': 'Création d\'entreprise dans les <strong>Free Zone des EAU</strong>',
     'service1-description': 'La création d\'entreprise dans les zones franches des Émirats arabes unis offre un cadre simplifié aux investisseurs étrangers pour s\'implanter et exercer leur activité. Ces zones permettent aux investisseurs étrangers de détenir 100 % du capital, des exonérations fiscales, des procédures d\'enregistrement simplifiées ainsi qu\'un accès à des infrastructures de classe mondiale.',
     'service1-key': 'Principaux avantages de la création d\'entreprise dans les <strong>Free Zone des EAU</strong> :',
@@ -603,7 +603,7 @@ const translations = {
     'service1-content': 'Chez <strong>DM Legal</strong>, nous accompagnons nos clients dans la création d\'entreprises dans les zones franches des EAU du début à la fin. Que vous souhaitiez créer une nouvelle société, enregistrer votre activité ou garantir une conformité juridique totale, notre équipe fournit des solutions sur mesure.',
     'cta-contact': 'Contactez Nous',
 
-    // --- Service Page: Intellectual Property Law (intellectual-law.html) ---
+    // —- Service Page: Intellectual Property Law (intellectual-law.html) —-
     'service2-description': 'Le <strong>droit de la propriété intellectuelle (PI)</strong> protège les droits des créateurs et des entreprises sur leurs inventions, leurs designs, leur identité de marque et leurs œuvres. Il garantit la protection de ces actifs contre toute utilisation non autorisée, tout en favorisant l\'innovation et une concurrence loyale sur le marché.',
     'service2-key': 'Principaux domaines du <strong>droit de la propriété intellectuelle</strong> :',
     'service2-item1': '<strong>Brevets :</strong> Protection juridique des inventions, accordant des droits exclusifs à l\'inventeur.',
@@ -614,7 +614,7 @@ const translations = {
     'service2-item6': '<strong>Conformité internationale en matière de PI :</strong> accompagnement dans le respect des réglementations applicables à l\'échelle internationale.',
     'service2-content': 'Chez <strong>DM Legal</strong>, nous vous aidons à protéger vos innovations et votre identité de marque grâce à nos services complets en matière de propriété intellectuelle (PI) et de marques. Notre équipe vous aide à obtenir des brevets, des droits d\'auteur et des marques, en proposant des stratégies sur mesure pour protéger vos actifs.',
 
-    // --- Service Page: Criminal Law (criminal-law.html) ---
+    // —- Service Page: Criminal Law (criminal-law.html) —-
     'service3-description': 'Nos services en droit pénal et compliance sont conçus pour offrir un conseil d\'expert et une défense solide à l\'échelle internationale. Forts d\'une parfaite maîtrise des spécificités des systèmes de droit pénal à travers le monde, nos avocats expérimentés assurent un suivi complet à chaque étape de votre dossier.',
     'service3-key': 'Principaux domaines de nos services de droit pénal :',
     'service3-item1': '<strong>Défense pénale :</strong> représentation des clients dans le cadre de procédures pénales afin de protéger leurs droits et de garantir un procès équitable, y compris en matière d\'extradition, de notices rouges d\'Interpol et de mandats d\'arrêt dans plusieurs juridictions.',
@@ -624,9 +624,9 @@ const translations = {
     'service3-item5': '<strong>Gestion de dossier :</strong> offrir un soutien complet tout au long du processus juridique, de l\'enquête au procès et au prononcé de la peine, devant les juridictions nationales et internationales.',
     'service3-item6': '<strong>Appels :</strong> représentation des clients dans les procédures d\'appel devant diverses juridictions, y compris les tribunaux nationaux, les tribunaux internationaux et les juridictions supranationales.',
     'service3-item7': '<strong>Coopération internationale :</strong> gestion des affaires transfrontalières, des demandes d\'entraide judiciaire et des enquêtes pénales internationales.',
-    'service3-content': 'At <strong>DM Legal</strong>, nous sommes spécialisés en droit pénal à dimension internationale, offrant des stratégies de défense expertes et des conseils juridiques à travers plusieurs juridictions. Notre bureau de TCI fournit un service juridique complet, y compris en matière pénale : en mettant particulièrement l\'accent sur l\'aide aux personnes à patrimoine net élevé souhaitant investir à TCI -- une juridiction dotée d\'une base solide de common law, axée sur la primauté du droit et avec le Conseil privé à Londres comme cour d\'appel finale. <br> Toutes les procédures sont menées en collaboration avec des avocats locaux qui représentent les clients devant les tribunaux nationaux et les tribunaux internationaux (<strong>CEDH</strong>, <strong>CPI La Haye</strong>, <strong>Interpol</strong> et autres organismes supranationaux).',
+    'service3-content': 'At <strong>DM Legal</strong>, nous sommes spécialisés en droit pénal à dimension internationale, offrant des stratégies de défense expertes et des conseils juridiques à travers plusieurs juridictions. Notre bureau de TCI fournit un service juridique complet, y compris en matière pénale : en mettant particulièrement l\'accent sur l\'aide aux personnes à patrimoine net élevé souhaitant investir à TCI — une juridiction dotée d\'une base solide de common law, axée sur la primauté du droit et avec le Conseil privé à Londres comme cour d\'appel finale. <br> Toutes les procédures sont menées en collaboration avec des avocats locaux qui représentent les clients devant les tribunaux nationaux et les tribunaux internationaux (<strong>CEDH</strong>, <strong>CPI La Haye</strong>, <strong>Interpol</strong> et autres organismes supranationaux).',
 
-    // --- Service Page: Immigration Law (legal-Imegration.html) ---
+    // —- Service Page: Immigration Law (legal-Imegration.html) —-
     'service4-description': 'Le <strong>droit de l\'immigration</strong> régit les procédures et les règles applicables à l\'entrée, au séjour et au départ des personnes d\'un pays. Il couvre un large éventail de questions, notamment les visas, les permis de travail, la résidence et la citoyenneté, tout en assurant le respect des législations nationales et internationales.',
     'service4-key': 'Principaux domaines du droit de l\'immigration :',
     'service4-item1': '<strong>Demandes de visa :</strong> Aide pour les procédures de visa touristique, de travail, d\'étudiant et de regroupement familial.',
@@ -637,7 +637,7 @@ const translations = {
     'service4-item6': '<strong>Appels et plaidoiries :</strong> Représentation des clients dans les litiges ou refus liés à l\'immigration.',
     'service4-content': 'Chez <strong>DM Legal</strong>, nous mettons notre expertise en droit de l\'immigration au service de vos projets et vous guidons à chaque étape, au cœur de réglementations souvent complexes. Qu\'il s\'agisse d\'une installation temporaire, d\'une résidence permanente ou de démarches liées aux visas et permis de travail, notre équipe expérimentée vous accompagne avec rigueur et réactivité.',
 
-    // --- Service Page: Tax Law (tax-law.html) ---
+    // —- Service Page: Tax Law (tax-law.html) —-
     'service5-description': 'Chez <strong>DM Legal</strong>, nous vous accompagnons sur l\'ensemble des problématiques fiscales afin d\'aider les entreprises à maîtriser les enjeux liés à l\'immatriculation à la TVA, à l\'enregistrement à l\'impôt sur les sociétés, à la conformité fiscale et aux questions fiscales transfrontalières.',
     'service5-key': 'Principaux domaines de nos services de droit fiscal :',
     'service5-item1': '<strong>Immatriculation à la TVA :</strong> Accompagnement des entreprises dans le processus d\'immatriculation pour la conformité à la TVA aux EAU.',
@@ -649,7 +649,7 @@ const translations = {
     'service5-item6': '<strong>Gestion financière :</strong> Conseils en comptabilité, reporting financier et structuration d\'opérations commerciales fiscalement efficaces.',
     'service5-content': 'Notre équipe d\'experts comprend des correspondants en France, au Royaume-Uni et en Israël, offrant des conseils spécialisés sur les traités bilatéraux, les transferts d\'actifs transfrontaliers, les relocalisations et la conformité.',
 
-    // --- Service Page: Wills & Estate Planning (wills-law.html) ---
+    // —- Service Page: Wills & Estate Planning (wills-law.html) —-
     'service6-description': 'Les testaments <strong>DIFC</strong> et <strong>ADGM</strong> offrent un mécanisme sécurisé aux expatriés non musulmans pour distribuer leurs actifs selon leurs souhaits. Le <strong>DIFC Wills Service Centre</strong> et l\'<strong>ADGM Registration Authority</strong> proposent des services d\'enregistrement de testaments dans un cadre légal précis basé sur les principes de la common law.',
     'service6-key': 'Domaines clés de la planification successorale :',
     'service6-item1': '<strong>Rédaction d\'un testament conforme :</strong> Nous veillons à ce que votre testament respecte les normes juridiques locales et internationales.',
@@ -659,7 +659,7 @@ const translations = {
     'service6-item5': '<strong>Protection des actifs :</strong> Structurer votre testament pour protéger les actifs et réduire les obligations fiscales pour les héritiers.',
     'service6-content': 'Nous mettons à votre disposition notre expertise en matière de successions et de testaments aux Émirats Arabes Unis via une plateforme de services en ligne intuitive. Notre mission est de garantir la protection de votre patrimoine et le respect de vos dernières volontés, en stricte conformité avec les réglementations locales et internationales.',
 
-    // --- Service Page: Arbitration & Dispute Resolution (arbitration-resolution.html) ---
+    // —- Service Page: Arbitration & Dispute Resolution (arbitration-resolution.html) —-
     'service7-part1-title': 'Tribunaux du <strong>DIFC</strong>',
     'service7-part1-desc': 'Créés en 2004 par feu Son Altesse le Cheikh Maktoum bin Rashid Al Maktoum, les <strong>DIFC Courts</strong> constituent un système judiciaire indépendant fondé sur la Common Law anglaise. Ces tribunaux desservent les institutions internationales à Ras Al Khaimah et à travers l\'ensemble des Émirats arabes unis pour la résolution de leurs litiges civils et commerciaux.',
     'service7-part2-title': 'Tribunaux de l\'<strong>ADGM</strong>',
@@ -678,7 +678,7 @@ const translations = {
     'service7-item5': '<strong>Autres centres d\'arbitrage :</strong> Maîtrise des procédures devant les diverses institutions d\'arbitrage des Émirats Arabes Unis.',
     'service7-content': 'Notre équipe est spécialisée dans l\'arbitrage et le contentieux au sein et au-delà des EAU. Nous apportons une expertise approfondie dans la représentation des clients dans les procédures d\'arbitrage, y compris les litiges immobiliers, les affaires civiles et les réclamations commerciales. Notre expérience éprouvée comprend des affaires réussies dans des institutions de premier plan telles que le <strong>Centre international d\'arbitrage de Dubaï (DIAC)</strong> et d\'autres centres d\'arbitrage reconnus.',
 
-    // --- Service Page: Family Law (familly-law.html) ---
+    // —- Service Page: Family Law (familly-law.html) —-
     'service8': 'Droit de la famille',
     'service8-description-title': '<strong>Loi fédérale n° 28 de 2005</strong>',
     'service8-description1': 'La loi relative au Statut Personnel, telle que modifiée par la <strong>Loi Fédérale n° 41 de 2024</strong>, régit les affaires privées : mariage, dissolution du mariage, divorce, placement familial (fostering), capacité juridique, tutelle et curatelle.',
@@ -690,7 +690,7 @@ const translations = {
     'service8-item4': '<strong>Succession et testaments :</strong> Rédaction et exécution des testaments et répartition de l\'héritage.',
     'service8-content': 'Notre équipe travaille en étroite collaboration avec des correspondants locaux qui représentent nos clients devant les tribunaux des Émirats Arabes Unis et à l\'étranger. Nous veillons à ce que toutes les questions de droit de la famille, qu\'il s\'agisse de procédures de divorce, de questions de succession ou de garde d\'enfants, soient traitées avec la plus grande rigueur et une sensibilité absolue.',
 
-    // --- Service Page: Corporate Law (corporate-law.html) ---
+    // —- Service Page: Corporate Law (corporate-law.html) —-
     'service9-description': 'Nos services en droit des sociétés aux Émirats arabes unis sont conçus pour accompagner les entreprises à chaque étape de leur existence, de la constitution à la gouvernance, jusqu\'aux fusions et acquisitions. Nous délivrons un conseil juridique de haut niveau en matière de structuration et de gestion d\'entreprise, garantissant une conformité rigoureuse avec les lois et réglementations des EAU.',
     'service9-key': 'Principaux domaines de nos services de droit des sociétés :',
     'service9-item1': '<strong>Création d\'entreprise :</strong> Conseils sur les exigences légales pour démarrer une entreprise aux EAU, notamment le choix de la structure appropriée (LLC, Free Zone, etc.).',
@@ -701,7 +701,7 @@ const translations = {
     'service9-item6': '<strong>Litiges d\'entreprise :</strong> Représentation des clients dans les litiges d\'entreprise, notamment les violations de contrat, les conflits entre actionnaires et les litiges au sein du conseil d\'administration.',
     'service9-content': 'Chez <strong>DM Legal</strong>, notre expertise en droit des sociétés nous permet d\'accompagner des entreprises de toutes tailles à travers une gamme complète de services juridiques. Qu\'il s\'agisse de la constitution de votre structure, de l\'organisation de votre gouvernance, d\'opérations de fusions-acquisitions ou de la gestion de contentieux complexes, notre équipe d\'experts s\'engage à vous fournir des solutions concrètes, pragmatiques et orientées vers vos objectifs.',
 
-    // --- Service Page: Company Law (company-law.html) ---
+    // —- Service Page: Company Law (company-law.html) —-
     'service9-company': 'Droit des sociétés',
     'service9-item1_co': '<strong>Création d\'entreprise :</strong> Conseils experts pour choisir la bonne structure d\'entreprise et accomplir toutes les formalités légales d\'immatriculation.',
     'service9-item2_co': '<strong>Gouvernance d\'entreprise :</strong> Conseils sur la structure du conseil, les devoirs des administrateurs et les bonnes pratiques de gouvernance.',
@@ -711,7 +711,7 @@ const translations = {
     'service9-item6_co': '<strong>Dissolution et liquidation :</strong> Gestion de la dissolution volontaire ou forcée des sociétés.',
     'service9-content_co': 'Chez <strong>DM Legal</strong>, nos spécialistes en droit des entreprises accompagnent les sociétés à chaque étape de leur cycle de vie d\'entreprise. De la création initiale à la restructuration complexe et à la dissolution, nous veillons à ce que votre entreprise opère dans le cadre du droit des EAU tout en maximisant l\'efficacité opérationnelle et la protection juridique.',
 
-    // --- Service Page: Commercial Law (commercial-law.html) ---
+    // —- Service Page: Commercial Law (commercial-law.html) —-
     'service10-desc': 'Également connu sous le nom de droit des affaires ou droit commercial, il s\'agit de la branche du droit qui régit les droits, les relations et la conduite des particuliers et des entreprises engagés dans le commerce, le négoce et la vente.',
     'service10-key': 'Principaux domaines du droit commercial :',
     'service10-item1': '<strong>Contrats :</strong> Règles relatives à la formation et à l\'exécution des accords entre les parties.',
@@ -721,9 +721,9 @@ const translations = {
     'service10-item5': '<strong>Propriété intellectuelle :</strong> Protection des marques, brevets et droits d\'auteur.',
     'service10-item6': '<strong>Commerce international :</strong> Règles encadrant les importations, les exportations et les transactions transfrontalières.',
     'service10-item7': '<strong>Résolution des litiges :</strong> Mécanismes de résolution des litiges dans le cadre des relations d\'affaires.',
-    'service10-content': 'Chez <strong>DM Legal</strong>, nous offrons des services complets dans tous les domaines du droit commercial. Notre expertise inclut la rédaction et la révision de contrats de vente, l\'accompagnement réglementaire à l\'import-export, les accords de transport et de courtage, ainsi que le conseil stratégique aux investisseurs.',
+    'service10-content': '',
 
-    // --- Team Member Page: Andrew Mitchell KC (member1.html) ---
+    // —- Team Member Page: Andrew Mitchell KC (member1.html) —-
     'back-to-team': '← Retour à l\'équipe',
     'member1-breadcrumb': 'Andrew Mitchell KC',
     'team1-desc': 'Andrew Mitchell KC est un avocat plaidant de haut rang, spécialisé en criminalité financière, en produits du crime, en recouvrement d\'avoirs, en fraude, en corruption et en corruption d\'agents publics. Il est largement reconnu comme l\'un des principaux experts en matière de <strong>Proceeds of Crime Act (POCA)</strong> et intervient régulièrement dans des affaires complexes, à forts enjeux financiers et à dimension multi-juridictionnelle. Il exerce au Royaume-Uni ainsi qu\'à l\'international, notamment dans les Caraïbes et d\'autres juridictions du Commonwealth, et a conseillé des gouvernements et des institutions à travers le monde.',
@@ -753,7 +753,7 @@ const translations = {
     "contact-phone": "Téléphone",
     "contact-email": "Email",
 
-    // --- Team Member Page: Jordana Dray (member2.html) ---
+    // —- Team Member Page: Jordana Dray (member2.html) —-
     'member2-breadcrumb': 'Jordana Dray',
     'team2-desc': 'Jordana Dray est une avocate de renommée internationale, spécialisée dans les affaires transfrontalières et les litiges complexes. Elle a exercé à Paris au sein des cabinets <strong>Olivier Metzner LLP</strong> et <strong>D.O. Kaminski LLP</strong>, ainsi qu\'en Israël auprès du cabinet <strong>Meitar Liquvornik Geva Leshem</strong> et du professeur Yuval Levy. En 2013, elle fonde son propre cabinet à Paris, avant de rejoindre <strong>Binmes\'har &amp; Co</strong> aux Émirats arabes unis en tant qu\'associée en 2022. En 2024, elle participe à la création d\'<strong>ACD Law</strong> à Dubaï aux côtés d\'<strong>Acker Choquette</strong>. Plus récemment, en 2025, elle fonde <strong>DM Legal</strong> à Ras Al Khaimah, où elle conseille sur des problématiques juridiques et commerciales internationales. Elle accompagne des particuliers et des entreprises dans leurs enjeux juridiques entre l\'Europe et le Moyen-Orient. Trilingue français, anglais et hébreu, elle intervient régulièrement sur des dossiers à dimension internationale.',
     'team2-item1': 'Membre du <strong>Barreau de Paris</strong>.',
@@ -787,7 +787,7 @@ const translations = {
   // ============================================================
 ar: {
 
-    // --- GLOBAL: Navigation ---
+    // —- GLOBAL: Navigation —-
     'nav-home': 'الرئيسية',
     'nav-team': 'الفريق',
     'nav-services': 'الخدمات',
@@ -796,12 +796,12 @@ ar: {
     'nav-insight': 'المستجدات',
     'nav-contact': 'تواصل معنا',
 
-    // --- GLOBAL: Language Switcher ---
+    // —- GLOBAL: Language Switcher —-
     'lang-en': 'EN',
     'lang-fr': 'FR',
     'lang-ar': 'AR',
 
-    // --- GLOBAL: Footer ---
+    // —- GLOBAL: Footer —-
     'footer-tagline': 'مكتب محاماة دولي متخصص يضع مصالح موكليه في صميم أولوياته،<br>مقره في رأس الخيمة بدولة الإمارات العربية المتحدة، يمتد نشاطه<br>ليشمل منطقة الشرق الأوسط والأسواق الدولية.',
     'footer-location1': '516W127A، مستودع رقم 016 —<br><strong>المنطقة الحرة الحليلة</strong>، رأس الخيمة، الإمارات العربية المتحدة',
     'footer-phone1': 'هاتف: (+971) 4 355 0004',
@@ -815,7 +815,7 @@ ar: {
     'footer-link6': 'المعرض',
     'footer-copyright': 'جميع الحقوق محفوظة ©2026 <strong>DM Legal</strong>.',
 
-    // --- Page 1: Homepage (index.html) ---
+    // —- Page 1: Homepage (index.html) —-
     // Hero Section
     'hero-eyebrow': 'مكتب قانوني ذو حضور دولي',
     'hero-title': 'خدمات قانونية رفيعة المستوى',
@@ -861,7 +861,7 @@ ar: {
     'contact-text': 'يقوم عملنا على مزج الفكر الاستراتيجي بالرعاية الاستثنائية لكل موكل، وذلك في صميم كل ما نقدمه.',
     'contact-btn': 'تواصل معنا اليوم',
 
-    // --- Page 2: Team (team.html) ---
+    // —- Page 2: Team (team.html) —-
     'team-title': 'تعرّف على فريقنا القانوني',
     'team-intro-label': 'الشركاء المؤسسون',
     'team-intro-description': 'يجمع شركاؤنا المؤسسون عقوداً من الممارسة القانونية الدولية الرفيعة في المملكة المتحدة وفرنسا ومنطقة الكاريبي — يوفر المكتب شبكة عملاء عالمية، مما يتيح لنا تقديم دعم قانوني سلس عبر عدة جوازات وأسواق دولية.',
@@ -891,7 +891,7 @@ ar: {
     'team-cta-title': 'تعاون مع فريقنا القانوني',
     'team-cta-description': 'تواصل معنا للحصول على استشارة قانونية متخصصة مع نخبة من خبرائنا.',
 
-    // --- Page 3: Services (services.html) ---
+    // —- Page 3: Services (services.html) —-
     'services-intro-label': 'مجالات الممارسة',
     'services-intro-description': 'تقدم <strong>DM Legal</strong> خدمات قانونية متكاملة تشمل طيفاً واسعاً من مجالات الممارسة، خدمةً للأفراد والمؤسسات في دولة الإمارات العربية المتحدة وعلى الصعيد الدولي، بمستوى من الخبرة والإتقان يرقى إلى توقعات موكلينا.',
     'service-filter': 'الكل',
@@ -911,7 +911,7 @@ ar: {
     'cta-description': 'تواصل معنا للحصول على مشورة قانونية مصممة وفق احتياجاتك الخاصة.',
     'cta-button': 'احجز استشارتك',
 
-    // --- Page 4: Offices (offices.html) ---
+    // —- Page 4: Offices (offices.html) —-
     'offices-title': 'مكاتبنا حول العالم',
     'offices-intro-label': 'حضورنا الجغرافي',
     'offices-intro-description': 'تمارس <strong>DM Legal</strong> نشاطها من ثلاثة مواقع استراتيجية تمتد عبر الشرق الأوسط وأوروبا وحوض الأطلسي، مما يُمكّننا من تقديم خدماتنا عبر الولايات القضائية المتعددة بمعرفة محلية دقيقة ورؤية دولية شاملة.',
@@ -936,7 +936,7 @@ ar: {
     'offices-cta-description': 'فريقنا الدولي على أهبة الاستعداد لمساعدتك أينما كنت.',
     'offices-cta-button': 'تواصل معنا اليوم',
 
-    // --- Page 5: Gallery (gallery.html) ---
+    // —- Page 5: Gallery (gallery.html) —-
     'gallery-title': 'معرض الصور',
     'gallery-intro-label': 'الصور',
     'gallery-intro-description': 'نافذة على مكاتبنا الممتدة عبر ثلاث قارات، والكفاءات الإنسانية التي تقف خلف المكتب.',
@@ -946,7 +946,7 @@ ar: {
     'gallery-cta-description': 'مكتب قانوني دولي في خدمتكم.',
     'gallery-cta-button': 'تواصل معنا اليوم',
 
-    // --- Page 6: Blog / Insight (blog.html) ---
+    // —- Page 6: Blog / Insight (blog.html) —-
     'blog-intro-label': 'آخر الإصدارات',
     'blog-intro-description': 'ابقَ على اطلاع دائم بأحدث مقالاتنا ومستجداتنا القانونية وتحليلاتنا المتخصصة في القانون الإماراتي والفرنسي والإنجليزي — من المعاملات التجارية الدولية إلى المنازعات القانونية المعقدة.',
     'blog-featured-tag': 'مقال مختار',
@@ -954,10 +954,10 @@ ar: {
     'blog-all-articles-label': 'جميع المقالات',
     'blog-browse-title': 'تصفح التحليلات القانونية',
 
-    // --- Page 7: Single Blog Post (single-blog.html) ---
+    // —- Page 7: Single Blog Post (single-blog.html) —-
     'contact-btn': 'تواصل معنا',
 
-    // --- Page 8: Contact (contact.html) ---
+    // —- Page 8: Contact (contact.html) —-
     'contact-title': 'تواصل معنا',
     'contact-msg': 'أرسل إلينا استفساراتك في أي وقت يناسبك.',
     'contact-intro-label': 'التواصل المباشر',
@@ -978,7 +978,7 @@ ar: {
     'contact-map-title': 'اعثر علينا حول العالم',
     'contact-map-directions': 'الحصول على الاتجاهات',
 
-    // --- Service Page: Business Setup in UAE Free Zones (business-uae.html) ---
+    // —- Service Page: Business Setup in UAE Free Zones (business-uae.html) —-
     'service1': 'تأسيس الأعمال في <strong>المناطق الحرة بالإمارات العربية المتحدة</strong>',
     'service1-description': 'يُتيح تأسيس الأعمال في المناطق الحرة بالإمارات إطاراً قانونياً ميسَّراً للمستثمرين الأجانب لإنشاء شركاتهم وإدارتها، يتميز بالملكية الأجنبية الكاملة والإعفاءات الضريبية وإجراءات التسجيل المبسطة والولوج إلى بنية تحتية بمعايير دولية.',
     'service1-key': 'المزايا الجوهرية لتأسيس الأعمال في <strong>المناطق الحرة بالإمارات</strong>:',
@@ -991,7 +991,7 @@ ar: {
     'service1-content': 'في <strong>DM Legal</strong> نقدم مشورة قانونية متخصصة في كل ما يتعلق بتأسيس الأعمال في المناطق الحرة بالإمارات. سواء تعلق الأمر بإنشاء كيان جديد أو تسجيل نشاط تجاري أو ضمان الامتثال القانوني الكامل، يضع فريقنا حلولاً مُصمَّمة وفق متطلبات كل موكل.',
     'cta-contact': 'تواصل معنا',
 
-    // --- Service Page: Intellectual Property Law (intellectual-law.html) ---
+    // —- Service Page: Intellectual Property Law (intellectual-law.html) —-
     'service2-description': 'يكفل <strong>قانون الملكية الفكرية</strong> حماية حقوق المبدعين والمؤسسات على اختراعاتهم وتصاميمهم وهوياتهم التجارية وأعمالهم الإبداعية، ويضمن صون هذه الأصول من أي استخدام غير مأذون به، مع تعزيز بيئة الابتكار وضمان المنافسة المشروعة.',
     'service2-key': 'المجالات الرئيسية في <strong>قانون الملكية الفكرية</strong>:',
     'service2-item1': '<strong>براءات الاختراع:</strong> حماية قانونية للاختراعات تمنح أصحابها حقوقاً استئثارية مقيَّدة بزمن ومكان.',
@@ -1002,7 +1002,7 @@ ar: {
     'service2-item6': '<strong>الامتثال الدولي لحقوق الملكية الفكرية:</strong> التعامل مع الأنظمة والاتفاقيات الدولية للملكية الفكرية عبر مختلف الولايات القضائية.',
     'service2-content': 'في <strong>DM Legal</strong> نُعينك على حماية ابتكاراتك وهويتك التجارية من خلال خدماتنا الشاملة في مجال الملكية الفكرية والعلامات التجارية. يتولى فريقنا استصدار براءات الاختراع وحقوق المؤلف وتسجيل العلامات التجارية، ويضع استراتيجيات حماية مُخصَّصة لأصولك القانونية.',
 
-    // --- Service Page: Criminal Law (criminal-law.html) ---
+    // —- Service Page: Criminal Law (criminal-law.html) —-
     'service3-description': 'تُصمَّم خدماتنا في القانون الجنائي والامتثال الجنائي لتوفير مشورة قانونية متخصصة ودفاع قانوني متين عبر الولايات القضائية الدولية. بفضل الإلمام العميق بتشعبات أنظمة القانون الجنائي حول العالم، يضمن فريقنا من المحامين المحنَّكين تمثيلاً قانونياً شاملاً في كل مرحلة من مراحل الإجراءات.',
     'service3-key': 'المجالات الرئيسية لخدماتنا في القانون الجنائي:',
     'service3-item1': '<strong>الدفاع الجنائي:</strong> تمثيل الموكلين في القضايا الجنائية لصون حقوقهم وكفالة محاكمة عادلة، بما يشمل قضايا التسليم ونشرات الإنتربول الحمراء ومذكرات التوقيف عبر الولايات القضائية المتعددة.',
@@ -1012,9 +1012,9 @@ ar: {
     'service3-item5': '<strong>إدارة القضايا:</strong> تأمين الدعم القانوني الكامل طوال مراحل الإجراءات من التحقيق حتى صدور الحكم، أمام المحاكم الوطنية والدولية.',
     'service3-item6': '<strong>الطعون والاستئنافات:</strong> تمثيل الموكلين في مسالك الطعن أمام مختلف درجات التقاضي، بما فيها المحاكم الوطنية والمحاكم الدولية والمحاكم الفوق وطنية.',
     'service3-item7': '<strong>التعاون الدولي:</strong> إدارة المسائل القانونية العابرة للحدود وطلبات المساعدة القانونية المتبادلة والتحقيقات الجنائية الدولية.',
-    'service3-content': 'في <strong>DM Legal</strong>، نحن متخصصون في القانون الجنائي ذو النطاق الدولي، حيث نقدم استراتيجيات دفاع خبيرة واستشارات قانونية عبر ولايات قضائية متعددة. يقدم مكتبنا في TCI خدمات قانونية متكاملة، بما في ذلك القانون الجنائي : مع التركيز بشكل خاص على مساعدة الأفراد ذوي الملاءة المالية العالية للاستثمار في TCI -- وهي ولاية قضائية تتمتع بتأسيس قوي للقانون العام مع التركيز على سيادة القانون، ويُعد المجلس الخاص في لندن بمثابة محكمة الاستئناف النهائية بها. وتتم جميع الإجراءات بالتعاون مع محامين محليين يمثلون العملاء أمام المحاكم الوطنية والمحاكم الدولية (<strong>المحكمة الأوروبية لحقوق الإنسان</strong>، <strong>المحكمة الجنائية الدولية في لاهاي</strong>، <strong>الإنتربول</strong>، والهيئات الأخرى العابرة للحدود الوطنية).',
+    'service3-content': 'في <strong>DM Legal</strong>، نحن متخصصون في القانون الجنائي ذو النطاق الدولي، حيث نقدم استراتيجيات دفاع خبيرة واستشارات قانونية عبر ولايات قضائية متعددة. يقدم مكتبنا في TCI خدمات قانونية متكاملة، بما في ذلك القانون الجنائي : مع التركيز بشكل خاص على مساعدة الأفراد ذوي الملاءة المالية العالية للاستثمار في TCI — وهي ولاية قضائية تتمتع بتأسيس قوي للقانون العام مع التركيز على سيادة القانون، ويُعد المجلس الخاص في لندن بمثابة محكمة الاستئناف النهائية بها. وتتم جميع الإجراءات بالتعاون مع محامين محليين يمثلون العملاء أمام المحاكم الوطنية والمحاكم الدولية (<strong>المحكمة الأوروبية لحقوق الإنسان</strong>، <strong>المحكمة الجنائية الدولية في لاهاي</strong>، <strong>الإنتربول</strong>، والهيئات الأخرى العابرة للحدود الوطنية).',
 
-    // --- Service Page: Immigration Law (legal-Imegration.html) ---
+    // —- Service Page: Immigration Law (legal-Imegration.html) —-
     'service4-description': 'يُنظّم <strong>قانون الهجرة</strong> الإجراءات القانونية والاشتراطات التنظيمية المتعلقة بدخول الأفراد إلى الدولة والإقامة فيها ومغادرتها، ويُعالج طيفاً واسعاً من المسائل تشمل التأشيرات وتصاريح العمل والإقامة والجنسية.',
     'service4-key': 'المجالات الرئيسية في قانون الهجرة:',
     'service4-item1': '<strong>طلبات التأشيرة:</strong> المساعدة في إجراءات تأشيرات السياحة والعمل والدراسة ولمّ الشمل العائلي.',
@@ -1025,7 +1025,7 @@ ar: {
     'service4-item6': '<strong>الطعون والمناصرة القانونية:</strong> تمثيل الموكلين في المنازعات المتعلقة بالهجرة وقرارات الرفض.',
     'service4-content': 'في <strong>DM Legal</strong> نتخصص في قانون الهجرة ونقدم توجيهاً قانونياً دقيقاً للتعامل مع تعقيدات الأنظمة والتشريعات ذات الصلة. سواء تعلق الأمر بانتقال مؤقت أو إقامة دائمة أو متطلبات تتعلق بالتأشيرات وتصاريح العمل، يضع فريقنا خبرته كاملة في خدمتك في كل خطوة.',
 
-    // --- Service Page: Tax Law (tax-law.html) ---
+    // —- Service Page: Tax Law (tax-law.html) —-
     'service5-description': 'في <strong>DM Legal</strong> نقدم مشورة قانونية متخصصة في جميع مجالات قانون الضرائب، لمساعدة المؤسسات على التعامل مع اشتراطات التسجيل لضريبة القيمة المضافة وضريبة الشركات، وضمان الامتثال الضريبي، ومعالجة المسائل الضريبية ذات الطابع العابر للحدود.',
     'service5-key': 'المجالات الرئيسية لخدماتنا في قانون الضرائب:',
     'service5-item1': '<strong>التسجيل في ضريبة القيمة المضافة:</strong> مساعدة الشركات في استيفاء إجراءات التسجيل والامتثال لمتطلبات ضريبة القيمة المضافة المعمول بها في الإمارات.',
@@ -1037,7 +1037,7 @@ ar: {
     'service5-item6': '<strong>الإدارة المالية والضريبية:</strong> تقديم المشورة في المحاسبة والإفصاح المالي وهيكلة الأنشطة التجارية بما يحقق كفاءة ضريبية مثلى.',
     'service5-content': 'يضم فريق خبرائنا مراسلين متخصصين في فرنسا والمملكة المتحدة وإسرائيل، يقدمون مشورة دقيقة في الاتفاقيات الضريبية الثنائية ونقل الأصول العابر للحدود وملفات الانتقال والامتثال الضريبي الدولي.',
 
-    // --- Service Page: Wills & Estate Planning (wills-law.html) ---
+    // —- Service Page: Wills & Estate Planning (wills-law.html) —-
     'service6-description': 'توفر وصايا <strong>مركز دبي المالي العالمي</strong> و<strong>هيئة أبوظبي للأسواق المالية</strong> إطاراً قانونياً آمناً يُمكّن المغتربين من غير المسلمين من توزيع تركاتهم وفق إرادتهم الصريحة. يُقدم مركز الوصايا التابع لكل من مركز دبي المالي العالمي وهيئة أبوظبي للأسواق المالية خدمات تسجيل الوصايا في إطار أحكام قانون عام واضحة ومتينة.',
     'service6-key': 'المجالات الرئيسية في الوصايا والتخطيط للتركات:',
     'service6-item1': '<strong>صياغة الوصية الصحيحة:</strong> ضمان استيفاء الوصية لمتطلبات الصحة القانونية المحلية والدولية.',
@@ -1047,7 +1047,7 @@ ar: {
     'service6-item5': '<strong>حماية الأصول:</strong> هيكلة الوصية بما يكفل حماية الأصول وتخفيف الأعباء الضريبية على الورثة.',
     'service6-content': 'نقدم مساعدة قانونية متخصصة في الوصايا وأحكام المواريث في الإمارات عبر منصة رقمية ميسَّرة، ونضمن حماية أصولك واحترام إرادتك وفق الأنظمة القانونية المحلية والدولية.',
 
-    // --- Service Page: Arbitration & Dispute Resolution (arbitration-resolution.html) ---
+    // —- Service Page: Arbitration & Dispute Resolution (arbitration-resolution.html) —-
     'service7-part1-title': 'محاكم <strong>مركز دبي المالي العالمي</strong>',
     'service7-part1-desc': 'أُسست عام 2004 بموجب مرسوم صادر عن صاحب السمو الشيخ مكتوم بن راشد آل مكتوم (رحمه الله)، وتُمثل <strong>محاكم مركز دبي المالي العالمي</strong> منظومة قضائية مستقلة تستند إلى أحكام القانون الإنجليزي العام، تعمل على تسوية المنازعات المدنية والتجارية للمؤسسات الدولية في رأس الخيمة وسائر أرجاء الإمارات.',
     'service7-part2-title': 'محاكم <strong>هيئة أبوظبي للأسواق المالية</strong>',
@@ -1066,7 +1066,7 @@ ar: {
     'service7-item5': '<strong>مراكز التحكيم الدولية الأخرى:</strong> كفاءة في التعامل مع القضايا عبر مختلف مراكز التحكيم الإماراتية والدولية.',
     'service7-content': 'يتخصص فريقنا في التحكيم والتقاضي داخل الإمارات وخارجها، ويمتلك خبرة موثقة في تمثيل الموكلين في إجراءات التحكيم بما تشمله من منازعات عقارية ومسائل مدنية ومطالبات تجارية. يحتفظ سجلنا بقضايا ناجحة في مؤسسات بارزة كـ<strong>مركز دبي للتحكيم الدولي (DIAC)</strong> وغيره من مراكز التحكيم الدولية المعترف بها.',
 
-    // --- Service Page: Family Law (familly-law.html) ---
+    // —- Service Page: Family Law (familly-law.html) —-
     'service8': 'قانون الأسرة',
     'service8-description-title': '<strong>القانون الاتحادي رقم 28 لسنة 2005</strong>',
     'service8-description1': 'في شأن الأحوال الشخصية، بصيغته المعدَّلة بموجب <strong>قانون الأحوال الشخصية الاتحادي رقم 41 لسنة 2024</strong>، يُنظم هذا القانون المسائل الشخصية، بما تشمله من الزواج وفسخ عقده والطلاق والحضانة والأهلية والوصاية والولاية الشرعية.',
@@ -1078,7 +1078,7 @@ ar: {
     'service8-item4': '<strong>الإرث والوصايا:</strong> صياغة الوصايا وتنفيذها وإدارة توزيع التركة.',
     'service8-content': 'يعمل فريقنا بتنسيق وثيق مع مراسلين محليين متمرسين، يمثلون الموكلين أمام محاكم الإمارات وفي الخارج، مما يكفل معالجة جميع مسائل قانون الأسرة — من إجراءات الطلاق وقضايا الإرث إلى ترتيبات الحضانة — بأقصى درجات العناية والحرفية والاعتبار الإنساني.',
 
-    // --- Service Page: Corporate Law (corporate-law.html) ---
+    // —- Service Page: Corporate Law (corporate-law.html) —-
     'service9-description': 'صُممت خدماتنا في قانون الشركات في الإمارات لمرافقة الشركات في كل مرحلة من مراحل دورة حياتها المؤسسية، من التأسيس وصولاً إلى الحوكمة والاندماجات والاستحواذات. نقدم مشورة قانونية متخصصة في هيكلة الشركات وإدارتها لضمان الامتثال الكامل لقوانين وأنظمة دولة الإمارات.',
     'service9-key': 'المجالات الرئيسية لخدماتنا في قانون الشركات:',
     'service9-item1': '<strong>تأسيس الشركات:</strong> التوجيه بشأن المتطلبات القانونية لانطلاق الأعمال في الإمارات، بما يشمل اختيار الهيكل القانوني الملائم (شركة ذات مسؤولية محدودة، منطقة حرة، وغيرها).',
@@ -1089,7 +1089,7 @@ ar: {
     'service9-item6': '<strong>المنازعات المؤسسية:</strong> تمثيل الموكلين في النزاعات الناشئة عن الإخلال بالعقود أو الخلافات بين المساهمين أو نزاعات مجلس الإدارة.',
     'service9-content': 'في <strong>DM Legal</strong> نتخصص في قانون الشركات ونقدم خدمات قانونية شاملة لكيانات تجارية من مختلف الأحجام. سواء احتجت إلى مساعدة في تأسيس الشركات أو ضبط الحوكمة أو تنفيذ الاندماجات والاستحواذات أو إدارة المنازعات المؤسسية، فإن فريقنا القانوني المتخصص يعمل على تقديم حلول عملية قابلة للتطبيق وموجهة نحو تحقيق النتائج.',
 
-    // --- Service Page: Company Law (company-law.html) ---
+    // —- Service Page: Company Law (company-law.html) —-
     'service9-company': 'قانون الشركات التجارية',
     'service9-item1_co': '<strong>تأسيس الشركات:</strong> توجيه قانوني متخصص في اختيار الهيكل التجاري الملائم واستيفاء جميع إجراءات التسجيل والترخيص.',
     'service9-item2_co': '<strong>حوكمة الشركات:</strong> المشورة بشأن هيكل مجلس الإدارة وواجبات المديرين ومقتضيات الحوكمة الرشيدة.',
@@ -1099,7 +1099,7 @@ ar: {
     'service9-item6_co': '<strong>التصفية والحل:</strong> إدارة إجراءات الحل الطوعي أو القضائي للكيانات التجارية.',
     'service9-content_co': 'في <strong>DM Legal</strong> يُرافق متخصصو قانون الشركات لدينا الكيانات التجارية في كل طور من أطوار حياتها المؤسسية. من مرحلة التأسيس الأولى إلى إعادة الهيكلة المعقدة والتصفية، نحرص على أن تنتظم أعمال شركتك ضمن إطار قانون الإمارات مع تعظيم الكفاءة التشغيلية والحماية القانونية.',
 
-    // --- Service Page: Commercial Law (commercial-law.html) ---
+    // —- Service Page: Commercial Law (commercial-law.html) —-
     'service10-desc': 'يُعرف أيضاً بقانون الأعمال أو قانون التجارة، وهو الفرع القانوني الذي يُنظّم حقوق الأشخاص الطبيعيين والاعتباريين المنخرطين في التجارة والمبادلات التجارية وعلاقاتهم وسلوكهم.',
     'service10-key': 'المجالات الرئيسية في القانون التجاري:',
     'service10-item1': '<strong>العقود التجارية:</strong> قواعد إبرام الاتفاقيات بين الأطراف وإنفاذها قانونياً.',
@@ -1109,9 +1109,9 @@ ar: {
     'service10-item5': '<strong>الملكية الفكرية:</strong> حماية العلامات التجارية وبراءات الاختراع وحقوق المؤلف.',
     'service10-item6': '<strong>التجارة الدولية:</strong> قواعد الاستيراد والتصدير والمعاملات العابرة للحدود.',
     'service10-item7': '<strong>تسوية المنازعات التجارية:</strong> آليات فض الخلافات الناشئة عن المعاملات التجارية.',
-    'service10-content': 'في <strong>DM Legal</strong> نقدم خدمات قانونية شاملة في جميع مجالات القانون التجاري. تمتد خبرتنا لتشمل صياغة عقود البيع والشراء ومراجعتها، والتعامل مع أنظمة الاستيراد والتصدير، واتفاقيات النقل والوكالة التجارية، وتقديم الدعم القانوني للمستثمرين والمؤسسات التجارية.',
+    'service10-content': 'في <strong>DM Legal</strong>، نقدم خدمات شاملة في جميع مجالات القانون التجاري. يقدم مكتبنا في TCI خدمات قانونية متكاملة، بما في ذلك القانون التجاري، الجنائي، والامتثال: مع التركيز بشكل خاص على مساعدة الأفراد ذوي الملاءة المالية العالية للاستثمار في TCI — وهي ولاية قضائية تتمتع بتأسيس قوي للقانون العام مع التركيز على سيادة القانون، ويُعد المجلس الخاص في لندن بمثابة محكمة الاستئناف النهائية بها. <br> وتجدر الإشارة إلى أن خبرتنا تشمل صياغة ومراجعة عقود البيع والشراء، والتنقل عبر لوائح الاستيراد والتصدير، واتفاقيات النقل والوساطة، بالإضافة إلى تقديم الدعم الاستثماري للشركات.',
 
-    // --- Team Member Page: Andrew Mitchell KC (member1.html) ---
+    // —- Team Member Page: Andrew Mitchell KC (member1.html) —-
     'back-to-team': '← العودة إلى صفحة الفريق',
     'member1-breadcrumb': 'أندرو ميتشيل KC',
     'team1-desc': 'أندرو ميتشيل KC محامٍ بارز من الطراز الأول، متخصص في الجرائم المالية وعائدات الجريمة واسترداد الأصول والاحتيال والرشوة والفساد. يُعدّ مرجعاً راسخاً في قضايا <strong>قانون عائدات الجريمة (POCA)</strong>، ويتولى بصفة منتظمة قضايا بالغة التعقيد وعالية القيمة متعددة الولايات القضائية.',
@@ -1141,7 +1141,7 @@ ar: {
     "contact-phone": "الهاتف", 
     "contact-email": "البريد الإلكتروني",
 
-    // --- Team Member Page: Jordana Dray (member2.html) ---
+    // —- Team Member Page: Jordana Dray (member2.html) —-
     'member2-breadcrumb': 'جوردانا دراي',
     'team2-desc': 'جوردانا دراي خبيرة قانونية ذات سمعة دولية، تتخصص في القضايا العابرة للحدود والمنازعات المعقدة متعددة الولايات القضائية. تتلمذت في باريس في رحاب مكتبَي <strong>Olivier Metzner LLP</strong> و<strong>D.O. Kaminski LLP</strong>، ثم في إسرائيل مع مكتب <strong>Meitar Liquvornik Geva Leshem</strong> والأستاذ يوفال ليفي. في عام 2013 أسست مكتبها الخاص في باريس، ثم انضمت عام 2022 شريكةً إلى <strong>Binmes\'har &amp; Co</strong> في الإمارات. في عام 2024 انضمت إلى <strong>Acker Choquette</strong> في إطار تأسيس <strong>ACD Law</strong> في دبي. وفي عام 2025 أسست <strong>DM Legal</strong> في رأس الخيمة. تجيد الفرنسية والإنجليزية والعبرية.',
     'team2-item1': 'عضو في <strong>نقابة محامي باريس</strong>.',
