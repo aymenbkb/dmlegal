@@ -332,7 +332,7 @@ const translations = {
     'service10-item5': '<strong>Intellectual Property:</strong> Protection of trademarks, patents, and copyrights.',
     'service10-item6': '<strong>International Trade:</strong> Rules for imports, exports, and cross-border transactions.',
     'service10-item7': '<strong>Dispute Resolution:</strong> Mechanisms for resolving conflicts in business dealings.',
-    'service10-content': 'Chez <strong>DM Legal</strong>, nous offrons des services complets dans tous les domaines du droit commercial. Notre bureau de TCI fournit un service juridique complet, y compris en matière commerciale, pénale et de conformité : en mettant particulièrement l\'accent sur l\'aide aux personnes à patrimoine net élevé souhaitant investir à TCI — une juridiction dotée d\'une base solide de common law, axée sur la primauté du droit et avec le Conseil privé à Londres comme cour d\'appel finale. <br> Notre expertise comprend l\'élaboration et la révision de contrats d\'achat et de vente, la gestion des réglementations d\'importation et d\'exportation, les accords de transport et de courtage, ainsi que le soutien aux investisseurs pour les entreprises.',
+    'service10-content': 'At <strong>DM Legal</strong>, we offer comprehensive services across all areas of commercial law.Our TCI office provides a full legal service, including commercial, criminal and compliance: with an emphasis on helping High Net-Worth individuals to invest in TCI — a jurisdiction with a solid common law foundation with an emphasis on the rule of law and the Privy Council in London as the final Court of Appeal. <br> Our expertise includes drafting and reviewing sale and purchase contracts, navigating import and export regulations, transportation and brokerage agreements, and providing investor support for businesses.',
 
     // —- Team Member Page: Andrew Mitchell KC (member1.html) —-
     'back-to-team': '← Back to Team',
@@ -721,7 +721,7 @@ const translations = {
     'service10-item5': '<strong>Propriété intellectuelle :</strong> Protection des marques, brevets et droits d\'auteur.',
     'service10-item6': '<strong>Commerce international :</strong> Règles encadrant les importations, les exportations et les transactions transfrontalières.',
     'service10-item7': '<strong>Résolution des litiges :</strong> Mécanismes de résolution des litiges dans le cadre des relations d\'affaires.',
-    'service10-content': '',
+    'service10-content': 'Chez <strong>DM Legal</strong>, nous offrons des services complets dans tous les domaines du droit commercial. Notre bureau de TCI fournit un service juridique complet, y compris en matière commerciale, pénale et de conformité : en mettant particulièrement l\'accent sur l\'aide aux personnes à patrimoine net élevé souhaitant investir à TCI — une juridiction dotée d\'une base solide de common law, axée sur la primauté du droit et avec le Conseil privé à Londres comme cour d\'appel finale. <br> Notre expertise comprend l\'élaboration et la révision de contrats d\'achat et de vente, la gestion des réglementations d\'importation et d\'exportation, les accords de transport et de courtage, ainsi que le soutien aux investisseurs pour les entreprises.',
 
     // —- Team Member Page: Andrew Mitchell KC (member1.html) —-
     'back-to-team': '← Retour à l\'équipe',
