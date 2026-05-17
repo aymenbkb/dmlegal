@@ -153,11 +153,11 @@ const translations = {
     'office-paris-city': 'France — Europe',
     'office-paris-description': 'European hub. Member of the <strong>Paris Bar Association</strong>. Advising on cross-border matters between Europe and the Middle East.',
     'office-london-country': 'London',
-    'office-london-city': 'United Kingdom — Europe',
+    'office-london-city': 'United Kingdom',
     'office-london-description': 'UK office. Advising on matters across English law, international arbitration, and cross-border transactions.',
     'office-tci-country': 'Turks &amp; Caicos Islands',
     'office-tci-city': 'TCI — British Overseas Territory',
-    'office-tci-description': 'Atlantic / Caribbean office. Supporting clients across Commonwealth jurisdictions, asset recovery, and international matters.',
+    'office-tci-description': 'Atlantic / Caribbean office.  Experienced team of 4 lawyers supporting clients across Commonwealth Carribean jurisdictions, asset recovery, and international matters.',
 
     // CTA Strip
     'offices-cta-label': 'GET IN TOUCH',
@@ -548,11 +548,11 @@ const translations = {
     'office-paris-city': 'France — Europe',
     'office-paris-description': 'Hub européen. Membre du <strong>Barreau de Paris</strong>. Experts des enjeux transfrontaliers entre l\'Europe et le Moyen-Orient.',
     'office-london-country': 'Londres',
-    'office-london-city': 'Royaume-Uni — Europe',
+    'office-london-city': 'Royaume-Uni',
     'office-london-description': 'Bureau britannique. Conseils sur le droit anglais, l\'arbitrage international et les transactions transfrontalières.',
     'office-tci-country': 'Îles Turques-et-Caïques',
     'office-tci-city': 'TCI — Territoire britannique d\'outre-mer',
-    'office-tci-description': 'Bureau Atlantique / Caraïbes. Accompagnement des clients dans les juridictions du Commonwealth, le recouvrement d\'actifs et les affaires internationales.',
+    'office-tci-description': 'Bureau Atlantique / Caraïbes. Équipe expérimentée de 4 avocats accompagnant les clients dans les juridictions du Commonwealth Caraïbes, le recouvrement d\'actifs et les affaires internationales.',
 
     // CTA Strip
     'offices-cta-label': 'NOUS CONTACTER',
@@ -942,11 +942,11 @@ ar: {
     'office-paris-city': 'فرنسا — أوروبا',
     'office-paris-description': 'المركز الأوروبي للمكتب. عضو في <strong>نقابة محامي باريس</strong>. متخصص في تقديم المشورة في الملفات العابرة للحدود بين أوروبا والشرق الأوسط.',
     'office-london-country': 'لندن',
-    'office-london-city': 'المملكة المتحدة — أوروبا',
+    'office-london-city': 'المملكة المتحدة',
     'office-london-description': 'المكتب البريطاني للشركة. يختص بتقديم المشورة في القانون الإنجليزي والتحكيم الدولي والمعاملات ذات الطابع العابر للحدود.',
     'office-tci-country': 'جزر تركس وكايكوس',
     'office-tci-city': 'TCI — إقليم بريطاني ما وراء البحار',
-    'office-tci-description': 'المكتب الأطلسي والكاريبي. مختص بدعم الموكلين في ولايات دول الكومنولث، واسترداد الأصول، والملفات ذات الأبعاد الدولية.',
+    'office-tci-description': 'المكتب الأطلسي والكاريبي. فريق خبرة 4 محامين يدعم العملاء في دول الكومنولث الكاريبي، واسترداد الأصول، والملفات ذات الأبعاد الدولية.',
 
     // CTA Strip
     'offices-cta-label': 'تواصل معنا',
