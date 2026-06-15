@@ -212,11 +212,10 @@ const translations = {
     'service1-content': 'At <strong>DM Legal</strong>, we offer expert guidance for setting up businesses in the UAE\'s Free Zones. Whether you\'re looking to establish a new company, register your business, or ensure full legal compliance, our team provides tailored solutions.',
     'cta-contact': 'Contact Us',
 
-    // —- Service Page: Crypto and Blockchain Law (intellectual-law.html) —-
+    // —- Service Page: Crypto and Blockchain Law (crypto-and-blockchain-law.html) —-
     'service2-description': 'Our team provides comprehensive legal advice and support in the rapidly evolving field of cryptocurrency and blockchain technology. We help clients navigate regulatory requirements, develop compliant blockchain solutions and manage legal risks associated with digital assets and decentralized systems.',
     'service2-key': 'Key Areas Of This Service Include:',
     'service2-item1': '<strong>Smart Contracts</strong>',
-    'service2-item2': '<strong>Tokenization and ICOs</strong>',
     'service2-item3': '<strong>DeFi Regulations</strong>',
     'service2-item4': '<strong>NFTs and Digital Assets</strong>',
     'service2-item5': '<strong>Cryptocurrency Compliance</strong>',
@@ -616,11 +615,10 @@ const translations = {
     'service1-content': 'Chez <strong>DM Legal</strong>, nous accompagnons nos clients dans la création d\'entreprises dans les zones franches des EAU du début à la fin. Que vous souhaitiez créer une nouvelle société, enregistrer votre activité ou garantir une conformité juridique totale, notre équipe fournit des solutions sur mesure.',
     'cta-contact': 'Contactez Nous',
 
-    // —- Service Page: Crypto and Blockchain Law (intellectual-law.html) —-
+    // —- Service Page: Crypto and Blockchain Law (crypto-and-blockchain-law.html) —-
     'service2-description': 'Notre équipe fournit des conseils juridiques complets et un soutien spécialisé dans le domaine en rapide évolution des cryptomonnaies et de la technologie blockchain. Nous aidons nos clients à naviguer dans les exigences réglementaires, à développer des solutions blockchain conformes et à gérer les risques juridiques associés aux actifs numériques et aux systèmes décentralisés.',
     'service2-key': 'Domaines clés de ce service',
     'service2-item1': '<strong>Contrats intelligents</strong>',
-    'service2-item2': '<strong>Tokenisation et ICO</strong>',
     'service2-item3': '<strong>Réglementations DeFi</strong>',
     'service2-item4': '<strong>NFT et actifs numériques</strong>',
     'service2-item5': '<strong>Conformité des cryptomonnaies</strong>',
@@ -836,7 +834,7 @@ ar: {
     // UAE / About Section
     'uae-title': 'موقعنا',
     'about-uae-heading': 'حضور دولي',
-    'uae-description': 'تقدم <strong>DM Legal</strong>  الموثوقون الدعم القانوني عبر أوروبا والشرق الأوسط ومنطقة الكاريبي، بما يضمن حصول الموكلين على مساعدة سلسة عبر مختلف الولايات القضائية والأنظمة القانونية. <br>يعكس حضورنا الطابع الدولي للموكلين والشركات الذين نخدمهم. <br>وبفضل مكاتب راسخة استراتيجياً في هذه المناطق وشبكة موثوقة من الشركاء توسّع نطاقنا أكثر، فإننا في موقع متميز لمساعدة الأفراد ورواد الأعمال والشركات في المسائل العابرة للحدود والتحديات القانونية الدولية. <br>أينما كانت مصالحكم، تقدم DM Legal الرؤية المحلية والمنظور العالمي اللازمين للإبحار في عالم متزايد الترابط.',
+    'uae-description': 'تقدم <strong>DM Legal</strong> الموثوقون الدعم القانوني عبر أوروبا والشرق الأوسط ومنطقة الكاريبي، بما يضمن حصول الموكلين على مساعدة سلسة عبر مختلف الولايات القضائية والأنظمة القانونية. <br>يعكس حضورنا الطابع الدولي للموكلين والشركات الذين نخدمهم. <br>وبفضل مكاتب راسخة استراتيجياً في هذه المناطق وشبكة موثوقة من الشركاء توسّع نطاقنا أكثر، فإننا في موقع متميز لمساعدة الأفراد ورواد الأعمال والشركات في المسائل العابرة للحدود والتحديات القانونية الدولية. <br>أينما كانت مصالحكم، تقدم DM Legal الرؤية المحلية والمنظور العالمي اللازمين للإبحار في عالم متزايد الترابط.',
 
     'who-we-are-label': 'نبذة عنّا',
     'about-heading': 'عن <strong>DM Legal</strong>',
@@ -1002,11 +1000,10 @@ ar: {
     'service1-content': 'في <strong>DM Legal</strong> نقدم مشورة قانونية متخصصة في كل ما يتعلق بتأسيس الأعمال في المناطق الحرة بالإمارات. سواء تعلق الأمر بإنشاء كيان جديد أو تسجيل نشاط تجاري أو ضمان الامتثال القانوني الكامل، يضع فريقنا حلولاً مُصمَّمة وفق متطلبات كل موكل.',
     'cta-contact': 'تواصل معنا',
 
-    // —- Service Page: Crypto and Blockchain Law (intellectual-law.html) —-
+    // —- Service Page: Crypto and Blockchain Law (crypto-and-blockchain-law.html) —-
     'service2-description': 'يقدم فريقنا مشورة قانونية شاملة ودعماً متخصصاً في المجال سريع التطور للعملات الرقمية والتكنولوجيا البلوكتشين. نساعد موكلينا على التنقل في المتطلبات التنظيمية وتطوير حلول بلوكتشين متوافقة وإدارة المخاطر القانونية المرتبطة بالأصول الرقمية والأنظمة اللامركزية.',
     'service2-key': 'المجالات الرئيسية لهذه الخدمة',
     'service2-item1': '<strong>العقود الذكية</strong>',
-    'service2-item2': '<strong>التوكنزيشن والعروض الأولية للعملات</strong>',
     'service2-item3': '<strong>تنظيمات التمويل اللامركزي</strong>',
     'service2-item4': '<strong>الرموز غير القابلة للاستبدال والأصول الرقمية</strong>',
     'service2-item5': '<strong>الامتثال للعملات الرقمية</strong>',
