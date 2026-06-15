@@ -82,7 +82,7 @@ export const postSchema = defineType({
       name: 'body',
       title: 'Article Body',
       type: 'array',
-      description: 'The full article content. Use the toolbar to format text, add headings, bullet lists, and links.',
+      description: 'The full article content. Use the toolbar to format text, add headings, bullet lists and links.',
       of: [
         {
           type: 'block',

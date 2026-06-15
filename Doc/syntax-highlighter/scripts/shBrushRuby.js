@@ -37,7 +37,7 @@
 			{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },		// single quoted strings
 			{ regex: /\b[A-Z0-9_]+\b/g,									css: 'constants' },		// constants
 			{ regex: /:[a-z][A-Za-z0-9_]*/g,							css: 'color2' },		// symbols
-			{ regex: /(\$|@@|@)\w+/g,									css: 'variable bold' },	// $global, @instance, and @@class variables
+			{ regex: /(\$|@@|@)\w+/g,									css: 'variable bold' },	// $global, @instance and @@class variables
 			{ regex: new RegExp(this.getKeywords(keywords), 'gm'),		css: 'keyword' },		// keywords
 			{ regex: new RegExp(this.getKeywords(builtins), 'gm'),		css: 'color1' }			// builtins
 			];
