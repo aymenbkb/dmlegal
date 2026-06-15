@@ -48,7 +48,7 @@ const translations = {
     // UAE / About Section
     'uae-title': 'Where are we',
     'about-uae-heading': 'An International Presence',
-    'uae-description': '<strong>DM Legal</strong> and its trusted partners provide legal support across Europe, the Middle East and the Caribbean, ensuring that clients benefit from seamless assistance across multiple jurisdictions and legal systems. <br>Our presence reflects the international nature of the clients and businesses we serve. <br>With offices strategically established across these regions and a trusted network of partners extending our reach further, we are well positioned to assist individuals entrepreneurs and businesses with cross-border matters and international legal challenges. <br>Wherever your interests lie, DM Legal delivers the local insight and global perspective required to navigate an increasingly interconnected world.',
+    'uae-description': '<strong>DM Legal</strong> partners provide legal support across Europe, the Middle East and the Caribbean, ensuring that clients benefit from seamless assistance across multiple jurisdictions and legal systems. <br>Our presence reflects the international nature of the clients and businesses we serve. <br>With offices strategically established across these regions and a trusted network of partners extending our reach further, we are well positioned to assist individuals entrepreneurs and businesses with cross-border matters and international legal challenges. <br>Wherever your interests lie, DM Legal delivers the local insight and global perspective required to navigate an increasingly interconnected world.',
 
     'who-we-are-label': 'WHO WE ARE',
     'about-heading': 'About <strong>DM Legal</strong>',
@@ -450,7 +450,7 @@ const translations = {
     // UAE / About Section
     'uae-title': 'Où sommes-nous',
     'about-uae-heading': 'Une présence internationale',
-    'uae-description': '<strong>DM Legal</strong> et ses partenaires de confiance offrent un accompagnement juridique à travers l\'Europe, le Moyen-Orient et les Caraïbes, garantissant à nos clients une assistance fluide à travers de multiples juridictions et systèmes juridiques. <br>Notre présence reflète la dimension internationale des clients et des entreprises que nous servons. <br>Grâce à des bureaux stratégiquement implantés dans ces régions et à un réseau de partenaires de confiance qui étend encore notre portée, nous sommes idéalement positionnés pour accompagner les particuliers, les entrepreneurs et les entreprises dans leurs affaires transfrontalières et leurs défis juridiques internationaux. <br>Où que se situent vos intérêts, DM Legal apporte la connaissance locale et la perspective mondiale nécessaires pour évoluer dans un monde de plus en plus interconnecté.',
+    'uae-description': '<strong>DM Legal</strong> offrent un accompagnement juridique à travers l\'Europe, le Moyen-Orient et les Caraïbes, garantissant à nos clients une assistance fluide à travers de multiples juridictions et systèmes juridiques. <br>Notre présence reflète la dimension internationale des clients et des entreprises que nous servons. <br>Grâce à des bureaux stratégiquement implantés dans ces régions et à un réseau de partenaires de confiance qui étend encore notre portée, nous sommes idéalement positionnés pour accompagner les particuliers, les entrepreneurs et les entreprises dans leurs affaires transfrontalières et leurs défis juridiques internationaux. <br>Où que se situent vos intérêts, DM Legal apporte la connaissance locale et la perspective mondiale nécessaires pour évoluer dans un monde de plus en plus interconnecté.',
 
     'who-we-are-label': 'QUI SOMMES-NOUS',
     'about-heading': 'À propos de <strong>DM Legal</strong>',
@@ -836,7 +836,7 @@ ar: {
     // UAE / About Section
     'uae-title': 'موقعنا',
     'about-uae-heading': 'حضور دولي',
-    'uae-description': 'تقدم <strong>DM Legal</strong> وشركاؤها الموثوقون الدعم القانوني عبر أوروبا والشرق الأوسط ومنطقة الكاريبي، بما يضمن حصول الموكلين على مساعدة سلسة عبر مختلف الولايات القضائية والأنظمة القانونية. <br>يعكس حضورنا الطابع الدولي للموكلين والشركات الذين نخدمهم. <br>وبفضل مكاتب راسخة استراتيجياً في هذه المناطق وشبكة موثوقة من الشركاء توسّع نطاقنا أكثر، فإننا في موقع متميز لمساعدة الأفراد ورواد الأعمال والشركات في المسائل العابرة للحدود والتحديات القانونية الدولية. <br>أينما كانت مصالحكم، تقدم DM Legal الرؤية المحلية والمنظور العالمي اللازمين للإبحار في عالم متزايد الترابط.',
+    'uae-description': 'تقدم <strong>DM Legal</strong>  الموثوقون الدعم القانوني عبر أوروبا والشرق الأوسط ومنطقة الكاريبي، بما يضمن حصول الموكلين على مساعدة سلسة عبر مختلف الولايات القضائية والأنظمة القانونية. <br>يعكس حضورنا الطابع الدولي للموكلين والشركات الذين نخدمهم. <br>وبفضل مكاتب راسخة استراتيجياً في هذه المناطق وشبكة موثوقة من الشركاء توسّع نطاقنا أكثر، فإننا في موقع متميز لمساعدة الأفراد ورواد الأعمال والشركات في المسائل العابرة للحدود والتحديات القانونية الدولية. <br>أينما كانت مصالحكم، تقدم DM Legal الرؤية المحلية والمنظور العالمي اللازمين للإبحار في عالم متزايد الترابط.',
 
     'who-we-are-label': 'نبذة عنّا',
     'about-heading': 'عن <strong>DM Legal</strong>',
