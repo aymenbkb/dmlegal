@@ -1286,7 +1286,11 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 
 .hero-sub-title {
     font-family: var(--font-display);
+<<<<<<< HEAD
     font-size: 13rem;
+=======
+    font-size: 10rem;
+>>>>>>> d6fd9f6b7f2968a8035312f985137a5f7bbb9753
     font-weight: 600;
     text-align: center;
     font-style: italic;
