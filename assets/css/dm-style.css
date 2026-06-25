@@ -1684,6 +1684,8 @@ align-items: start;
 .achievements-section { margin-top: 50px; }
 .achievement-item { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--border); font-size: .93rem; color: var(--mid); transition: var(--transition); }
 .achievement-item:hover { color: var(--charcoal); padding-left: 8px; }
+.achievement-item a { color: var(--gold); text-decoration: none; transition: var(--transition); }
+.achievement-item a:hover { color: var(--gold); text-decoration: underline; }
 .achievement-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 7px; }
 .linkedin-box { margin-top: 40px; padding: 24px; background: var(--blush); border: 1px solid var(--blush-deep); display: flex; align-items: center; gap: 14px; }
 .linkedin-box i { font-size: 1.5rem; color: var(--gold); }
